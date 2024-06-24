@@ -252,6 +252,7 @@ https://www.researchgate.net/profile/Marco-Altini
 ---
 ![bg left:30%](https://picsum.photos/720?image=28)
 <style scoped>ul { font-size: 29px; }</style>
+
 # Le positionement
 
 * Context de capture
@@ -262,6 +263,11 @@ https://www.researchgate.net/profile/Marco-Altini
     * alimetere
     * barometre
     * podometre
+
+---
+![bg right:30% ](garmin-golf.jpg)
+# Capteur de club de golf
+https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 
 
 ---
@@ -720,6 +726,8 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 * Apprendre à se connaître, les informations et leurs analyse permettant d’accélérer et affiner le processus
 * Accepter car les informations sont instantanées
 * Affiner car analyser et on réduit la subjectivité 
+* https://www.garmin.com/fr-FR/blog/les-donnees-des-montres-connectees-garmin-mettent-en-evidence-les-bienfaits-de-la-course-a-pied-sur-la-sante/
+* https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
 
 ---
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
