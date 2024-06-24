@@ -1,0 +1,6 @@
+{
+    "markdown.marp.themes": [
+        "./zrenard.css"
+    ],
+    "markdown.marp.enableHtml": true
+}

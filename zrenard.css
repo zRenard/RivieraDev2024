@@ -1,0 +1,16 @@
+/* @theme zrenard */
+
+@import 'gaia';
+@import url('https://unpkg.com/tailwindcss@^2/dist/utilities.min.css');
+
+img[alt~="slide-right"] {
+  position: absolute;
+  top: 230px;
+  right: 30px;
+}
+
+img[alt~="slide-left"] {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+  }
