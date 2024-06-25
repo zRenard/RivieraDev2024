@@ -809,24 +809,6 @@ https://zwiftinsider.com/portal/isola-2000/
 https://zwiftinsider.com/portal/la-turbie-col-deze/
 
 ---
-# Utilisation pour tricher
-
-* Gagner des courses virtuelles (et donc de cadeaux)
-    * Des prix (comme des dossards, ou tirages au sort)
-    * Des réductions (pour la revente)
-    * Des contrats !
-    * Des médailles ! (Demo)
-
----
-* Contre mesure
-    * Double capteur de puissance (Différentes marques)
-    * Double caméra (angles différents)
-
-* Source : Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
-* https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
-* https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
-
----
 
 # Data poisonning
 
@@ -873,8 +855,8 @@ Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-fe
 
 ---
 * Contre mesure
-    * Double capteur de puissance (Differentes marques)
-    * Double camera (angles differents)
+    * Double capteur de puissance (Différentes marques)
+    * Double caméra (angles différents)
 
 * Source : Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
 * https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
