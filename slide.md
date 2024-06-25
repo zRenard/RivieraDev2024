@@ -54,7 +54,8 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 * Codeur depuis 45 ans
 * DEA informatique théorique
 * 25 ans dans l'industrie
-* Alpha test/contributeur de zwift, garmin, runalizer, smashrun, etc..
+* 20 ans à ![w:140 grayscale:1 invert:100% drop-shadow](https://amadeus.com/content/dam/amadeuswebevo/brand/amadeus/logos/amadeus-logo-dark-sky.png.transform/small/img.png)
+* Alpha test/contributeur de zwift, garmin, form, runalizer, smashrun, wahoo, decathlon, etc..
 
 ---
 ![bg left:20%](https://picsum.photos/720?image=29)
@@ -88,6 +89,7 @@ _class: lead invert
 ---
 
 ![bg left:50%](runconnect.jpg)
+<style scoped>ul { font-size: 27px; }</style>
 
 # Historique
 * Montre chronographe puis chronometre
@@ -96,6 +98,7 @@ _class: lead invert
 * Multiples matériels
 * Integration
 * Explosion des utilisations depuis 5 ans
+* Etude de 2023 [Source](https://filieresport.com/fr/telechargements?k=24166577&u=%2Fsante-et-bien-etre%2F2023-06-12%2Fdocuments-en-telechargements-libres&from=articles&f=odr2023_701338359.pdf&d=20230616+19%3A51%3A32&i=4815&vx=433159755)
 <!--
 * Source : https://filieresport.com/fr/telechargements?k=24166577&u=%2Fsante-et-bien-etre%2F2023-06-12%2Fdocuments-en-telechargements-libres&from=articles&f=odr2023_701338359.pdf&d=20230616+19%3A51%3A32&i=4815&vx=433159755
 * Finalement, peu de type de capteurs comparer aux exploitations
@@ -258,7 +261,6 @@ Juste du nettoyage, rafinement
     * Optique
     * Electrique
 
-
 ---
 ![bg left:30% ](statut.jpg)
 <style scoped>ul { font-size: 26px; }</style>
@@ -290,6 +292,22 @@ Juste du nettoyage, rafinement
 ---
 ![bg right:30% ]()
 # Capteur de puissance
+
+<div class="grid grid-cols-2 gap-0">
+
+<div>
+
+![](puissance1.jpg)
+![](puissance2.jpg)
+![](puissance3.jpg)
+
+</div>
+<div>
+
+* Watts
+
+</div>
+</div>
 
 ---
 ![bg left:30% ]()
@@ -702,7 +720,10 @@ Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-fe
 
 * Pas un capteur mais plutot l'exploitation d'informations
 * Ameliore les performances
-* Source : ADD REF
+
+Source : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281270/
+
+Méta analyse : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8167645/
 
 ---
 # Utilisation pour le confort et la performance
@@ -720,25 +741,37 @@ https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-l
     * Energy cost of walking and running at extreme uphill and downhill slopes https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001 
 
 ---
+<style scoped>ul { font-size: 26px; }</style>
+
+# Age ajusted peace
+
+<div class="grid grid-cols-2 gap-60">
+
+<div>
+
+* https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/
+* Confirmation par des études scientifiques
+    * https://pubmed.ncbi.nlm.nih.gov/2504587/
+    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/
+
+</div>
+<div>
+
+* ![slide-right width:120px](age.png)
+* ![slide-right w:700px](age-run.png)
+* ![slide-right w:700px](age-70-3.png)
+* ![slide-right w:700px](age-im.png)
+
+</div>
+</div>
+
+---
 # Wind adjusted pace ?
 
 Il existe des formules mais tout est subjectif, il n'y a pas encore de capteurs (hors aero pour le velo)
 Strava ne va pas aider, car le vent est environemental, entre les batiments, ou en ras campagne c'est pas la meme limonade.
 
 https://www.youtube.com/watch?v=IoX-JUPvrwo
-
----
-# Age ajusted peace
-* https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/
-* Confirmation par des études scientifiques
-    * https://pubmed.ncbi.nlm.nih.gov/2504587/
-    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/
-
----
-![width:120px](age.png)
-![](age-run.png)
-![](age-70-3.png)
-![alt text](age-im.png)
 
 ---
 # Des data pour le virtuel
@@ -776,14 +809,49 @@ https://zwiftinsider.com/portal/isola-2000/
 https://zwiftinsider.com/portal/la-turbie-col-deze/
 
 ---
+
+# Data poisonning
+
+<div class="grid grid-cols-3 gap-2">
+
+<div>
+
+* Involontaire
+    * Erreurs GPS
+    * Bug de traitement
+    * Bug d'upload
+    * Brosse à dents electrique (ajoute des pas)
+
+</div>
+<div>
+
+* ![slide-right w:700px](strava-error-3.png)
+* ![slide-right w:650px](strava-error-1.png)
+* ![slide-right w:750px](strava-error-2.png)
+
+</div>
+</div>
+
+---
+
+# Data poisonning
+* **"** Involontaire **"**
+    * Vélo à la place de course à pied
+    * Vélo electrique à la place de vélo musculaire
+    * Moto/voiture à la place de vélo
+
+* Adding “AI-Enabled Leaderboard Integrity” to sniff out improbable uploads
+
+Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+
+---
 # Utilisation pour tricher
 
 * Gagner des courses virtuelles (et donc de cadeaux)
     * Des prix (comme des dossards, ou tirages au sort)
     * Des réductions (pour la revente)
     * Des contrats !
-
-* Demo (non je n'ai pas triche)
+    * Des médailles ! (Demo)
 
 ---
 * Contre mesure
@@ -793,26 +861,6 @@ https://zwiftinsider.com/portal/la-turbie-col-deze/
 * Source : Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
 * https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
 * https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
-
----
-
-# Data poisonning
-* Involontaire
-    * ![width:200px](strava-error-1.png)
-    * ![width:200px](strava-error-2.png)
-    * ![width:200px](strava-error-3.png)
-
----
-
-# Data poisonning
-* """"Involontaire"""""
-    * Vélo à la place de course à pied
-    * Vélo electrique à la place de vélo musculaire
-    * Moto/voiture à la place de vélo
-
-* Adding “AI-Enabled Leaderboard Integrity” to sniff out improbable uploads
-
-Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
 
 ---
 # Fun
@@ -951,7 +999,6 @@ _footer: ""
 # Merci !
 ![](qrcode_blog.zrenard.com.png)
 
-
 <!--
 ---
 # Tableau
@@ -963,5 +1010,18 @@ _footer: ""
 | Colonne       |     Colonne     |        Colonne |
 | Alignée à     |   Alignée au    |      Alignée à |
 | Gauche        |     Centre      |         Droite |
+
+
+---
+
+<!-- _footer: "1. www.google.com" -->
+
+<!--
+# Slide 2
+
+- Footnote and superscript link <sup>[1][1]</sup>.
+
+[1]: https://www.google.com
+
 
 -->
