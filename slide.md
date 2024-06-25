@@ -30,8 +30,8 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 <div>
 
 * Sportif depuis 40 ans
-* Triathelete depuis un peu plus de 10 ans
-* ~200 courses réelles et virtuelles, toutes disciplines confonudus. (Course à pied, trail, natation, triathlon, golf et autres trucs chelou)
+* Triathlète depuis un peu plus de 10 ans
+* ~200 courses réelles et virtuelles, toutes disciplines confondues. (Course à pied, trail, natation, triathlon, golf et autres trucs chelou)
 
 </div>
 <div>
@@ -69,8 +69,8 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 * Analyse
     * Contexte
     * Paramètres
-* Quantify (plutôt utiliser/expoiter)
-    * Utilisations personnelle
+* Quantify (plutôt utiliser/expoiter) <!-- Quantifier? -->
+    * Utilisation personnelle
     * Exploitations marketing
 * Code mais fun
     * On peut faire quoi avec tout ça ?
@@ -90,12 +90,12 @@ _class: lead invert
 ![bg left:50%](runconnect.jpg)
 
 # Historique
-* Montre chronographe puis chronometre
-* Compteur vélo (cable, electronique avec aimant)
-* Podometre, GPS
+* Montre chronographe puis chronomètre
+* Compteur vélo (câble, électronique avec aimant)
+* Podomètre, GPS
 * Multiples matériels
-* Integration
-* Explosion des utilisations depuis 5 ans
+* Intégration
+* Explosion des utilisations depuis 5 ans <!-- de l'utilisation? -->
 <!--
 * Source : https://filieresport.com/fr/telechargements?k=24166577&u=%2Fsante-et-bien-etre%2F2023-06-12%2Fdocuments-en-telechargements-libres&from=articles&f=odr2023_701338359.pdf&d=20230616+19%3A51%3A32&i=4815&vx=433159755
 * Finalement, peu de type de capteurs comparer aux exploitations
@@ -149,10 +149,10 @@ Contacteurs pour le vitesse vélo
 * Radar
 * Photos
 * Videos (Positionnement)
-* Débitmétre (t'a bu combien d'eau ce matin ? 😁)
+* Débitmétre (t'as bu combien d'eau ce matin ? 😁)
 <!-- 
-* Lidar *(Light Dectection and Ranging - Ondes dans le spectre visible - Courte distance, tres précis)*
-* Radar *(Radio Dectection and Ranging - Ondes electromagnetiques - Grande distance, peu précis)*
+* Lidar *(Light Detection and Ranging - Ondes dans le spectre visible - Courte distance, tres précis)*
+* Radar *(Radio Detection and Ranging - Ondes electromagnetiques - Grande distance, peu précis)*
 -->
 
 ---
@@ -176,7 +176,7 @@ _class: lead invert
 ![bg left:30% ](polar.jpg)
 
 # La fréquence cardiaque
-* Début pour le publique : Polar ~1980
+* Début pour le public : Polar ~1980
     * Transferts via … Infrarouge Polar SxxX
     * Mais aussi .. Flashlights (Polar FTx)
 
@@ -199,7 +199,7 @@ Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la ma
         * PB : Temps de réponse, Température, Eau, peau
     * ECG ~2023
         * Signaux électriques du coeur
-    * ~ Variabilité cardiaque (VFC, intervale entre R-R)
+    * ~ Variabilité cardiaque (VFC, intervalle entre R-R)
 <!-- 
 -->
 
@@ -210,12 +210,12 @@ Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la ma
 # Le positionnement
 * GPS, Galileo, Beidou/Compass, Glonass, QZSS,…
 * Au debut, module GPS separé + PDA
-* Ma premiere montre GPS - 2010
+* Ma première montre GPS - 2010
     * GPS uniquement
     * 8 satelites max
-    * Precisions quelques metres
-    * Fort impact de l'environement
-    * Aucune corrections
+    * Précision quelques mètres
+    * Fort impact de l'environnement
+    * Aucune correction
 ---
 
 ![bg right:30% ](garmin965.png)
@@ -223,12 +223,12 @@ Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la ma
 # Le positionnement
 * 2024
     * Multiband
-    * Multiples satelites
-    * Precisions < metre
+    * Multiples satellites
+    * Précision < mètre
     * Stabilité
-        * Corelation avec d'autres capteurs, comme l'altimetre, le podometre.
+        * Corélation avec d'autres capteurs, comme l'altimètre, le podomètre.
     * Fiabilité
-        * Dans les forêts, en mer, entre les immeubles, avec perturbations electroniques/magnétiques.
+        * Dans les forêts, en mer, entre les immeubles, avec perturbations électroniques/magnétiques.
 
 <!-- 
 -->
@@ -241,18 +241,18 @@ _class: lead invert
 # Analyses
 
 <!--
-Analyse brute, on prend juste en compte le context, pas "trop" d'algorythme.
-Juste du nettoyage, rafinement
+Analyse brute, on prend juste en compte le contexte, pas "trop" d'algorithme.
+Juste du nettoyage, raffinement
 -->
 ---
 ![bg right:30% ](garmin-strap.jpg)
 <style scoped>ul { font-size: 32px; }</style>
-# La frequence cardiaque
+# La fréquence cardiaque
 
 * Context de capture
     * Sommeil
-    * Course a pied, vélo, natation
-        * Le "profil" utilisé impact l'algorithme de lissage et de correction utilisé.
+    * Course à pied, vélo, natation
+        * Le "profil" utilisé impacte l'algorithme de lissage et de correction utilisé.
 * Frequence d'échantillonage
 * Type
     * Optique
@@ -262,30 +262,30 @@ Juste du nettoyage, rafinement
 ---
 ![bg left:30% ](statut.jpg)
 <style scoped>ul { font-size: 26px; }</style>
-# La frequence cardiaque
+# La fréquence cardiaque
 
 * FCMax
 * FCRecuperation
     * 2min apres FCMax
 * VFCRepos
     * Calcul VFC la nuit
-* Variabilite cardiaque (VFC)
+* Variabilité cardiaque (VFC)
     * https://www.researchgate.net/profile/Marco-Altini
 
 ---
 ![bg right:30%](https://picsum.photos/720?image=28)
 <style scoped>ul { font-size: 29px; }</style>
 
-# Le positionement
+# Le positionnement
 
 * Context de capture
-    * Course a pied, vélo, natation
-        * Le "profil" utilisé impact l'algorithme de lissage et de correction utilisé.
+    * Course à pied, vélo, natation
+        * Le "profil" utilisé impacte l'algorithme de lissage et de correction utilisé.
 * Frequence d'échantillonage
-* L'ajout de capteurs correctif/amelioratif
-    * alimetere
-    * barometre
-    * podometre
+* L'ajout de capteurs correctif/amélioratif
+    * altimètre
+    * baromètre
+    * podomètre
 
 ---
 ![bg right:30% ]()
@@ -304,7 +304,7 @@ Juste du nettoyage, rafinement
 # Radar/Lidar de Golf
 
 ![width:400px](trackman1.jpg)
-* 40 parametres
+* 40 paramètres
 * https://www.trackman.com/fr
 
 <!--
@@ -327,7 +327,7 @@ https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 * SuperSapiens
     * https://www.supersapiens.com/fr-FR/
 * Demo
-* Mainteant interdit en compétitions
+* Mainteant interdit en compétition
 <!-- 
 -->
 
@@ -339,30 +339,30 @@ https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 ![bg left:30% ](GatoradeSweat-2.png)
 <style scoped>ul { font-size: 29px; }</style>
 # Capteur Sueur
-* Le but étant de minimiser la perte hydrique et minérales/electrolytes (majoritairement sodium, potatium, mg, zinc)
+* Le but étant de minimiser la perte hydrique et minérale/electrolytes (majoritairement sodium, potassium, magnésium, zinc)
 * Protocole de base
-    * Pesé
+    * Pesée
     * 1h intensive en condition
-    * Pesé
-    * Difference = perte hydrique ~ 700ml -> 1L
+    * Pesée
+    * Différence = perte hydrique ~ 700ml -> 1L
 
 ----
 <style scoped>ul { font-size: 28px; }</style>
 * Pourquoi ?
     * Retenir l'eau
     * Si la concentration de sodium chute -> besoin d'eau ++
-    * Limite d'absortion (à l'effort) ~ 400/500ml/h
+    * Limite d'absorption (à l'effort) ~ 400/500ml/h
     * Santé
         * Crampes
         * Nausées
         * Confusion
-        * Trouble de la conscience
+        * Troubles de la conscience
 * https://hdroptech.com/
 * https://www.gatorade.com/equipment/gx-sweat-patch/gx-sweat-patch-00052000052596
 
 ---
 ![bg right:30% ](core.jpg)
-# Capteur temperature
+# Capteur température
 * ![width:500px](temperature-abandon.jpg)
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
 
@@ -377,17 +377,17 @@ https://corebodytemp.com/products/core
 
 * Pression pneus
     * https://www.sks-germany.com/fr/airspy/
-    * Focus sur la securite
-    * Demo
+    * Focus sur la sécurité
+    * Démo
 * Aero en temps reel
     * https://fr.aeroscale.bike/
     * https://www.bodyrocket.cc/how-does-it-work
 <!--
-* Optimization pour les pros
+* Optimisation pour les pros
 
 Body Rocket utilise une combinaison de plusieurs capteurs
-Puissance, Pression de l'air, vitese du vent, vitesse, accelration, inclinaison, poids pour 
-fournir un coeficient en temps reel.
+Puissance, Pression de l'air, vitesse du vent, vitesse, accelération, inclinaison, poids pour 
+fournir un coefficient en temps reel.
 -->
 
 ---
@@ -396,15 +396,15 @@ fournir un coeficient en temps reel.
 # Capteur de pression
 
 * Semelles pour le golf
-    * 18 capteurs pour fournir angles, impact, symetrie, etc...
-    * Optimization pour les pros
+    * 18 capteurs pour fournir angles, impact, symétrie, etc...
+    * Optimisation pour les pros
     * https://www.bal-on.golf/
-* Semelles pour la course a pied
+* Semelles pour la course à pied
     * https://www.digitsole.com/running-analysis
 
 <!--
-Golf -> forcus performance
-Course a pied -> focus diminution risque de blessure, de moins en moins pour le grand public
+Golf -> focus performance
+Course à pied -> focus diminution risque de blessure, de moins en moins pour le grand public
 -->
 
 ---
@@ -418,7 +418,7 @@ _class: lead invert
 ![bg left](tl1.png)
 ![bg right:50%](tl2.jpg)
 
-# Le journal d'entrainement (Trainning log)
+# Le journal d'entrainement (Training log)
 * Papier
 * En ligne
 * Application
@@ -427,7 +427,7 @@ _class: lead invert
 ![bg left:30%](runalyze.png)
 <style scoped>p { font-size: 40px; }</style>
 
-# Platformes
+# Plateformes
 
 ##### Applications dédiées
 https://www.strava.com/
@@ -441,7 +441,7 @@ https://app.campus.coach/
 ---
 <style scoped>div { font-size: 31px; }</style>
 
-# Platformes
+# Plateformes
 
 <div class="grid grid-cols-2 gap-0">
 
@@ -466,7 +466,7 @@ https://runkeeper.com/ (ASICS)
 ---
 # Platformes
 
-##### AI (Biensur !)
+##### AI (Bien sûr !)
 https://en.run-motion.com/
 https://humango.ai/
 https://aiendurance.com/
@@ -476,12 +476,12 @@ https://www.sciencetraining.io/
 <style scoped>ul { font-size: 32px; }</style>
 
 # Platformes
-* Certaines métrique utilise en partie, l’auto évaluation
+* Certaines métriques utilisent en partie, l’auto évaluation
     * Très facile -> très difficile
     * Sensation : Horrible -> très fort
-* C’est très subjectif et sujet a interprétation voir erreur.
-* Les algorithmes utilisés sont parfois publique, parfois sous licence, et souvent secret.
-* Produit par la recherche mais aussi les plateformes et les constructeurs (d’où leur propre plateformes)
+* C’est très subjectif et sujet à interprétation voire erreur.
+* Les algorithmes utilisés sont parfois publics, parfois sous licence, et souvent secrets.
+* Produits par la recherche mais aussi les plateformes et les constructeurs (d’où leur propre plateformes)
 * Demo : Runalyze (https://runalyze.com/)
 
 ---
@@ -509,7 +509,7 @@ https://www.sciencetraining.io/
 
 ![width:400px](predi.png)
 * Top ! … pas si sûr 
-* Multiples methodes (Dave Cameron, Pete Riegel, Robert Bock (CPP), Herbert Steffny)
+* Multiples méthodes (Dave Cameron, Pete Riegel, Robert Bock (CPP), Herbert Steffny)
 * On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
 
 ---
@@ -519,9 +519,9 @@ https://www.sciencetraining.io/
 
 * Vo2Max = La consommation maximale d'oxygène que l'organisme peut absorber lors d'un effort physique intense
 * En réalité -> Prédiction de Vo2Max
-* Excelent ?
+* Excellent ?
 * Pas si sûr...
-* L'algorythme de calcul -> Firstbeat, secret déso 😅
+* L'algorithme de calcul -> Firstbeat, secret déso 😅
     * Age, poids, cardio, ...
 
 <!--
@@ -572,9 +572,9 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 <div class="grid grid-cols-2 gap-2">
 <div>
 
-* Uniquement ecran deporté
+* Uniquement écran deporté
 * Aucun capteur
-    * enfin si, capteur de luminosite pour ajuster l'ecran, mais aucunes data produites
+    * enfin si, capteur de luminosite pour ajuster l'écran, mais aucune data produite
 * Demo
 </div>
 <div>
@@ -601,7 +601,7 @@ Source : https://fr.engoeyewear.com/produits/engo-2
 </div>
 <div>
 
-* Aucun nouveau capteurs, uniquement l'utilisation de ceux-ci
+* Aucun nouveau capteur, uniquement l'utilisation de ceux-ci
 * Combinaison avec des capteurs existants
     * Depuis la montre
     * Depuis un capteur externe (cardio)
@@ -656,19 +656,19 @@ Source : https://www.formswim.com/
 ![bg right:30% ](bikefit.png)
 
 # Photos et videos
-* Positionement
+* Positionnement
     * Sur le vélo
     * Golf
     * Natation
 * Confort
 * Optimisation de l'aero
-    * En complement des capteurs
+    * En complément des capteurs
 
 ---
 # Utilisation pour la securité
 
-* Detection d’incident
-    * Avant pour les voitures si elles étaient renverser (Au US)
+* Détection d’incident
+    * Avant pour les voitures si elles étaient renversées (Au US)
 * Heat map de strava
     * Les routes/chemins les plus empruntés/validés et securisés
 
@@ -700,15 +700,15 @@ Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-fe
 ---
 # Musique
 
-* Pas un capteur mais plutot l'exploitation d'informations
-* Ameliore les performances
+* Pas un capteur mais plutôt l'exploitation d'informations
+* Améliore les performances
 * Source : ADD REF
 
 ---
 # Utilisation pour le confort et la performance
 
-* Passage de vitesses automatiques sur le vélo
-    * Capteur de puissance, capteur de cadence, vitesse et dérailleurs piloté électroniquement (avec ou sans fils)
+* Passage de vitesses automatiques sur le vélo 
+    * Capteur de puissance, capteur de cadence, vitesse et dérailleurs pilotés électroniquement (avec ou sans fils)
 
 Source : https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspendu-29-e-feel-900-s/_/R-p-330262
 
@@ -722,8 +722,8 @@ https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-l
 ---
 # Wind adjusted pace ?
 
-Il existe des formules mais tout est subjectif, il n'y a pas encore de capteurs (hors aero pour le velo)
-Strava ne va pas aider, car le vent est environemental, entre les batiments, ou en ras campagne c'est pas la meme limonade.
+Il existe des formules mais tout est subjectif, il n'y a pas encore de capteurs (hors aero pour le vélo)
+Strava ne va pas aider, car le vent est environnemental, entre les batiments, ou en rase campagne c'est pas la même limonade.
 
 https://www.youtube.com/watch?v=IoX-JUPvrwo
 
@@ -783,12 +783,12 @@ https://zwiftinsider.com/portal/la-turbie-col-deze/
     * Des réductions (pour la revente)
     * Des contrats !
 
-* Demo (non je n'ai pas triche)
+* Demo (non je n'ai pas triché)
 
 ---
 * Contre mesure
-    * Double capteur de puissance (Differentes marques)
-    * Double camera (angles differents)
+    * Double capteur de puissance (Différentes marques)
+    * Double caméra (angles différents)
 
 * Source : Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
 * https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
@@ -847,7 +847,7 @@ _class: lead invert
 ---
 # Evolutions
 
-### Quelques années (pour le grand publique)
+### Quelques années (pour le grand public)
 * Morphologique
 * Physiologique
 * Métabolique
@@ -855,7 +855,7 @@ _class: lead invert
 
 ---
 
-# Les principaux benefices... pour vous
+# Les principaux bénéfices... pour vous
 
 <div class="grid grid-cols-2 gap-2">
 
@@ -900,14 +900,14 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 * Capteurs
     * Attention au contexte de capture !
 * Analyse
-    * Ecnore une fois contexte
-    * Les combinaisons qui peuvent entrainer des bias
-* Expoitation
+    * Encore une fois contexte
+    * Les combinaisons qui peuvent entrainer des biais
+* Exploitation
     * Pour la performance (ça c'est pour vendre)
     * Pour le marketing (voir le point au dessus 😁)
-    * La valeur reele pour vous !
+    * La valeur réelle pour vous !
         * Pour se connaitre
-        * La prevention des blessures (l'utilisation majeure des pro)
+        * La prévention des blessures (l'utilisation majeure des pro)
 <!-- 
 Speaker notes : None
 -->
@@ -917,17 +917,17 @@ Speaker notes : None
 # Conclusion
 
 Graph 
-Sante, Securite, Connaissance, Performance
+Santé, Securité, Connaissance, Performance
 
 ---
-# Creation du triathlon
+# Création du triathlon
 
 <div class="grid grid-cols-2 gap-2">
 
 <div>
 
 * 18 Février 1978
-* Pas de capteurs, même pas de matériel dédier … et des temps de excellent !
+* Pas de capteurs, même pas de matériel dédié … et des temps excellents !
 
 </div>
 <div>
