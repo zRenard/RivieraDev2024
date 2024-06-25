@@ -694,9 +694,15 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 
 * Adding night heat maps to show which routes are better/safer for night workouts
 * Adding new “Athlete Intelligence” feedback, akin to basic coaching feedback on activities
-* Adding “AI-Enabled Leaderboard Integrity” to sniff out improbable uploads
 
 Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+
+---
+# Musique
+
+* Pas un capteur mais plutot l'exploitation d'informations
+* Ameliore les performances
+* Source : ADD REF
 
 ---
 # Utilisation pour le confort et la performance
@@ -789,6 +795,26 @@ https://zwiftinsider.com/portal/la-turbie-col-deze/
 * https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
 
 ---
+
+# Data poisonning
+* Involontaire
+    * ![width:200px](strava-error-1.png)
+    * ![width:200px](strava-error-2.png)
+    * ![width:200px](strava-error-3.png)
+
+---
+
+# Data poisonning
+* """"Involontaire"""""
+    * Vélo à la place de course à pied
+    * Vélo electrique à la place de vélo musculaire
+    * Moto/voiture à la place de vélo
+
+* Adding “AI-Enabled Leaderboard Integrity” to sniff out improbable uploads
+
+Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+
+---
 # Fun
 ![bg left](jo1.jpg)
 ![bg](jo2.jpg)
@@ -802,19 +828,6 @@ https://zwiftinsider.com/portal/la-turbie-col-deze/
 * Garmin GameOn
 
 ---
-Data poisonning
-* Involontaire
-    * ![width:200px](strava-error-1.png)
-    * ![width:200px](strava-error-2.png)
-    * ![width:200px](strava-error-3.png)
-
----
-Data poisonning
-* """"Involontaire"""""
-    * Vélo à la place de course à pied
-    * Vélo electrique à la place de vélo musculaire
-    * Moto/voiture à la place de vélo
----
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
 <!--
 _class: lead invert
@@ -823,8 +836,6 @@ _class: lead invert
 
 ---
 # Evolutions
-![bg blur:5px brightness:0.5](graphs/bg0.png)
-
 
 ### Bientôt (quelques mois)
 * Temperature peau + corps (avec capteur dedidé)
@@ -834,8 +845,6 @@ _class: lead invert
 * Tension (avec capteur cardio)
 
 ---
-![bg blur:5px brightness:0.5](graphs/bg0.png)
-
 # Evolutions
 
 ### Quelques années (pour le grand publique)
@@ -846,8 +855,7 @@ _class: lead invert
 
 ---
 
-# Conclusion
-![bg blur:5px brightness:0.5](graphs/bg0.png)
+# Les principaux benefices... pour vous
 
 <div class="grid grid-cols-2 gap-2">
 
@@ -874,7 +882,7 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 -->
 
 ---
-![bg blur:5px brightness:0.5](graphs/bg0.png)
+<style scoped>ul { font-size: 29px; }</style>
 
 # Conclusion
 
@@ -885,9 +893,10 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 * https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
 
 ---
-![bg blur:5px brightness:0.5](graphs/bg0.png)
 <style scoped>ul { font-size: 29px; }</style>
+
 # Conclusion
+
 * Capteurs
     * Attention au contexte de capture !
 * Analyse
@@ -902,6 +911,13 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 <!-- 
 Speaker notes : None
 -->
+---
+<style scoped>ul { font-size: 29px; }</style>
+
+# Conclusion
+
+Graph 
+Sante, Securite, Connaissance, Performance
 
 ---
 # Creation du triathlon
