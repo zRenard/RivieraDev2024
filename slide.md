@@ -24,49 +24,44 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 <style scoped>ul { font-size: 28px; }</style>
 
 ### Whoooo are you hooowouuuh
-### Denis Méline - Sportif
+#### Denis Méline - Sportif
 
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-* Sportif depuis 40 ans et triathelete depuis un peu plus de 10 ans.
+* Sportif depuis 40 ans
+* Triathelete depuis un peu plus de 10 ans
 * ~200 courses réelles et virtuelles, toutes disciplines confonudus. (Course à pied, trail, natation, triathlon, golf et autres trucs chelou)
 
 </div>
 <div>
 
-* ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
-* ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
-* ![slide-right width:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
-
+- ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
+- ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
+- ![slide-right width:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
 
 </div>
 </div>
 
 ---
-![bg left:20%](t-shirts.png)
+![bg right](falcon.jpg)
+![bg right:40%](zx81.jpg)
 <style scoped>ul { font-size: 28px; }</style>
 
 ### Whoooo are you hooowouuuh
-### Denis Méline - Ingénieur informatique
-
-<div class="grid grid-cols-2 gap-4">
-<div>
-
-<div>
+#### Denis Méline - Ingénieur informatique
 
 * Codeur depuis 45 ans
 * DEA informatique théorique
 * 25 ans dans l'industrie
 * Alpha test/contributeur de zwift, garmin, runalizer, smashrun, etc..
 
-</div>
-</div>
-
 ---
 ![bg left:20%](https://picsum.photos/720?image=29)
 <style scoped>ul { font-size: 24px; }</style>
+
 # Agenda
+
 * Capture
     * Capteurs
         * Precision
@@ -82,31 +77,35 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 <!-- 
 Speaker notes : None
 -->
+
 ---
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
 <!--
 _class: lead invert
 -->
 # Capture
+### General
 ---
 
-![bg left:30%](https://picsum.photos/720?image=29)
+![bg left:50%](runconnect.jpg)
 
-# Capture
-
-* Historique
-    * Compteur vélo (cable, electronique avec aimant)
-    * Podometre, GPS
-    * Multiples matériels
-    * Integration
+# Historique
+* Montre chronographe puis chronometre
+* Compteur vélo (cable, electronique avec aimant)
+* Podometre, GPS
+* Multiples matériels
+* Integration
 * Explosion des utilisations depuis 5 ans
-* Finalement, peu de type de capteurs
+<!--
+* Source : https://filieresport.com/fr/telechargements?k=24166577&u=%2Fsante-et-bien-etre%2F2023-06-12%2Fdocuments-en-telechargements-libres&from=articles&f=odr2023_701338359.pdf&d=20230616+19%3A51%3A32&i=4815&vx=433159755
+* Finalement, peu de type de capteurs comparer aux exploitations
+-->
 
 ---
 ![bg right:30%](https://picsum.photos/720?image=29)
 <style scoped>ul { font-size: 27px; }</style>
 
-# Les capteurs commun
+# Les capteurs communs
 
 * Temps !
 * Fréquence cardiaque
@@ -160,12 +159,21 @@ Contacteurs pour le vitesse vélo
 ![bg left:30%](https://picsum.photos/720?image=29)
 # Cas particuliers
 
-* Chronométrage
+* Balance (Poids, masse hydrique, masse osseuse, etc...)
+* Puce de chronométrage
 * Batteries (montre, capteurs, vélo électrique, etc..)
 * Aero
 
 ---
-![bg right:30% ](polar.jpg)
+![bg blur:5px brightness:0.5](graphs/bg0.png)
+<!--
+_class: lead invert
+-->
+# Capture
+### Détails
+
+---
+![bg left:30% ](polar.jpg)
 
 # La fréquence cardiaque
 * Début pour le publique : Polar ~1980
@@ -201,6 +209,7 @@ Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la ma
 <style scoped>ul { font-size: 26px; }</style>
 # Le positionnement
 * GPS, Galileo, Beidou/Compass, Glonass, QZSS,…
+* Au debut, module GPS separé + PDA
 * Ma premiere montre GPS - 2010
     * GPS uniquement
     * 8 satelites max
@@ -209,7 +218,7 @@ Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la ma
     * Aucune corrections
 ---
 
-![bg left:30% ](garmin965.png)
+![bg right:30% ](garmin965.png)
 <style scoped>ul { font-size: 26px; }</style>
 # Le positionnement
 * 2024
@@ -229,13 +238,16 @@ Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la ma
 <!--
 _class: lead invert
 -->
-# Analyse
+# Analyses
 
-
+<!--
+Analyse brute, on prend juste en compte le context, pas "trop" d'algorythme.
+Juste du nettoyage, rafinement
+-->
 ---
 ![bg right:30% ](garmin-strap.jpg)
-<style scoped>ul { font-size: 26px; }</style>
-# La frequence Cardiaque
+<style scoped>ul { font-size: 32px; }</style>
+# La frequence cardiaque
 
 * Context de capture
     * Sommeil
@@ -246,11 +258,22 @@ _class: lead invert
     * Optique
     * Electrique
 
-* VFC
-https://www.researchgate.net/profile/Marco-Altini
 
 ---
-![bg left:30%](https://picsum.photos/720?image=28)
+![bg left:30% ](statut.jpg)
+<style scoped>ul { font-size: 26px; }</style>
+# La frequence cardiaque
+
+* FCMax
+* FCRecuperation
+    * 2min apres FCMax
+* VFCRepos
+    * Calcul VFC la nuit
+* Variabilite cardiaque (VFC)
+    * https://www.researchgate.net/profile/Marco-Altini
+
+---
+![bg right:30%](https://picsum.photos/720?image=28)
 <style scoped>ul { font-size: 29px; }</style>
 
 # Le positionement
@@ -265,20 +288,41 @@ https://www.researchgate.net/profile/Marco-Altini
     * podometre
 
 ---
-![bg right:30% ](garmin-golf.jpg)
-# Capteur de club de golf
-https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
-
+![bg right:30% ]()
+# Capteur de puissance
 
 ---
-![bg left:30% ](GatoradeSweat-2.png)
-# Capteur temperature
-* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
+![bg left:30% ]()
+# Vitesse electrique
+
+---
+![bg rigth:30% ]()
+# Radar velo
+
+---
+![bg right:40% ](trackman2.jpg)
+# Radar/Lidar de Golf
+
+![width:400px](trackman1.jpg)
+* 40 parametres
+* https://www.trackman.com/fr
+
+<!--
+ -Pas d'interpretation
+-->
+---
+![bg left:30% ](garmin-golf.jpg)
+# Capteur de club de golf
+
+![](trueswing.jpg)
+
+
+https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 
 ---
 
 ![bg right:30% ](supersapiens.png)
-# Capteur Clycémie
+# Capteur Glycémie
 
 * SuperSapiens
     * https://www.supersapiens.com/fr-FR/
@@ -293,6 +337,7 @@ https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 
 ---
 ![bg left:30% ](GatoradeSweat-2.png)
+<style scoped>ul { font-size: 29px; }</style>
 # Capteur Sueur
 * Le but étant de minimiser la perte hydrique et minérales/electrolytes (majoritairement sodium, potatium, mg, zinc)
 * Protocole de base
@@ -300,46 +345,67 @@ https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
     * 1h intensive en condition
     * Pesé
     * Difference = perte hydrique ~ 700ml -> 1L
+
+----
+<style scoped>ul { font-size: 28px; }</style>
 * Pourquoi ?
     * Retenir l'eau
     * Si la concentration de sodium chute -> besoin d'eau ++
-        * limite d'absortion (à l'effort) ~ 400/500ml/h
+    * Limite d'absortion (à l'effort) ~ 400/500ml/h
     * Santé
         * Crampes
-        * Nnausées
+        * Nausées
         * Confusion
         * Trouble de la conscience
 * https://hdroptech.com/
 * https://www.gatorade.com/equipment/gx-sweat-patch/gx-sweat-patch-00052000052596
+
+---
+![bg right:30% ](core.jpg)
+# Capteur temperature
+* ![width:500px](temperature-abandon.jpg)
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
 
----
-![bg right:30% ](predi.png)
-# Prediction de course
-* Top ! … pas si sûr 
-* On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
-
-
-
----
-![bg right:30% ](bikefit.png)
-
-# Photos et videos
-* Positionement sur le vélo
-* Optimisation de l'aero
-* Confort
-
 <!-- 
+* Impact important !
+https://corebodytemp.com/products/core
 -->
 
 ---
-![bg left:30%](https://picsum.photos/720?image=28)
-# Analyse
+![bg left:30%](bodyrocket.jpg)
+# Capteur de pression
 
-* Pression
-    * Pression pneus
-    * Aero
-    * Semelles (angles, impact, symetrie)
+* Pression pneus
+    * https://www.sks-germany.com/fr/airspy/
+    * Focus sur la securite
+    * Demo
+* Aero en temps reel
+    * https://fr.aeroscale.bike/
+    * https://www.bodyrocket.cc/how-does-it-work
+<!--
+* Optimization pour les pros
+
+Body Rocket utilise une combinaison de plusieurs capteurs
+Puissance, Pression de l'air, vitese du vent, vitesse, accelration, inclinaison, poids pour 
+fournir un coeficient en temps reel.
+-->
+
+---
+![bg right:30%](bal-on.jpg)
+![bg ](running-sole.jpg)
+# Capteur de pression
+
+* Semelles pour le golf
+    * 18 capteurs pour fournir angles, impact, symetrie, etc...
+    * Optimization pour les pros
+    * https://www.bal-on.golf/
+* Semelles pour la course a pied
+    * https://www.digitsole.com/running-analysis
+
+<!--
+Golf -> forcus performance
+Course a pied -> focus diminution risque de blessure, de moins en moins pour le grand public
+-->
 
 ---
 ![bg blur:5px brightness:0.5](graphs/bg2.png)
@@ -347,113 +413,6 @@ https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 _class: lead invert
 -->
 # Exploitation
-
----
-# Resultats
-
-<div class="grid grid-cols-2 gap-2">
-<div>
-
-* ![slide-left width:400px drop-shadow:0,5px,5px,black](gc1.png)
-* ![slide-left width:400px drop-shadow:0,5px,5px,black](gc2.png)
-* ![slide-left width:500px drop-shadow:0,5px,5px,black](gc3.png)
-* ![slide-left width:500px drop-shadow:0,5px,5px,black](gc4.png)
-
-</div>
-<div>
-
-* ![width:400px drop-shadow:0,5px,5px,black](comprendsrien.gif)
-* ![width:400px drop-shadow:0,5px,5px,black](sertarien.png)
-
-</div>
-</div>
-
----
-![bg left:30%](vo2max.jpg)
-
-# Vo2Max
-
-* Vo2Max = La consommation maximale d'oxygène que l'organisme peut absorber lors d'un effort physique intense
-* En réalité -> Prédiction de Vo2Max
-* Excelent ?
-* Pas si sûr...
-* L'algorythme de calcul -> déso, secret 😅
-
-<!--
-https://www.youtube.com/watch?v=rMLYizEoVBI
-https://www.youtube.com/watch?v=u-5UOPwCWHk
-https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
--->
-
----
-# Analyse avec les capteurs de mouvements
-
-![width:500px drop-shadow:0,5px,5px,black](mvt-equilibre.png)
-
----
-# Lunette Engo
-<div class="grid grid-cols-2 gap-2">
-<div>
-
-* Uniquement ecran deporté
-* Aucun capteur
-    * enfin si, capteur de luminosite pour ajuster l'ecran, mais aucunes data produites
-* Demo
-</div>
-<div>
-
-![width:500px drop-shadow:0,5px,5px,black](engo.png)
-![width:300px drop-shadow:0,5px,5px,black](engo2.png)
-
-</div>
-</div>
-<!--
-Source : https://fr.engoeyewear.com/produits/engo-2
--->
-
----
-<style scoped>ul { font-size: 31px; }</style>
-
-# Lunette Form
-<div class="grid grid-cols-2 gap-2">
-<div>
-
-![width:500px drop-shadow:0,5px,5px,black](form.png)
-![width:250px drop-shadow:0,5px,5px,black](form2.png)
-
-</div>
-<div>
-
-* Aucun nouveau capteurs, uniquement l'utilisation de ceux-ci
-* Combinaison avec des capteurs existants
-    * Depuis la montre
-    * Depuis un capteur externe (cardio)
-* Autorisée en competition !
-* Demo
-</div>
-</div>
-<!--
-Source : https://www.formswim.com/
--->
-
----
-![bg left:40%](eolab.png)
-
-# Eolab
-
-* https://www.eolab.com/swimbetter
-* Source : https://www.youtube.com/watch?v=uK8ao6-hpcY&ab_channel=eo
-
-* ![slide-right width:400px drop-shadow:0,5px,5px,black](eolab1.png)
-* ![slide-right width:400px drop-shadow:0,5px,5px,black](eolab2.png)
-
----
-# Balance connectée
-![width:430px](withings.png)
-
----
-# Gourde intelligente
-![width:500px](gourde.png)
 
 ---
 ![bg left](tl1.png)
@@ -525,6 +484,185 @@ https://www.sciencetraining.io/
 * Produit par la recherche mais aussi les plateformes et les constructeurs (d’où leur propre plateformes)
 * Demo : Runalyze (https://runalyze.com/)
 
+---
+# Resultats
+
+<div class="grid grid-cols-2 gap-2">
+<div>
+
+* ![slide-left width:400px drop-shadow:0,5px,5px,black](gc1.png)
+* ![slide-left width:400px drop-shadow:0,5px,5px,black](gc2.png)
+* ![slide-left width:500px drop-shadow:0,5px,5px,black](gc3.png)
+* ![slide-left width:500px drop-shadow:0,5px,5px,black](gc4.png)
+
+</div>
+<div>
+
+* ![width:400px drop-shadow:0,5px,5px,black](comprendsrien.gif)
+* ![width:400px drop-shadow:0,5px,5px,black](sertarien.png)
+
+</div>
+</div>
+
+---
+# Prediction de course
+
+![width:400px](predi.png)
+* Top ! … pas si sûr 
+* Multiples methodes (Dave Cameron, Pete Riegel, Robert Bock (CPP), Herbert Steffny)
+* On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
+
+---
+![bg left:30%](vo2max.jpg)
+
+# Vo2Max
+
+* Vo2Max = La consommation maximale d'oxygène que l'organisme peut absorber lors d'un effort physique intense
+* En réalité -> Prédiction de Vo2Max
+* Excelent ?
+* Pas si sûr...
+* L'algorythme de calcul -> Firstbeat, secret déso 😅
+    * Age, poids, cardio, ...
+
+<!--
+https://www.youtube.com/watch?v=rMLYizEoVBI
+https://www.youtube.com/watch?v=u-5UOPwCWHk
+https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
+-->
+
+---
+# Test Vo2Max
+<div class="grid grid-cols-2 gap-0">
+<div>
+
+![](test-effort.jpg)
+
+</div>
+<div>
+
+![](test-effort2.jpg)
+
+</div>
+</div>
+
+<!--
+https://www.youtube.com/watch?v=rMLYizEoVBI
+https://www.youtube.com/watch?v=u-5UOPwCWHk
+https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
+-->
+
+---
+# Analyse avec les capteurs de mouvements
+<div class="grid grid-cols-2 gap-0">
+<div>
+
+![width:500px drop-shadow:0,5px,5px,black](gc-mvt1.jpg)
+![width:380px drop-shadow:0,5px,5px,black](gc-mvt2.jpg)
+
+</div>
+<div>
+
+![width:500px drop-shadow:0,5px,5px,black](gc-sommeil.jpg)
+
+</div>
+</div>
+
+---
+# Lunette Engo
+<div class="grid grid-cols-2 gap-2">
+<div>
+
+* Uniquement ecran deporté
+* Aucun capteur
+    * enfin si, capteur de luminosite pour ajuster l'ecran, mais aucunes data produites
+* Demo
+</div>
+<div>
+
+![width:500px drop-shadow:0,5px,5px,black](engo.png)
+![width:300px drop-shadow:0,5px,5px,black](engo2.png)
+
+</div>
+</div>
+<!--
+Source : https://fr.engoeyewear.com/produits/engo-2
+-->
+
+---
+<style scoped>ul { font-size: 31px; }</style>
+
+# Lunette Form
+<div class="grid grid-cols-2 gap-2">
+<div>
+
+![width:500px drop-shadow:0,5px,5px,black](form.png)
+![width:250px drop-shadow:0,5px,5px,black](form2.png)
+
+</div>
+<div>
+
+* Aucun nouveau capteurs, uniquement l'utilisation de ceux-ci
+* Combinaison avec des capteurs existants
+    * Depuis la montre
+    * Depuis un capteur externe (cardio)
+* Autorisée en competition !
+* Demo
+</div>
+</div>
+<!--
+Source : https://www.formswim.com/
+-->
+
+---
+![bg left:40%](eolab.png)
+
+# Eolab
+
+* https://www.eolab.com/swimbetter
+* Source : https://www.youtube.com/watch?v=uK8ao6-hpcY&ab_channel=eo
+
+* ![slide-right width:400px drop-shadow:0,5px,5px,black](eolab1.png)
+* ![slide-right width:400px drop-shadow:0,5px,5px,black](eolab2.png)
+
+---
+# Balance connectée
+<div class="grid grid-cols-2 gap-2">
+<div>
+
+* ![slide-left width:400px](withings.png)
+* ![slide-left width:550px](gc-balance.jpg)
+* ![slide-left width:550px](withings-bodyscan.jpg)
+
+</div>
+<div>
+
+* Poids
+* IMC
+* Masse grasse
+* Masse musculaire
+* Masse osseuse
+* Masse hydrique
+* Tension
+* ECG
+
+</div>
+</div>
+
+---
+# Gourde intelligente
+![width:500px](gourde.png)
+
+---
+![bg right:30% ](bikefit.png)
+
+# Photos et videos
+* Positionement
+    * Sur le vélo
+    * Golf
+    * Natation
+* Confort
+* Optimisation de l'aero
+    * En complement des capteurs
 
 ---
 # Utilisation pour la securité
@@ -533,11 +671,10 @@ https://www.sciencetraining.io/
     * Avant pour les voitures si elles étaient renverser (Au US)
 * Heat map de strava
     * Les routes/chemins les plus empruntés/validés et securisés
-    * (A venir) Adding night heat maps to show which routes are better/safer for night workouts
 
-
-Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
-
+<!--
+Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
+-->
 ---
 # HeatMap
 
@@ -572,7 +709,9 @@ Source : https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspen
 ---
 # Grade ajusted peace
 https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-la-pente-VAP
-confirmation par des études scientifiques –Ref : [1] Minetti, A. E. et al. (2002). Energy cost of walking and running at extreme uphill and downhill slopes. Journal of Applied Physiology 93, 1039–1046.
+
+* Confirmation par des études scientifiques.
+    * Energy cost of walking and running at extreme uphill and downhill slopes https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001 
 
 ---
 # Wind adjusted pace ?
@@ -583,11 +722,11 @@ Strava ne va pas aider, car le vent est environemental, entre les batiments,
 https://www.youtube.com/watch?v=IoX-JUPvrwo
 
 ---
-# Utilisation pour des stats
-* Age ajusted peace
-    * https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/
-    * Confirmation par des études scientifiques https://pubmed.ncbi.nlm.nih.gov/2504587/
-    * Mais aussi https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/
+# Age ajusted peace
+* https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/
+* Confirmation par des études scientifiques
+    * https://pubmed.ncbi.nlm.nih.gov/2504587/
+    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/
 
 ---
 ![width:120px](age.png)
@@ -631,31 +770,36 @@ https://zwiftinsider.com/portal/isola-2000/
 https://zwiftinsider.com/portal/la-turbie-col-deze/
 
 ---
-<style scoped>ul { font-size: 29px; }</style>
 # Utilisation pour tricher
 
 * Gagner des courses virtuelles (et donc de cadeaux)
     * Des prix (comme des dossards, ou tirages au sort)
     * Des réductions (pour la revente)
     * Des contrats !
-* Demo
+
+* Demo (non je n'ai pas triche)
+
+---
 * Contre mesure
     * Double capteur de puissance (Differentes marques)
     * Double camera (angles differents)
 
-* Source : Zwift Essoreuse à Salade :https://www.youtube.com/watch?v=K08AlzT6Qu8
+* Source : Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
 * https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
 * https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
 
 ---
 # Fun
-![slide-left width:200px](jo1.jpg)
-![slide-right width:270px](jo2.jpg)
+![bg left](jo1.jpg)
+![bg](jo2.jpg)
+
+* Faire de joli dessins
+* (Pour l'instant) Fait artisanalement
 
 ---
 # ESport
-Garmin GameOn
-![width:200px](esport1.png)
+![bg right](esport1.png)
+* Garmin GameOn
 
 ---
 Data poisonning
@@ -672,18 +816,26 @@ Data poisonning
     * Moto/voiture à la place de vélo
 ---
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
+<!--
+_class: lead invert
+-->
+# Conclusions
 
 ---
 # Evolutions
+![bg blur:5px brightness:0.5](graphs/bg0.png)
+
 
 ### Bientôt (quelques mois)
 * Temperature peau + corps (avec capteur dedidé)
     * https://corebodytemp.com/products/core
 * Glycémie (avec capteur cardio)
     * https://afontechnology.com/glucowear/
-* Tension 
+* Tension (avec capteur cardio)
 
 ---
+![bg blur:5px brightness:0.5](graphs/bg0.png)
+
 # Evolutions
 
 ### Quelques années (pour le grand publique)
@@ -695,6 +847,7 @@ Data poisonning
 ---
 
 # Conclusion
+![bg blur:5px brightness:0.5](graphs/bg0.png)
 
 <div class="grid grid-cols-2 gap-2">
 
@@ -721,6 +874,8 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 -->
 
 ---
+![bg blur:5px brightness:0.5](graphs/bg0.png)
+
 # Conclusion
 
 * Apprendre à se connaître, les informations et leurs analyse permettant d’accélérer et affiner le processus
@@ -731,7 +886,7 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 
 ---
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
-<style scoped>ul { font-size: 24px; }</style>
+<style scoped>ul { font-size: 29px; }</style>
 # Conclusion
 * Capteurs
     * Attention au contexte de capture !
@@ -769,7 +924,6 @@ Speaker notes : None
 </div>
 </div>
 
-
 ---
 ![bg blur:5px brightness:0.5](bg2.jpg)
 <!--
@@ -780,3 +934,18 @@ _footer: ""
 -->
 # Merci !
 ![](qrcode_blog.zrenard.com.png)
+
+
+<!--
+---
+# Tableau
+
+
+
+| Titre 1       |     Titre 2     |        Titre 3 |
+| :------------ | :-------------: | -------------: |
+| Colonne       |     Colonne     |        Colonne |
+| Alignée à     |   Alignée au    |      Alignée à |
+| Gauche        |     Centre      |         Droite |
+
+-->
