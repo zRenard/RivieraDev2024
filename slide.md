@@ -37,9 +37,9 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 </div>
 <div>
 
-- ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
-- ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
-- ![slide-right width:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
+* ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
+* ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
+* ![slide-right width:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
 
 </div>
 </div>
@@ -106,7 +106,7 @@ _class: lead invert
 -->
 
 ---
-![bg right:30%](https://picsum.photos/720?image=29)
+![bg right:30%](https://picsum.photos/720?image=27)
 <style scoped>ul { font-size: 27px; }</style>
 
 # Les capteurs communs
@@ -144,7 +144,7 @@ Pression pour l'aero
 Contacteurs pour le vitesse vélo
 -->
 ---
-![bg right:30%](https://picsum.photos/720?image=29)
+![bg right:30%](https://picsum.photos/720?image=10)
 
 # Les capteurs "exotiques"
 
@@ -160,7 +160,7 @@ Contacteurs pour le vitesse vélo
 -->
 
 ---
-![bg left:30%](https://picsum.photos/720?image=29)
+![bg left:30%](https://picsum.photos/720?image=12)
 # Cas particuliers
 
 * Balance (Poids, masse hydrique, masse osseuse, etc...)
@@ -276,7 +276,7 @@ Juste du nettoyage, raffinement
     * https://www.researchgate.net/profile/Marco-Altini
 
 ---
-![bg right:30%](https://picsum.photos/720?image=28)
+![bg right:30%](paysage1.jpg)
 <style scoped>ul { font-size: 29px; }</style>
 
 # Le positionnement
@@ -291,52 +291,46 @@ Juste du nettoyage, raffinement
     * podomètre
 
 ---
-![bg right:30% ]()
+![bg left:20%](puissance3.jpg)
 # Capteur de puissance
-
 <div class="grid grid-cols-2 gap-0">
-
-<div>
-
-![](puissance1.jpg)
-![](puissance2.jpg)
-![](puissance3.jpg)
-
-</div>
 <div>
 
 * Watts
+* Puissance specifique W/kg
+* W' (W prime), xPower
+* L'equivalent du cardio mais pour le velo
+
+</div>
+<div>
+
+* ![slide-right w:500px](puissance1.jpg)
+* ![slide-right w:500px](puissance2.jpg)
 
 </div>
 </div>
+Source : https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011
 
 ---
-![bg left:30% ]()
+![bg right:30% ](gears.jpg)
 # Vitesse electrique
+* Shimano (filaire)
+* SRAM (sans fils)
+* Position du plateau, des pignons
+* Radio
+* ![w:250px](gears2.jpg)
+
 
 ---
-![bg rigth:30% ]()
+![bg left:50% ](radar2.jpg)
+![bg ](radar1.jpg)
+![bg ](radar3.jpg)
 # Radar velo
-
----
-![bg right:40% ](trackman2.jpg)
-# Radar/Lidar de Golf
-
-![width:400px](trackman1.jpg)
-* 40 paramètres
-* https://www.trackman.com/fr
-
-<!--
- -Pas d'interpretation
--->
----
-![bg left:30% ](garmin-golf.jpg)
-# Capteur de club de golf
-
-![](trueswing.jpg)
-
-
-https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
+* Garmin, iGP, Wahoo, Sigma
+* Pour la securite
+    * Changement de l'eclairage
+    * Detection des vehicules et leur type
+    * Detection des vitesses des vehicules
 
 ---
 
@@ -391,18 +385,58 @@ https://corebodytemp.com/products/core
 -->
 
 ---
-![bg left:30%](bodyrocket.jpg)
+![bg left:40% ](trackman2.jpg)
+# Radar/Lidar de Golf
+
+![width:400px](trackman1.jpg)
+* 40 paramètres
+* https://www.trackman.com/fr
+
+<!--
+ -Pas d'interpretation
+-->
+
+---
+![bg right:30% ](laser.jpg)
+# Laser de Golf
+
+* Mesure de distance
+* Avant optique, mainteant laser
+* La nouveautees c'est le partage d'informations
+* https://www.garmin.com/fr-FR/p/1411809
+
+<!--
+ -Pas d'interpretation
+-->
+
+---
+![bg left:30% ](garmin-golf.jpg)
+# Capteur de club de golf
+
+* Angle, vitesse, impact
+* ![](trueswing.jpg)
+
+
+https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
+
+---
+![bg right:30%](bodyrocket.jpg)
 # Capteur de pression
 
+* Pression suspensions
+    * Pour le confort (et la perf)
 * Pression pneus
-    * https://www.sks-germany.com/fr/airspy/
-    * Focus sur la sécurité
-    * Démo
+    * Focus sur la sécurité (et la perf)
 * Aero en temps reel
+    * Multiples capteurs (dont pression de l'air)
+    * Optimisation pour les pros
+
+<!--
+    * https://www.sks-germany.com/fr/airspy/
+    * https://www.sram.com/en/quarq/series/tyrewiz
+
     * https://fr.aeroscale.bike/
     * https://www.bodyrocket.cc/how-does-it-work
-<!--
-* Optimisation pour les pros
 
 Body Rocket utilise une combinaison de plusieurs capteurs
 Puissance, Pression de l'air, vitesse du vent, vitesse, accelération, inclinaison, poids pour 
@@ -410,7 +444,7 @@ fournir un coefficient en temps reel.
 -->
 
 ---
-![bg right:30%](bal-on.jpg)
+![bg left:30%](bal-on.jpg)
 ![bg ](running-sole.jpg)
 # Capteur de pression
 
@@ -501,7 +535,7 @@ https://www.sciencetraining.io/
 * C’est très subjectif et sujet à interprétation voire erreur.
 * Les algorithmes utilisés sont parfois publics, parfois sous licence, et souvent secrets.
 * Produits par la recherche mais aussi les plateformes et les constructeurs (d’où leur propre plateformes)
-* Demo : Runalyze (https://runalyze.com/)
+* Démo : Runalyze (https://runalyze.com/)
 
 ---
 # Resultats
@@ -594,7 +628,7 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 * Uniquement écran deporté
 * Aucun capteur
     * enfin si, capteur de luminosite pour ajuster l'écran, mais aucune data produite
-* Demo
+* Démo
 </div>
 <div>
 
@@ -625,7 +659,7 @@ Source : https://fr.engoeyewear.com/produits/engo-2
     * Depuis la montre
     * Depuis un capteur externe (cardio)
 * Autorisée en competition !
-* Demo
+* Démo
 </div>
 </div>
 <!--
@@ -985,10 +1019,11 @@ mindmap
 <div class="mermaid">
 sankey-beta
 
-%% source,target,value
-Data,Over generation / exports,104.453
-Data,Heating and cooling - homes,113.726
-Data,H2 conversion,27.14
+%% source,target, value
+Data,Sante,100
+Data,Connaissance,100
+Data,Recherche,50
+Data,Securite,25
 </div>
 
 ---
