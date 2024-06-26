@@ -9,6 +9,7 @@ paginate: true
 size: 16:9
 header: 'Le triathlon de la data sportif ![image](bg.jpg)'
 footer: '![w:130  drop-shadow](https://rivieradev.fr/static/images/logos/logo_RD_full_white.svg) 2024 - We''re not just coders - Denis Méline'
+
 ---
 ![bg blur:5px brightness:0.5](bg.jpg)
 <!--
@@ -960,12 +961,35 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 Speaker notes : None
 -->
 ---
-<style scoped>ul { font-size: 29px; }</style>
 
 # Conclusion
+<div class="mermaid">
+mindmap
+  ((Data))
+    )Santé(
+    ::icon(fa-solid fa-house-medical)
+    )Securité(
+     ::icon(fa-solid fa-user-secret)
+    )Recherche(
+    ::icon(fa-solid fa-graduation-cap)
+    )Connaissance(
+    ::icon(fa fa-book)
+    )Performance(
+    ::icon(fa-solid fa-person-running)
+</div>
 
-Graph 
-Santé, Securité, Connaissance, Performance
+
+---
+
+# Conclusion
+<div class="mermaid">
+sankey-beta
+
+%% source,target,value
+Data,Over generation / exports,104.453
+Data,Heating and cooling - homes,113.726
+Data,H2 conversion,27.14
+</div>
 
 ---
 # Création du triathlon

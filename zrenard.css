@@ -2,6 +2,8 @@
 
 @import 'gaia';
 @import url('https://unpkg.com/tailwindcss@^2/dist/utilities.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
 
 img[alt~="slide-right"] {
   position: absolute;
