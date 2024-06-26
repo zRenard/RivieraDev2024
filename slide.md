@@ -114,7 +114,7 @@ _class: lead invert
 * Temps !
 * Fréquence cardiaque
     * Ceinture (électrique), optique
-* Positionnement (GPS, Galileo, Beidou/Compass, Glonass, QZSS,…)
+* Positionnement (GPS …)
 * Accéléromètre / Gyroscope
     * Capteur de foulée
     * Cadence/vitesse en vélo
@@ -213,13 +213,17 @@ Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la ma
 <style scoped>ul { font-size: 26px; }</style>
 # Le positionnement
 * GPS, Galileo, Beidou/Compass, Glonass, QZSS,…
-* Au debut, module GPS separé + PDA
+* Au debut, module GPS separé + PDA (non je n'etais pas le seul !)
 * Ma première montre GPS - 2010
     * GPS uniquement
     * 8 satelites max
     * Précision quelques mètres
     * Fort impact de l'environnement
     * Aucune correction
+
+<!-- 
+GPS (US), Galileo (EU), Beidou (CH), Glonass (RU), QZSS (JP)
+-->
 ---
 
 ![bg right:30% ](garmin965.png)
@@ -251,6 +255,7 @@ Juste du nettoyage, raffinement
 ---
 ![bg right:30% ](garmin-strap.jpg)
 <style scoped>ul { font-size: 32px; }</style>
+
 # La fréquence cardiaque
 
 * Context de capture
@@ -265,6 +270,7 @@ Juste du nettoyage, raffinement
 ---
 ![bg left:30% ](statut.jpg)
 <style scoped>ul { font-size: 26px; }</style>
+
 # La fréquence cardiaque
 
 * FCMax
@@ -289,6 +295,11 @@ Juste du nettoyage, raffinement
     * altimètre
     * baromètre
     * podomètre
+* Navigation/Retour Maison/Itineraire
+
+<!-- 
+Par exemple dans le sport mecaniques, la frequence d'echantillonage est importante, on peut rater quelques metres de precisions uniquement due à la vitesse
+-->
 
 ---
 ![bg left:20%](puissance3.jpg)
@@ -309,7 +320,8 @@ Juste du nettoyage, raffinement
 
 </div>
 </div>
-Source : https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011
+
+* https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011
 
 ---
 ![bg right:30% ](gears.jpg)
@@ -340,12 +352,29 @@ Source : https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011
 * SuperSapiens
     * https://www.supersapiens.com/fr-FR/
 * Demo
+    [![w:430px](supersapiens2.jpg) ](supersapiens2.jpg)
 * Mainteant interdit en compétition
 <!-- 
 -->
 
 ---
-![bg left:30% ](GatoradeSweat.png)
+<style scoped>ul { font-size: 34px; }</style>
+![bg left:30% ](moxy.jpg)
+# Oxymetre
+
+* Moxy
+    * % SmO2 (skeletal muscle oxygen saturation)
+    * Optimisation de la performance
+    * https://www.moxymonitor.com/
+
+* https://www.blog.nolio.io/post/tout-savoir-sur-le-moniteur-doxygene-musculaire-moxy
+* https://pubmed.ncbi.nlm.nih.gov/37261552/
+
+<!-- 
+-->
+
+---
+![bg right:30% ](GatoradeSweat.png)
 # Capteur ??
 
 ---
@@ -414,19 +443,19 @@ https://corebodytemp.com/products/core
 # Capteur de club de golf
 
 * Angle, vitesse, impact
-* ![](trueswing.jpg)
+    [![](trueswing.jpg) ](trueswing.jpg)
 
-
-https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
+* https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 
 ---
 ![bg right:30%](bodyrocket.jpg)
+
 # Capteur de pression
 
 * Pression suspensions
     * Pour le confort (et la perf)
 * Pression pneus
-    * Focus sur la sécurité (et la perf)
+    * Pour la sécurité (et la perf)
 * Aero en temps reel
     * Multiples capteurs (dont pression de l'air)
     * Optimisation pour les pros
@@ -476,6 +505,10 @@ _class: lead invert
 * En ligne
 * Application
 
+<!--
+Y a 40 ans, FC avant, 1500m, FC, puis 2min apres FC
+-->
+
 ---
 ![bg left:30%](runalyze.png)
 <style scoped>p { font-size: 40px; }</style>
@@ -500,18 +533,18 @@ https://app.campus.coach/
 
 <div>
 
-##### Constructeurs (see after)
+##### Constructeurs (voir plus loin)
 https://connect.garmin.com/
 https://flow.polar.com/
 Application mobile suunto
 </div>
 <div>
 
-##### Applications sponsors équipementiers
-https://www.runtastic.com/ (ADDIDAS)
+##### Applications sponsors équipementiers (voir plus loin)
+https://www.runtastic.com/ (Adidas)
 https://beta.trainasone.com/ (Hoka)
 https://www.nike.com/nrc-app (Nike)
-https://runkeeper.com/ (ASICS)
+https://runkeeper.com/ (Asics)
 
 </div>
 </div>
@@ -529,7 +562,7 @@ https://www.sciencetraining.io/
 <style scoped>ul { font-size: 32px; }</style>
 
 # Platformes
-* Certaines métriques utilisent en partie, l’auto évaluation
+* Certaines métriques utilisent, en partie, l’auto évaluation
     * Très facile -> très difficile
     * Sensation : Horrible -> très fort
 * C’est très subjectif et sujet à interprétation voire erreur.
@@ -537,6 +570,9 @@ https://www.sciencetraining.io/
 * Produits par la recherche mais aussi les plateformes et les constructeurs (d’où leur propre plateformes)
 * Démo : Runalyze (https://runalyze.com/)
 
+<!--
+
+-->
 ---
 # Resultats
 
@@ -654,7 +690,7 @@ Source : https://fr.engoeyewear.com/produits/engo-2
 </div>
 <div>
 
-* Aucun nouveau capteur, uniquement l'utilisation de ceux-ci
+* Capteurs classiques (gyro, mouvements)
 * Combinaison avec des capteurs existants
     * Depuis la montre
     * Depuis un capteur externe (cardio)
@@ -671,6 +707,7 @@ Source : https://www.formswim.com/
 
 # Eolab
 
+* Capteurs classiques (gyro, mouvements)
 * https://www.eolab.com/swimbetter
 * Source : https://www.youtube.com/watch?v=uK8ao6-hpcY&ab_channel=eo
 
@@ -748,7 +785,7 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 * Adding night heat maps to show which routes are better/safer for night workouts
 * Adding new “Athlete Intelligence” feedback, akin to basic coaching feedback on activities
 
-Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+* Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
 
 ---
 # Musique
@@ -756,9 +793,8 @@ Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-fe
 * Pas un capteur mais plutôt l'exploitation d'informations
 * Améliore les performances
 
-Source : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281270/
-
-Méta analyse : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8167645/
+* Source : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281270/
+* Méta analyse : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8167645/
 
 ---
 # Utilisation pour le confort et la performance
@@ -766,7 +802,7 @@ Méta analyse : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8167645/
 * Passage de vitesses automatiques sur le vélo 
     * Capteur de puissance, capteur de cadence, vitesse et dérailleurs pilotés électroniquement (avec ou sans fils)
 
-Source : https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspendu-29-e-feel-900-s/_/R-p-330262
+* Source : https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspendu-29-e-feel-900-s/_/R-p-330262
 
 ---
 # Grade ajusted peace
@@ -815,8 +851,24 @@ https://www.youtube.com/watch?v=IoX-JUPvrwo
 
 ---
 # Des data pour le virtuel
-![slide-left width:500px](zwift1.jpg)
-![slide-right width:500px](zwift2.jpg)
+<div class="grid grid-cols-3 gap-2">
+
+<div>
+
+![width:500px](zwift1.jpg)
+
+</div>
+<div>
+
+![width:500px](zwift-run.jpg)
+
+</div>
+<div>
+
+![width:500px](zwift2.jpg)
+
+</div>
+</div>
 
 ---
 # Des data pour le virtuel
@@ -877,25 +929,25 @@ https://zwiftinsider.com/portal/la-turbie-col-deze/
 
 * Adding “AI-Enabled Leaderboard Integrity” to sniff out improbable uploads
 
-Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+* Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
 
 ---
 # Utilisation pour tricher
 
+* Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
+* https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
+* https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
+
+---
 * Gagner des courses virtuelles (et donc de cadeaux)
     * Des prix (comme des dossards, ou tirages au sort)
     * Des réductions (pour la revente)
     * Des contrats !
     * Des médailles ! (Demo)
 
----
 * Contre mesure
     * Double capteur de puissance (Différentes marques)
     * Double caméra (angles différents)
-
-* Source : Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
-* https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
-* https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
 
 ---
 # Fun
@@ -971,26 +1023,26 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 
 * Apprendre à se connaître, les informations et leurs analyse permettant d’accélérer et affiner le processus
 * Accepter car les informations sont instantanées
-* Affiner car analyser et on réduit la subjectivité 
+* Affiner, grâce à analyse,  on réduit la subjectivité 
 * https://www.garmin.com/fr-FR/blog/les-donnees-des-montres-connectees-garmin-mettent-en-evidence-les-bienfaits-de-la-course-a-pied-sur-la-sante/
 * https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
 
 ---
-<style scoped>ul { font-size: 29px; }</style>
+<style scoped>ul { font-size: 27px; }</style>
 
 # Conclusion
 
 * Capteurs
-    * Attention au contexte de capture !
+    * Attention au context de capture !
 * Analyse
-    * Encore une fois contexte
-    * Les combinaisons qui peuvent entrainer des biais
+    * Encore une fois context
+    * Les combinaisons qui peuvent entrainer des biais
 * Exploitation
-    * Pour la performance (ça c'est pour vendre)
-    * Pour le marketing (voir le point au dessus 😁)
+    * Pour la performance (ça c'est pour vendre)
+    * Pour le marketing (voir le point au dessus 😁)
     * La valeur réelle pour vous !
         * Pour se connaitre
-        * La prévention des blessures (l'utilisation majeure des pro)
+        * La prévention des blessures (l'utilisation majeure des pro)
 <!-- 
 Speaker notes : None
 -->
