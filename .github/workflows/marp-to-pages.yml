@@ -23,6 +23,7 @@ concurrency:
 
 jobs:
   build:
+    name: Build Marp HTML
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -44,7 +45,24 @@ jobs:
           args: slide.md -o build/index.html
         env:
           MARP_USER: root:root
+
+  publish:
+    name: Publish Marp slide HTML as artifact
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read    
+    steps:
+      - name: Zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: slides.zip
+          path: build/
+          compression-level: 9
+      
   deploy:
+    name: Deploy Marp slide HTML
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
