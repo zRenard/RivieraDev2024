@@ -45,14 +45,6 @@ jobs:
           args: slide.md -o build/index.html
         env:
           MARP_USER: root:root
-
-  publish:
-    name: Publish Marp slide HTML as artifact
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read    
-    steps:
       - name: Zip
         uses: actions/upload-artifact@v4
         with:
