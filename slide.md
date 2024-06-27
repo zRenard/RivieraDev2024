@@ -27,7 +27,7 @@ _footer: ""
 * Le PC serra different (PC perso avec logiciel camera)
 *  __Feedback Welcome__
     * Pas de correction orthographiques/tournures
-    * Les conclusions graph + slides ne sont pas finalise
+    * Les conclusions ne sont pas parfaites
     * Il y a encore quelques glitch de generations
 * Final QR will be updated with Riviera Dev Open Feedback
 ---
@@ -35,6 +35,7 @@ _footer: ""
 <!--
 _class: lead invert
 _paginate: skip
+_header: ""
 -->
 
 # Le triathlon de la data sportif
@@ -52,7 +53,8 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 
 * Sportif depuis 40 ans
 * Triathlète depuis un peu plus de 10 ans
-* ~200 courses réelles et virtuelles, toutes disciplines confondues. (Course à pied, trail, natation, triathlon, golf et autres trucs chelou)
+* ~200 courses réelles et virtuelles, toutes disciplines confondues.
+* Course à pied, cyclisme, natation, trail, triathlon, golf, tir et autres trucs chelou
 
 </div>
 <div>
@@ -96,7 +98,17 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 * Code mais fun
     * On peut faire quoi avec tout ça ?
 <!-- 
-Speaker notes : None
+50 min de talk
+
+30 min de presentation
+3 Axes
+* le materiels, les capteurs utilise
+* les data que ces capteurs nous fournisse
+* comment et pourquoi les montres, platformes utilisent ces donnes. Et ce que nous pouvons en tirer, ou les exploiter
+
+* Et en seconde partie, on regardera un peu de code dans ce sens.
+Cette partie durera 20 min de code/demos/questions
+
 -->
 
 ---
@@ -429,8 +441,9 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 ---
 ![bg right:30% ](core.jpg)
 # Capteur température
-* ![width:500px](temperature-abandon.jpg)
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
+* ![slide-left width:750px](temperature-perf.jpg)
+* ![slide-left width:600px](temperature-abandon.jpg)
 
 <!-- 
 * Impact important !
@@ -441,12 +454,16 @@ https://corebodytemp.com/products/core
 ![bg left:40% ](trackman2.jpg)
 # Radar/Lidar de Golf
 
-![width:400px](trackman1.jpg)
 * 40 paramètres
-* https://www.trackman.com/fr
+* Garmin
+* Trackman [![slide-right w:400px](trackman1.jpg) ](trackman1.jpg)
+* FlightScope [![slide-right w:400px](golf-data.jpg) ](golf-data.jpg)
 
 <!--
  -Pas d'interpretation
+ * Trackman, FlightScope
+ * https://www.trackman.com/fr
+ * Garmin Approach
 -->
 
 ---
@@ -466,11 +483,14 @@ https://corebodytemp.com/products/core
 ![bg left:30% ](garmin-golf.jpg)
 # Capteur de club de golf
 
-* Angle, vitesse, impact
-    [![](trueswing.jpg) ](trueswing.jpg)
+* Angles
+* Vitesse
+* Impact
+* TrueSwing [![slide-right w:280px](trueswing.jpg) ](trueswing.jpg)
 
+<!--
 * https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
-
+-->
 ---
 ![bg right:30%](bodyrocket.jpg)
 
@@ -737,16 +757,32 @@ Source : https://www.formswim.com/
 -->
 
 ---
-![bg left:40%](eolab.png)
+<style scoped>ul { font-size: 31px; }</style>
 
 # Eolab
+<div class="grid grid-cols-2 gap-2">
+<div>
 
-* Capteurs classiques (gyro, mouvements)
+* Capteurs classiques
+    * gyro
+    * mouvements
+    * Pression
 * https://www.eolab.com/swimbetter
-* Source : https://www.youtube.com/watch?v=uK8ao6-hpcY&ab_channel=eo
+* https://link.springer.com/article/10.1007/s00283-024-10339-0
+
+</div>
+<div>
+
+![width:500px drop-shadow:0,5px,5px,black](eolab.png)
 
 * ![slide-right w:400px drop-shadow:0,5px,5px,black](eolab1.png)
-* ![slide-right w:400px drop-shadow:0,5px,5px,black](eolab2.png)
+* ![slide-right w:600px drop-shadow:0,5px,5px,black](eolab2.png)
+
+</div>
+</div>
+<!--
+* Source : https://www.youtube.com/watch?v=uK8ao6-hpcY&ab_channel=eo
+-->
 
 ---
 # Balance connectée
@@ -873,7 +909,7 @@ https://www.youtube.com/watch?v=IoX-JUPvrwo
 # Des data pour le virtuel
 
 ![slide-right w:500px](tacx1.jpg)
-* Simulation du terrain (Plaques vibrantes)
+* Simulation du terrain (Plaques vibrantes + angles)
 * Simulation de la pente (+20% -10%)
 * Simulation du vent (48km/h !)
     ![w:600px](wahoo1.jpg)
@@ -885,16 +921,27 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 -->
 
 ---
-# Des data pour le virtuel
+# Des data pour le virtuel - Trackman, FlightScope, Garmin, TopTracer
+
+* ![slide-left w:500px](golf-sim.jpg)
+* ![slide-right w:500px](toptracer.jpg)
+
+<!--
+Video + donnee GPS nettoye
+-->
+
+---
+# Des data pour le virtuel - FulGaz, Tacx
 
 ![slide-left w:500px](fulgaz1.jpg)
 ![slide-right w:500px](fulgaz2.jpg)
+
 
 <!--
 Video + donnee GPS nettoye
 -->
 ---
-# Des data pour le virtuel
+# Des data pour le virtuel - Zwift
 <div class="grid grid-cols-3 gap-2">
 
 <div>
@@ -1038,6 +1085,7 @@ _class: lead invert
 * Analyseur de quantité de mitochondrie
 
 ---
+<style scoped>ul { font-size: 27px; }</style>
 
 # Les principaux bénéfices... pour vous
 
@@ -1045,13 +1093,12 @@ _class: lead invert
 
 <div>
 
-* Pour se connaitre
+* Pour apprendre à se connaître
+    * Les informations et leurs analyse permettant d’accélérer et affiner le processus
+    * On affine les entrainements et les sensations grace a des informations instantanées
+    * Retour immediat, correction et validation
+    * On reduit les bias du a la subjectivité
 
-* Pour sa santé/securite
-
-* Les pro
-    * Pour prévenir les blessures
-    * https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO
 
 </div>
 <div>
@@ -1063,69 +1110,45 @@ _class: lead invert
 
 <!--
 Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
+
+retour immediat, correction et validation.
 -->
 
 ---
-<style scoped>ul { font-size: 29px; }</style>
+<style scoped>ul { font-size: 27px; }</style>
 
-# Conclusion
+# Les principaux bénéfices... pour vous
 
-* Apprendre à se connaître, les informations et leurs analyse permettant d’accélérer et affiner le processus
-* Accepter car les informations sont instantanées
-* Affiner, grâce à analyse,  on réduit la subjectivité 
+* Pour sa santé/securite
+    * Surveillance, informer, alertes
+
+* Les pro
+    * Un peu pour trouver l'optimum de chacun
+    * Beaucoup pour prévenir les blessures
+
+* https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO
 * https://www.garmin.com/fr-FR/blog/les-donnees-des-montres-connectees-garmin-mettent-en-evidence-les-bienfaits-de-la-course-a-pied-sur-la-sante/
 * https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
 
 ---
 <style scoped>ul { font-size: 27px; }</style>
 
-# Conclusion
+# Resumé
 
 * Capteurs
     * Attention au context de capture !
 * Analyse
-    * Encore une fois context
+    * Encore une fois le context
     * Les combinaisons qui peuvent entrainer des biais
 * Exploitation
     * Pour la performance (ça c'est pour vendre)
     * Pour le marketing (voir le point au dessus 😁)
     * La valeur réelle pour vous !
-        * Pour se connaitre
+        * Pour se connaitre, la santé, la sécurité
         * La prévention des blessures (l'utilisation majeure des pro)
 <!-- 
 Speaker notes : None
 -->
----
-
-# Conclusion
-<div class="mermaid">
-mindmap
-  ((Data))
-    )Santé(
-    ::icon(fa-solid fa-house-medical)
-    )Securité(
-     ::icon(fa-solid fa-user-secret)
-    )Recherche(
-    ::icon(fa-solid fa-graduation-cap)
-    )Connaissance(
-    ::icon(fa fa-book)
-    )Performance(
-    ::icon(fa-solid fa-person-running)
-</div>
-
-
----
-
-# Conclusion
-<div class="mermaid">
-sankey-beta
-
-%% source,target, value
-Data,Sante,100
-Data,Connaissance,100
-Data,Recherche,50
-Data,Securite,25
-</div>
 
 ---
 # Création du triathlon
@@ -1184,4 +1207,36 @@ _footer: ""
 [1]: https://www.google.com
 
 
+
+---
+
+# Conclusion
+<div class="mermaid">
+mindmap
+  ((Data))
+    )Santé(
+    ::icon(fa-solid fa-house-medical)
+    )Securité(
+     ::icon(fa-solid fa-user-secret)
+    )Recherche(
+    ::icon(fa-solid fa-graduation-cap)
+    )Connaissance(
+    ::icon(fa fa-book)
+    )Performance(
+    ::icon(fa-solid fa-person-running)
+</div>
+
+
+---
+
+# Conclusion
+<div class="mermaid">
+sankey-beta
+
+%% source,target, value
+Data,Sante,100
+Data,Connaissance,100
+Data,Recherche,50
+Data,Securite,25
+</div>
 -->
