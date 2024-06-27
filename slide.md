@@ -8,8 +8,28 @@ class: invert
 paginate: true
 size: 16:9
 header: 'Le triathlon de la data sportif ![image](bg.jpg)'
-footer: '![w:130  drop-shadow](https://rivieradev.fr/static/images/logos/logo_RD_full_white.svg) 2024 - We''re not just coders - Denis Méline'
+footer: '![w:130  drop-shadow](https://rivieradev.fr/static/images/logos/logo_RD_full_white.svg) 2024 - We''re not just coders'
 
+---
+![bg blur:5px brightness:0.5](graphs/bg2.png)
+<!--
+_class: lead invert
+_paginate: skip
+_header: ""
+_footer: ""
+-->
+
+# Disclaimer
+* Duration 50min
+    * ~ 25 to 35 min slides
+    * 20 min Code demo (up to you to decide at the end)
+* Les demos serront differentes (setup + camera 4K/60fps)
+* Le PC serra different (PC perso avec logiciel camera)
+*  __Feedback Welcome__
+    * Pas de correction orthographiques/tournures
+    * Les conclusions graph + slides ne sont pas finalise
+    * Il y a encore quelques glitch de generations
+* Final QR will be updated with Riviera Dev Open Feedback
 ---
 ![bg blur:5px brightness:0.5](bg.jpg)
 <!--
@@ -37,9 +57,9 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 </div>
 <div>
 
-* ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
-* ![slide-right width:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
-* ![slide-right width:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
+* ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
+* ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
+* ![slide-right w:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
 
 </div>
 </div>
@@ -47,7 +67,7 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 ---
 ![bg right](falcon.jpg)
 ![bg right:40%](zx81.jpg)
-<style scoped>ul { font-size: 28px; }</style>
+<style scoped>ul { font-size: 27px; }</style>
 
 ### Whoooo are you hooowouuuh
 #### Denis Méline - Ingénieur informatique
@@ -56,18 +76,17 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 * DEA informatique théorique
 * 25 ans dans l'industrie
 * 20 ans à ![w:140 grayscale:1 invert:100% drop-shadow](https://amadeus.com/content/dam/amadeuswebevo/brand/amadeus/logos/amadeus-logo-dark-sky.png.transform/small/img.png)
-* Alpha test/contributeur de zwift, garmin, form, runalizer, smashrun, wahoo, decathlon, etc..
+* Alpha/beta/contributeur de zwift, garmin, form, runalizer, smashrun, wahoo, decathlon, etc..
 
 ---
-![bg left:20%](https://picsum.photos/720?image=29)
-<style scoped>ul { font-size: 24px; }</style>
+![bg left:30%](paysage2.jpg)
+<style scoped>ul { font-size: 27px; }</style>
 
 # Agenda
 
-* Capture
-    * Capteurs
-        * Precision
-        * Type
+* Capture -> Capteurs
+    * Precision
+    * Type
 * Analyse
     * Contexte
     * Paramètres
@@ -148,7 +167,8 @@ Contacteurs pour le vitesse vélo
 
 # Les capteurs "exotiques"
 
-* Luminosité/UV
+* Luminosité
+* UV
 * Lidar
 * Radar
 * Photos
@@ -157,6 +177,7 @@ Contacteurs pour le vitesse vélo
 <!-- 
 * Lidar *(Light Detection and Ranging - Ondes dans le spectre visible - Courte distance, tres précis)*
 * Radar *(Radio Detection and Ranging - Ondes electromagnetiques - Grande distance, peu précis)*
+* Luminosite : pour les ecrans mais aussi pour les feux velo ou meme frontale
 -->
 
 ---
@@ -359,6 +380,7 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 
 ---
 <style scoped>ul { font-size: 34px; }</style>
+
 ![bg left:30% ](moxy.jpg)
 # Oxymetre
 
@@ -375,10 +397,12 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 
 ---
 ![bg right:30% ](GatoradeSweat.png)
-# Capteur ??
+# Capteur .....
+
+![slide-center w:400px](questions.jpg)
 
 ---
-![bg left:30% ](GatoradeSweat-2.png)
+![bg right:30% ](GatoradeSweat-2.png)
 <style scoped>ul { font-size: 29px; }</style>
 # Capteur Sueur
 * Le but étant de minimiser la perte hydrique et minérale/electrolytes (majoritairement sodium, potassium, magnésium, zinc)
@@ -579,10 +603,10 @@ https://www.sciencetraining.io/
 <div class="grid grid-cols-2 gap-2">
 <div>
 
-* ![slide-left width:400px drop-shadow:0,5px,5px,black](gc1.png)
-* ![slide-left width:400px drop-shadow:0,5px,5px,black](gc2.png)
-* ![slide-left width:500px drop-shadow:0,5px,5px,black](gc3.png)
-* ![slide-left width:500px drop-shadow:0,5px,5px,black](gc4.png)
+* ![slide-left w:400px drop-shadow:0,5px,5px,black](gc1.png)
+* ![slide-left w:400px drop-shadow:0,5px,5px,black](gc2.png)
+* ![slide-left w:500px drop-shadow:0,5px,5px,black](gc3.png)
+* ![slide-left w:500px drop-shadow:0,5px,5px,black](gc4.png)
 
 </div>
 <div>
@@ -657,6 +681,16 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 </div>
 
 ---
+# Analyse avec les capteurs de mouvements
+* Equilibre
+* Efficacite de la foulee
+* Détection d’incident
+    * Avant pour les voitures si elles étaient renversées (Au US)
+
+<!--
+Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
+-->
+---
 # Lunette Engo
 <div class="grid grid-cols-2 gap-2">
 <div>
@@ -711,17 +745,17 @@ Source : https://www.formswim.com/
 * https://www.eolab.com/swimbetter
 * Source : https://www.youtube.com/watch?v=uK8ao6-hpcY&ab_channel=eo
 
-* ![slide-right width:400px drop-shadow:0,5px,5px,black](eolab1.png)
-* ![slide-right width:400px drop-shadow:0,5px,5px,black](eolab2.png)
+* ![slide-right w:400px drop-shadow:0,5px,5px,black](eolab1.png)
+* ![slide-right w:400px drop-shadow:0,5px,5px,black](eolab2.png)
 
 ---
 # Balance connectée
 <div class="grid grid-cols-2 gap-2">
 <div>
 
-* ![slide-left width:400px](withings.png)
-* ![slide-left width:550px](gc-balance.jpg)
-* ![slide-left width:550px](withings-bodyscan.jpg)
+* ![slide-left w:400px](withings.png)
+* ![slide-left w:550px](gc-balance.jpg)
+* ![slide-left w:550px](withings-bodyscan.jpg)
 
 </div>
 <div>
@@ -755,21 +789,10 @@ Source : https://www.formswim.com/
     * En complément des capteurs
 
 ---
-# Utilisation pour la securité
-
-* Détection d’incident
-    * Avant pour les voitures si elles étaient renversées (Au US)
-* Heat map de strava
-    * Les routes/chemins les plus empruntés/validés et securisés
-
-<!--
-Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
--->
----
 # HeatMap
 
-![slide-left width:400px](strava-heatmap.png)
-![slide-right width:650px](strava-heatmap-swim.png)
+![slide-left w:400px](strava-heatmap.png)
+![slide-right w:650px](strava-heatmap-swim.png)
 
 <!--
 Bias de selection : nombre de nageurs + nombre qui ont une montre
@@ -782,8 +805,10 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 ---
 # HeatMap
 
-* Adding night heat maps to show which routes are better/safer for night workouts
-* Adding new “Athlete Intelligence” feedback, akin to basic coaching feedback on activities
+* Les routes/chemins les plus empruntés/validés et securisés
+    * Utilisation des donnees des radars/lidar
+* HeatMap Nuit, pour les routes sure/pratique la nuit 
+* Nouvelle HeatMap contextualisee
 
 * Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
 
@@ -828,7 +853,7 @@ https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-l
 </div>
 <div>
 
-* ![slide-right width:120px](age.png)
+* ![slide-right w:120px](age.png)
 * ![slide-right w:700px](age-run.png)
 * ![slide-right w:700px](age-70-3.png)
 * ![slide-right w:700px](age-im.png)
@@ -846,9 +871,28 @@ https://www.youtube.com/watch?v=IoX-JUPvrwo
 
 ---
 # Des data pour le virtuel
-![slide-left width:500px](fulgaz1.jpg)
-![slide-right width:500px](fulgaz2.jpg)
 
+![slide-right w:500px](tacx1.jpg)
+* Simulation du terrain (Plaques vibrantes)
+* Simulation de la pente (+20% -10%)
+* Simulation du vent (48km/h !)
+    ![w:600px](wahoo1.jpg)
+
+<!--
+Manual Mode: Select from four speed settings to set you ideal airflow
+Speed Mode: Pair to KICKR or speed sensor to match fan speed to bike speed
+Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart rate goes up
+-->
+
+---
+# Des data pour le virtuel
+
+![slide-left w:500px](fulgaz1.jpg)
+![slide-right w:500px](fulgaz2.jpg)
+
+<!--
+Video + donnee GPS nettoye
+-->
 ---
 # Des data pour le virtuel
 <div class="grid grid-cols-3 gap-2">
@@ -869,6 +913,11 @@ https://www.youtube.com/watch?v=IoX-JUPvrwo
 
 </div>
 </div>
+
+<!--
+Inclus aussi le tapis de course
+Avec vitesse,distance, cadence et inclinaison
+-->
 
 ---
 # Des data pour le virtuel
@@ -927,7 +976,7 @@ https://zwiftinsider.com/portal/la-turbie-col-deze/
     * Vélo electrique à la place de vélo musculaire
     * Moto/voiture à la place de vélo
 
-* Adding “AI-Enabled Leaderboard Integrity” to sniff out improbable uploads
+* Bientot automatique ("AI-Enabled") pour nettoyer les activites incorrectes.
 
 * Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
 
@@ -970,7 +1019,7 @@ _class: lead invert
 # Conclusions
 
 ---
-# Evolutions
+# Evolutions des capteurs
 
 ### Bientôt (quelques mois)
 * Temperature peau + corps (avec capteur dedidé)
@@ -980,7 +1029,7 @@ _class: lead invert
 * Tension (avec capteur cardio)
 
 ---
-# Evolutions
+# Evolutions des analyses/exploitations
 
 ### Quelques années (pour le grand public)
 * Morphologique
@@ -998,7 +1047,7 @@ _class: lead invert
 
 * Pour se connaitre
 
-* Pour sa santé
+* Pour sa santé/securite
 
 * Les pro
     * Pour prévenir les blessures
@@ -1091,10 +1140,10 @@ Data,Securite,25
 </div>
 <div>
 
-* ![slide-right width:500px](im1.jpg)
-* ![slide-right width:500px](im2.jpg)
-* ![slide-right width:550px](im3.jpg)
-* ![slide-right width:400px](im4.jpg)
+* ![slide-right w:500px](im1.jpg)
+* ![slide-right w:500px](im2.jpg)
+* ![slide-right w:550px](im3.jpg)
+* ![slide-right w:400px](im4.jpg)
 
 </div>
 </div>

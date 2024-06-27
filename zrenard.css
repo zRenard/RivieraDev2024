@@ -16,3 +16,10 @@ img[alt~="slide-left"] {
     top: 230px;
     left: 30px;
   }
+
+  img[alt~="slide-center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
