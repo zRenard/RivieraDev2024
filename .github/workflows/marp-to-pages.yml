@@ -36,8 +36,11 @@ jobs:
       - name: Ensure build dir exists
         run: mkdir -p build
 
-      - name: Copy images directory (if exists)
-        run: if [[ -d img ]]; then cp -R img build/img; fi
+      - name: Copy jpg images to build
+        run: cp *.jpg build/
+
+      - name: Copy png images to build
+        run: cp *.png build/
 
       - name: Marp Build (slides)
         uses: docker://marpteam/marp-cli:v3.0.2
@@ -48,7 +51,7 @@ jobs:
       - name: Zip
         uses: actions/upload-artifact@v4
         with:
-          name: slides.zip
+          name: slides
           path: build/
           compression-level: 9
       
