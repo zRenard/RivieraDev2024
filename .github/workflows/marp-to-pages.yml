@@ -54,6 +54,7 @@ jobs:
           name: slides
           path: build/
           compression-level: 9
+          retention-days: 5
       
   deploy:
     name: Deploy Marp slide HTML
