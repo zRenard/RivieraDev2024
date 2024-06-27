@@ -641,9 +641,18 @@ https://www.sciencetraining.io/
 # Prediction de course
 
 ![ w:400px](predi.png)
-* Top ! … pas si sûr 
+* Top ! Mais...
 * Multiples méthodes (Dave Cameron, Pete Riegel, Robert Bock (CPP), Herbert Steffny)
 * On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
+
+<!--
+C'est bien d'avoir la FCRec, ca donne une idee de la capacité en encaisser la seances
+si >50BPM entre FCMax et FCRec, la sceance a bien etait assimiler.
+Mais on peut faire mieux, par exemple, la FCRecuperation permet de calculer les predictions de course.
+
+Idem pour le triathlon :
+https://www.nature.com/articles/s41598-023-38181-y.pdf
+-->
 
 ---
 ![bg left:30%](vo2max.jpg)
@@ -652,15 +661,13 @@ https://www.sciencetraining.io/
 
 * Vo2Max = La consommation maximale d'oxygène que l'organisme peut absorber lors d'un effort physique intense
 * En réalité -> Prédiction de Vo2Max
-* Excellent ?
-* Pas si sûr...
+* Excellent ! Mais...
 * L'algorithme de calcul -> Firstbeat, secret déso 😅
     * Age, poids, cardio, ...
 
 <!--
 https://www.youtube.com/watch?v=rMLYizEoVBI
 https://www.youtube.com/watch?v=u-5UOPwCWHk
-https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 -->
 
 ---
@@ -679,8 +686,6 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 </div>
 
 <!--
-https://www.youtube.com/watch?v=rMLYizEoVBI
-https://www.youtube.com/watch?v=u-5UOPwCWHk
 https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 -->
 
@@ -703,10 +708,11 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 ---
 # Analyse avec les capteurs de mouvements
 * Equilibre
-* Efficacite de la foulee
+* Longeur de foulée
+* Efficacite de la foulée
 * Détection d’incident
     * Avant pour les voitures si elles étaient renversées (Au US)
-* Invitation a bouger (meme apres un marathon 😅)
+* Invitation à bouger (même 2h après un marathon 😅)
 
 <!--
 Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
@@ -901,6 +907,10 @@ https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-l
 </div>
 </div>
 
+<!--
+Plus on est vieux, plus on est bon pour l'endurance : Nop
+https://www.triathlete.com/culture/news/data-dive-finishing-times-dnf-rates-and-more-stats-from-the-ironman-world-championship-st-george/
+-->
 ---
 # Wind adjusted pace ?
 
@@ -1086,8 +1096,18 @@ _class: lead invert
 * Morphologique
 * Physiologique
 * Métabolique
-* Analyseur de quantité de mitochondrie
+* Exemple : Analyseur de quantité de mitochondrie
+    * Organite utilisant l'oxydation du glucose et des acides gras pour produire de l'ATP. (= énergie)
+    * Optimisation des apports des nutriments.
 
+<!--
+Aerobie = >quelques minutes = respiration cellulaire
+Anaerobie < 1 minute
+Programme de SVT de Terminale : https://www.kartable.fr/ressources/svt/cours/la-production-datp/53709
+Le prise d'EPO (érythropoïétine) permet de stimuler la fabrication des érythrocytes (= hématies) et donc d'augmenter l'oxygénation des muscles.
+
+Source : https://doctonat.com/renforcer-augmenter-mitochondrie/
+-->
 ---
 <style scoped>ul { font-size: 27px; }</style>
 
