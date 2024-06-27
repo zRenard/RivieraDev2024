@@ -442,8 +442,8 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 ![bg right:30% ](core.jpg)
 # Capteur température
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
-* ![slide-left width:750px](temperature-perf.jpg)
-* ![slide-left width:600px](temperature-abandon.jpg)
+* ![slide-left  w:750px](temperature-perf.jpg)
+* ![slide-left  w:600px](temperature-abandon.jpg)
 
 <!-- 
 * Impact important !
@@ -631,8 +631,8 @@ https://www.sciencetraining.io/
 </div>
 <div>
 
-* ![width:400px drop-shadow:0,5px,5px,black](comprendsrien.gif)
-* ![width:400px drop-shadow:0,5px,5px,black](sertarien.png)
+* ![ w:400px drop-shadow:0,5px,5px,black](comprendsrien.gif)
+* ![ w:400px drop-shadow:0,5px,5px,black](sertarien.png)
 
 </div>
 </div>
@@ -640,7 +640,7 @@ https://www.sciencetraining.io/
 ---
 # Prediction de course
 
-![width:400px](predi.png)
+![ w:400px](predi.png)
 * Top ! … pas si sûr 
 * Multiples méthodes (Dave Cameron, Pete Riegel, Robert Bock (CPP), Herbert Steffny)
 * On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
@@ -689,13 +689,13 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 <div class="grid grid-cols-2 gap-0">
 <div>
 
-![width:500px drop-shadow:0,5px,5px,black](gc-mvt1.jpg)
-![width:380px drop-shadow:0,5px,5px,black](gc-mvt2.jpg)
+![ w:500px drop-shadow:0,5px,5px,black](gc-mvt1.jpg)
+![ w:380px drop-shadow:0,5px,5px,black](gc-mvt2.jpg)
 
 </div>
 <div>
 
-![width:500px drop-shadow:0,5px,5px,black](gc-sommeil.jpg)
+![ w:500px drop-shadow:0,5px,5px,black](gc-sommeil.jpg)
 
 </div>
 </div>
@@ -706,9 +706,11 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 * Efficacite de la foulee
 * Détection d’incident
     * Avant pour les voitures si elles étaient renversées (Au US)
+* Invitation a bouger (meme apres un marathon 😅)
 
 <!--
 Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
+Inivatio a bouger, on verra ca dans la partie code aussi.
 -->
 ---
 # Lunette Engo
@@ -722,8 +724,8 @@ Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais sig
 </div>
 <div>
 
-![width:500px drop-shadow:0,5px,5px,black](engo.png)
-![width:300px drop-shadow:0,5px,5px,black](engo2.png)
+![ w:500px drop-shadow:0,5px,5px,black](engo.png)
+![ w:300px drop-shadow:0,5px,5px,black](engo2.png)
 
 </div>
 </div>
@@ -738,13 +740,13 @@ Source : https://fr.engoeyewear.com/produits/engo-2
 <div class="grid grid-cols-2 gap-2">
 <div>
 
-![width:500px drop-shadow:0,5px,5px,black](form.png)
-![width:250px drop-shadow:0,5px,5px,black](form2.png)
+![ w:500px drop-shadow:0,5px,5px,black](form.png)
+![ w:250px drop-shadow:0,5px,5px,black](form2.png)
 
 </div>
 <div>
 
-* Capteurs classiques (gyro, mouvements)
+* Capteurs classiques (gyros, mouvements)
 * Combinaison avec des capteurs existants
     * Depuis la montre
     * Depuis un capteur externe (cardio)
@@ -764,16 +766,18 @@ Source : https://www.formswim.com/
 <div>
 
 * Capteurs classiques
-    * gyro
-    * mouvements
-    * Pression
+    * Capteurs de mouvements
+        * Gyroscope
+        * Gyrometre
+        * Accelerometres
+    * Pressions (sur et sous la main)
 * https://www.eolab.com/swimbetter
 * https://link.springer.com/article/10.1007/s00283-024-10339-0
 
 </div>
 <div>
 
-![width:500px drop-shadow:0,5px,5px,black](eolab.png)
+![ w:500px drop-shadow:0,5px,5px,black](eolab.png)
 
 * ![slide-right w:400px drop-shadow:0,5px,5px,black](eolab1.png)
 * ![slide-right w:600px drop-shadow:0,5px,5px,black](eolab2.png)
@@ -810,7 +814,7 @@ Source : https://www.formswim.com/
 
 ---
 # Gourde intelligente
-![width:500px](gourde.png)
+![ w:500px](gourde.png)
 
 ---
 ![bg right:30% ](bikefit.png)
@@ -946,17 +950,17 @@ Video + donnee GPS nettoye
 
 <div>
 
-![width:500px](zwift1.jpg)
+![ w:500px](zwift1.jpg)
 
 </div>
 <div>
 
-![width:500px](zwift-run.jpg)
+![ w:500px](zwift-run.jpg)
 
 </div>
 <div>
 
-![width:500px](zwift2.jpg)
+![ w:500px](zwift2.jpg)
 
 </div>
 </div>
@@ -973,17 +977,17 @@ Avec vitesse,distance, cadence et inclinaison
 
 <div>
 
-![width:380px](zwift3.jpg)
+![ w:380px](zwift3.jpg)
 
 </div>
 <div>
 
-![width:400px](zwift5.jpg)
+![ w:400px](zwift5.jpg)
 
 </div>
 <div>
 
-![width:400px](zwift4.jpg)
+![ w:400px](zwift4.jpg)
 
 </div>
 </div>
@@ -1103,7 +1107,7 @@ _class: lead invert
 </div>
 <div>
 
-![width:500px](enfants.jpg)
+![ w:500px](enfants.jpg)
 
 </div>
 </div>
