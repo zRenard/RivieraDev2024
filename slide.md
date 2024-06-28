@@ -23,8 +23,8 @@ _footer: ""
 * Duration 50min
     * ~ 25 to 35 min slides
     * 20 min Code demo (up to you to decide at the end)
-* Les demos serront differentes (setup + camera 4K/60fps)
-* Le PC serra different (PC perso avec logiciel camera)
+    * Variable en fonction de la partie code
+* Le setup serra differnts (PC perso, Demos, camera, live pulse)
 *  __Feedback Welcome__
     * Pas de correction orthographiques/tournures
     * Les conclusions ne sont pas parfaites
@@ -77,7 +77,7 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 * Codeur depuis 45 ans
 * DEA informatique théorique
 * 25 ans dans l'industrie
-* 20 ans à ![w:140 grayscale:1 invert:100% drop-shadow](https://amadeus.com/content/dam/amadeuswebevo/brand/amadeus/logos/amadeus-logo-dark-sky.png.transform/small/img.png)
+* 20 ans à ![w:140 grayscale:1 invert:100% drop-shadow](1a.png)
 * Alpha/beta/contributeur de zwift, garmin, form, runalizer, smashrun, wahoo, decathlon, etc..
 
 ---
@@ -716,7 +716,9 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 
 <!--
 Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
-Inivatio a bouger, on verra ca dans la partie code aussi.
+Pour le sport, le context est important.
+Bizarement, pour le VTT, la detection d'incident est desactiver.
+Inivation a bouger, on verra ca dans la partie code aussi.
 -->
 ---
 # Lunette Engo
