@@ -10,26 +10,7 @@ size: 16:9
 header: 'Le triathlon de la data sportif ![image](bg.jpg)'
 footer: '![w:130  drop-shadow](https://rivieradev.fr/static/images/logos/logo_RD_full_white.svg) 2024 - We''re not just coders'
 
----
-![bg blur:5px brightness:0.5](graphs/bg2.png)
-<!--
-_class: lead invert
-_paginate: skip
-_header: ""
-_footer: ""
--->
 
-# Disclaimer
-* Duration 50min
-    * ~ 25 to 35 min slides
-    * 20 min Code demo (up to you to decide at the end)
-    * Variable en fonction de la partie code
-* Le setup serra differnts (PC perso, Demos, camera, live pulse)
-*  __Feedback Welcome__
-    * Pas de correction orthographiques/tournures
-    * Les conclusions ne sont pas parfaites
-    * Il y a encore quelques glitch de generations
-* Final QR will be updated with Riviera Dev Open Feedback
 ---
 ![bg blur:5px brightness:0.5](bg.jpg)
 <!--
@@ -589,6 +570,7 @@ https://www.runtastic.com/ (Adidas)
 https://beta.trainasone.com/ (Hoka)
 https://www.nike.com/nrc-app (Nike)
 https://runkeeper.com/ (Asics)
+https://www.mapmyrun.com/ (UnderArmor)
 
 </div>
 </div>
@@ -1209,6 +1191,28 @@ _footer: ""
 ![](qrcode_blog.zrenard.com.png)
 
 <!--
+
+
+---
+![bg blur:5px brightness:0.5](graphs/bg2.png)
+<!--
+_class: lead invert
+_paginate: skip
+_header: ""
+_footer: ""
+
+# Disclaimer
+* Duration 50min
+    * ~ 25 to 35 min slides
+    * 20 min Code demo (up to you to decide at the end)
+    * Variable en fonction de la partie code
+* Le setup serra differnts (PC perso, Demos, camera, live pulse)
+*  __Feedback Welcome__
+    * Pas de correction orthographiques/tournures
+    * Les conclusions ne sont pas parfaites
+    * Il y a encore quelques glitch de generations
+* Final QR will be updated with Riviera Dev Open Feedback
+
 ---
 # Tableau
 
