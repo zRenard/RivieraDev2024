@@ -2,5 +2,6 @@
     "markdown.marp.themes": [
         "./zrenard.css"
     ],
-    "markdown.marp.enableHtml": true
+    "markdown.marp.enableHtml": true,
+    "cSpell.language": "fr"
 }

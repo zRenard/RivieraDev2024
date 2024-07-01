@@ -39,18 +39,18 @@ https://github.com/zRenard/RivieraDev2024
     * Capteurs
 * Analyse
     * Les informations fournies par ces capteurs
-* Quantifier (plutôt utiliser/expoiter)
-    * Les interpertations de ces informations
-* Code (Leger)
+* Quantifier (plutôt utiliser/exploiter)
+    * Les interprétations de ces informations
+* Code (Léger)
     * https://github.com/zRenard
 <!-- 
 50 min de talk
 
 30 min de presentation
 3 Axes
-* le materiels, les capteurs utilise
+* le matériel, les capteurs utilise
 * les data que ces capteurs nous fournisse
-* Xomment et pourquoi les montres, platformes utilisent ces donnes. Et ce que nous pouvons en tirer, ou les exploiter
+* Comment et pourquoi les montres, plateformes utilisent ces donnes. Et ce que nous pouvons en tirer, ou les exploiter
     * Utilisation personnelle
     * Exploitations marketing
 
@@ -149,13 +149,13 @@ Contacteurs pour le vitesse vélo
 * UV
 * Lidar
 * Radar
-* Photos/Videos
+* Photos/Vidéos
 * Balance (Poids, masse hydrique, masse osseuse, etc...)
-* Débitmétre
+* Débitmètre
 <!-- 
-* Lidar *(Light Detection and Ranging - Ondes dans le spectre visible - Courte distance, tres précis)*
-* Radar *(Radio Detection and Ranging - Ondes electromagnetiques - Grande distance, peu précis)*
-* Luminosite : pour les ecrans mais aussi pour les feux velo ou meme frontale
+* Lidar *(Light Detection and Ranging - Ondes dans le spectre visible - Courte distance, très précis)*
+* Radar *(Radio Detection and Ranging - Ondes électromagnétiques - Grande distance, peu précis)*
+* Luminosité : pour les écrans mais aussi pour les feux vélo ou même frontale
 -->
 
 ---
@@ -178,10 +178,10 @@ Juste du nettoyage, raffinement
 * Context de capture
     * Sommeil
     * Course à pied, vélo, natation
-* Frequence d'échantillonage
+* Fréquence d’échantillonnage
 * Type
     * Optique
-    * Electrique
+    * Électrique
 * FCMax, FCRec, Variabilité cardiaque (VFC)
 
 <!--
@@ -189,7 +189,7 @@ Juste du nettoyage, raffinement
 
 * FCMax
 * FCRecuperation
-    * 2min apres FCMax
+    * 2min après FCMax
 * VFCRepos
     * Calcul VFC la nuit
 * Variabilité cardiaque (VFC)
@@ -202,14 +202,14 @@ Juste du nettoyage, raffinement
 
 * Context de capture
     * Course à pied, vélo, natation
-* Frequence d'échantillonage
+* Fréquence d’échantillonnage
 * L'ajout de capteurs correctif/amélioratif
     * altimètre
     * baromètre
     * podomètre
 * Cartes (navigation, retour maison ...)
 <!-- 
-Par exemple dans le sport mecaniques, la frequence d'echantillonage est importante, on peut rater quelques metres de precisions uniquement due à la vitesse
+Par exemple dans le sport mécanique, la fréquence d’échantillonnage est importante, on peut rater quelques mètres de précisions uniquement due à la vitesse
 -->
 
 ---
@@ -219,8 +219,8 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 <div>
 
 * Watts
-* Puissance specifique W/kg
-* L'equivalent du cardio mais pour le velo
+* Puissance spécifique W/kg
+* l’équivalent du cardio mais pour le vélo
 
 </div>
 <div>
@@ -235,7 +235,7 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 
 ---
 ![bg right:30% ](gears.jpg)
-# Vitesse electrique
+# Vitesse électrique
 * Shimano (filaire)
 * SRAM (sans fils)
 * Position du plateau, des pignons
@@ -247,12 +247,12 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 ![bg left:50% ](radar2.jpg)
 ![bg ](radar1.jpg)
 ![bg ](radar3.jpg)
-# Radar velo
+# Radar vélo
 * Garmin, iGP, Wahoo, Sigma
-* Pour la securite
-    * Changement de l'eclairage
-    * Detection des vehicules et leur type
-    * Detection des vitesses des vehicules
+* Pour la sécurité
+    * Changement de l’éclairage
+    * Detection des véhicules et leur type
+    * Detection des vitesses des véhicules
 
 ---
 
@@ -263,7 +263,7 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
     * https://www.supersapiens.com/fr-FR/
 * Demo
     [![w:430px](supersapiens2.jpg) ](supersapiens2.jpg)
-* Mainteant interdit en compétition
+* Maintenant interdit en compétition
 <!-- 
 -->
 
@@ -271,7 +271,7 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 <style scoped>ul { font-size: 34px; }</style>
 
 ![bg left:30% ](moxy.jpg)
-# Oxymetre
+# Oxymètre
 
 * Moxy
     * % SmO2 (skeletal muscle oxygen saturation)
@@ -293,7 +293,7 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 ![bg right:30% ](GatoradeSweat-2.png)
 <style scoped>ul { font-size: 29px; }</style>
 # Capteur Sueur
-* Le but étant de minimiser la perte hydrique et minérale/electrolytes (majoritairement sodium, potassium, magnésium, zinc)
+* Le but étant de minimiser la perte hydrique et minérale/électrolytes (majoritairement sodium, potassium, magnésium, zinc)
 * Limite d'absorption (à l'effort) ~ 400/500ml/h
 * Santé (Crampes,Nausées,Confusion)
 * https://hdroptech.com/
@@ -323,7 +323,7 @@ https://corebodytemp.com/products/core
 * TrueSwing [![slide-right w:280px](trueswing.jpg) ](trueswing.jpg)
 
 <!--
- -Pas d'interpretation
+ -Pas d’interprétation
  * Trackman, FlightScope
  * https://www.trackman.com/fr
  * Garmin Approach
@@ -338,7 +338,7 @@ https://corebodytemp.com/products/core
     * Pour le confort (et la perf)
 * Pression pneus
     * Pour la sécurité (et la perf)
-* Aero en temps reel
+* Traînée Aérodynamique en temps réel
     * Multiples capteurs (dont pression de l'air)
     * Optimisation pour les pros
 
@@ -350,8 +350,8 @@ https://corebodytemp.com/products/core
     * https://www.bodyrocket.cc/how-does-it-work
 
 Body Rocket utilise une combinaison de plusieurs capteurs
-Puissance, Pression de l'air, vitesse du vent, vitesse, accelération, inclinaison, poids pour 
-fournir un coefficient en temps reel.
+Puissance, Pression de l'air, vitesse du vent, vitesse, accélération, inclinaison, poids pour 
+fournir un coefficient en temps réel.
 -->
 
 ---
@@ -382,13 +382,13 @@ _class: lead invert
 ![bg left](tl1.png)
 ![bg right:50%](tl2.jpg)
 
-# Le journal d'entrainement (Training log)
+# Le journal d’entraînement (Training log)
 * Papier
 * En ligne
 * Application
 
 <!--
-Y a 40 ans, FC avant, 1500m, FC, puis 2min apres FC
+Y a 40 ans, FC avant, 1500m, FC, puis 2min après FC
 -->
 
 ---
@@ -418,7 +418,7 @@ https://app.campus.coach/
 ##### Constructeurs (voir plus loin)
 https://connect.garmin.com/
 https://flow.polar.com/
-Application mobile suunto
+Application mobile Suunto
 </div>
 <div>
 
@@ -433,7 +433,7 @@ https://www.mapmyrun.com/ (UnderArmor)
 </div>
 
 ---
-# Platformes
+# Plateformes
 
 ##### AI (Bien sûr !)
 https://en.run-motion.com/
@@ -444,7 +444,7 @@ https://www.sciencetraining.io/
 ---
 <style scoped>ul { font-size: 32px; }</style>
 
-# Platformes
+# Plateformes
 * Certaines métriques sont subjectives et/ou manuelle
     * Très facile -> très difficile
     * Sensation : Horrible -> très fort
@@ -457,7 +457,7 @@ https://www.sciencetraining.io/
 * Démo : Runalyze (https://runalyze.com/)
 -->
 ---
-# Resultats
+# Résultats
 
 <div class="grid grid-cols-2 gap-2">
 <div>
@@ -479,17 +479,30 @@ https://www.sciencetraining.io/
 ---
 # Analyse Cardio - Prediction de course
 
-![ w:400px](predi.png)
+<div class="grid grid-cols-2 gap-1">
+<div>
+
 * Multiples méthodes (Dave Cameron, Pete Riegel, Robert Bock (CPP), Herbert Steffny)
-* On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
+* Avec multiples métriques (FCMax, FRec, courses précédentes, etc.. )
+
+</div>
+<div>
+
+![w:400px](predi.png)
+![w:300px](predi2.jpg)
+
+</div>
+</div>
 
 <!--
-C'est bien d'avoir la FCRec, ca donne une idee de la capacité en encaisser la seances
-si >50BPM entre FCMax et FCRec, la sceance a bien etait assimiler.
+C'est bien d'avoir la FCRec, ca donne une idée de la capacité en encaisser la séances
+si >50BPM entre FCMax et FCRec, la séance a bien était assimiler.
 Mais on peut faire mieux, par exemple, la FCRecuperation permet de calculer les predictions de course.
 
 Idem pour le triathlon :
 https://www.nature.com/articles/s41598-023-38181-y.pdf
+
+* On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
 -->
 
 ---
@@ -532,10 +545,10 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 <div class="grid grid-cols-2 gap-0">
 <div>
 
-* Qualite du sommeil ![slide-right w:600px drop-shadow:0,5px,5px,black](gc-sommeil.jpg)
-* Equilibre ![slide-right w:600px drop-shadow:0,5px,5px,black](gc-mvt1.jpg)
-* Longeur de foulée
-* Efficacite de la foulée ![slide-right w:580px drop-shadow:0,5px,5px,black](gc-mvt2.jpg)
+* Qualité du sommeil ![slide-right w:600px drop-shadow:0,5px,5px,black](gc-sommeil.jpg)
+* Équilibre ![slide-right w:600px drop-shadow:0,5px,5px,black](gc-mvt1.jpg)
+* Longueur de foulée
+* Efficacité de la foulée ![slide-right w:580px drop-shadow:0,5px,5px,black](gc-mvt2.jpg)
 * Détection d’incident
 * Invitation à bouger/boire
 
@@ -549,8 +562,8 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 * Avant pour les voitures si elles étaient renversées (Au US)
 Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
 Pour le sport, le context est important.
-Bizarement, pour le VTT, la detection d'incident est desactiver.
-Inivation a bouger, on verra ca dans la partie code aussi.
+Bizarrement, pour le VTT, la detection d'incident est désactiver.
+Invitation à bouger, on verra ca dans la partie code aussi.
 * Invitation à bouger (même 2h après un marathon 😅)
 -->
 ---
@@ -558,9 +571,9 @@ Inivation a bouger, on verra ca dans la partie code aussi.
 <div class="grid grid-cols-2 gap-2">
 <div>
 
-* Uniquement écran deporté
+* Uniquement écran déporté
 * Aucun capteur
-    * enfin si, capteur de luminosite pour ajuster l'écran, mais aucune data produite
+    * enfin si, capteur de luminosité pour ajuster l'écran, mais aucune data produite
 * Démo
 </div>
 <div>
@@ -571,7 +584,7 @@ Inivation a bouger, on verra ca dans la partie code aussi.
 </div>
 </div>
 <!--
-Retour direct permet l'ajustement en temps reel
+Retour direct permet l'ajustement en temps réel
 
 Source : https://fr.engoeyewear.com/produits/engo-2
 -->
@@ -593,7 +606,7 @@ Source : https://fr.engoeyewear.com/produits/engo-2
 * Combinaison avec des capteurs existants
     * Depuis la montre
     * Depuis un capteur externe (cardio)
-* Autorisée en competition !
+* Autorisée en compétition !
 * Démo
 </div>
 </div>
@@ -610,9 +623,9 @@ Source : https://www.formswim.com/
 
 * Capteurs classiques
     * Capteurs de mouvements
-        * Gyroscope
-        * Gyrometre
-        * Accelerometres
+        * Gyroscopes
+        * Gyromètres
+        * Accéléromètres
     * Pressions (sur et sous la main)
 * https://www.eolab.com/swimbetter
 * https://link.springer.com/article/10.1007/s00283-024-10339-0
@@ -634,14 +647,14 @@ Source : https://www.formswim.com/
 ---
 ![bg right:30% ](bikefit.png)
 
-# Photos et videos
+# Photos et vidéos
 * Positionnement
     * Sur le vélo
     * Golf
     * Natation
 * Confort
 * Optimisation de l'aero
-    * Synchronization avec les capteurs aero
+    * Synchronisation avec les capteurs aero
 
 ---
 # HeatMap
@@ -801,7 +814,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 
 ---
 
-# Data poisonning
+# La empoisonnement des données
 
 <div class="grid grid-cols-2 gap-2">
 
@@ -889,6 +902,8 @@ Anaerobie < 1 minute
 Programme de SVT de Terminale : https://www.kartable.fr/ressources/svt/cours/la-production-datp/53709
 Le prise d'EPO (érythropoïétine) permet de stimuler la fabrication des érythrocytes (= hématies) et donc d'augmenter l'oxygénation des muscles.
 
+https://www.nakan.ch/wp/2024/03/27/podcast-s02-e02-des-donnees-cest-bien-une-strategie-qui-les-utilise-cest-mieux/
+
 Source : https://doctonat.com/renforcer-augmenter-mitochondrie/
 -->
 ---
@@ -969,84 +984,3 @@ _footer: ""
 # Merci !
 ![](qrcode_openfeedback.io.png)
 https://openfeedback.io/rivieradev24/0/256
-
-<!--
-
-
----
-![bg blur:5px brightness:0.5](graphs/bg2.png)
-<!--
-_class: lead invert
-_paginate: skip
-_header: ""
-_footer: ""
-
-# Disclaimer
-* Duration 50min
-    * ~ 25 to 35 min slides
-    * 20 min Code demo (up to you to decide at the end)
-    * Variable en fonction de la partie code
-* Le setup serra differnts (PC perso, Demos, camera, live pulse)
-*  __Feedback Welcome__
-    * Pas de correction orthographiques/tournures
-    * Les conclusions ne sont pas parfaites
-    * Il y a encore quelques glitch de generations
-* Final QR will be updated with Riviera Dev Open Feedback
-
----
-# Tableau
-
-
-
-| Titre 1       |     Titre 2     |        Titre 3 |
-| :------------ | :-------------: | -------------: |
-| Colonne       |     Colonne     |        Colonne |
-| Alignée à     |   Alignée au    |      Alignée à |
-| Gauche        |     Centre      |         Droite |
-
-
----
-
-<!-- _footer: "1. www.google.com" -->
-
-<!--
-# Slide 2
-
-- Footnote and superscript link <sup>[1][1]</sup>.
-
-[1]: https://www.google.com
-
-
-
----
-
-# Conclusion
-<div class="mermaid">
-mindmap
-  ((Data))
-    )Santé(
-    ::icon(fa-solid fa-house-medical)
-    )Securité(
-     ::icon(fa-solid fa-user-secret)
-    )Recherche(
-    ::icon(fa-solid fa-graduation-cap)
-    )Connaissance(
-    ::icon(fa fa-book)
-    )Performance(
-    ::icon(fa-solid fa-person-running)
-</div>
-
-
----
-
-# Conclusion
-<div class="mermaid">
-sankey-beta
-
-%% source,target, value
-Data,Sante,100
-Data,Connaissance,100
-Data,Recherche,50
-Data,Securite,25
-</div>
--->
