@@ -207,7 +207,7 @@ Juste du nettoyage, raffinement
     * altimètre
     * baromètre
     * podomètre
-
+* Cartes (navigation, retour maison ...)
 <!-- 
 Par exemple dans le sport mecaniques, la frequence d'echantillonage est importante, on peut rater quelques metres de precisions uniquement due à la vitesse
 -->
@@ -947,16 +947,13 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 
 <div>
 
-* 18 Février 1978
-* Pas de capteurs, même pas de matériel dédié … et des temps excellents !
+* 18 Février 1978 ![slide-right w:600px](im1.jpg)
+* Pas de capteurs ![slide-right w:600px](im2.jpg)
+* Pas de matériel dédié  ![slide-right w:700px](im3.jpg)
+* Et des temps excellents ! ![slide-right w:400px](im4.jpg)
 
 </div>
 <div>
-
-* ![slide-right w:500px](im1.jpg)
-* ![slide-right w:500px](im2.jpg)
-* ![slide-right w:550px](im3.jpg)
-* ![slide-right w:400px](im4.jpg)
 
 </div>
 </div>
