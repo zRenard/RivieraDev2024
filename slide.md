@@ -966,6 +966,7 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 * Pas de capteurs ![slide-right w:600px](im2.jpg)
 * Pas de matériel dédié  ![slide-right w:700px](im3.jpg)
 * Et des temps excellents ! ![slide-right w:400px](im4.jpg)
+* Puis après ça a glissé ![slide-right w:400px](l.jpg)
 
 </div>
 <div>
