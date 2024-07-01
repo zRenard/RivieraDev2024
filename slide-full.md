@@ -8,7 +8,7 @@ class: invert
 paginate: true
 size: 16:9
 header: 'Le triathlon de la data sportif ![image](bg.jpg)'
-footer: '![w:130  drop-shadow](logo_RD_full_white.svg) 2024 - We''re not just coders'
+footer: '![w:130  drop-shadow](https://rivieradev.fr/static/images/logos/logo_RD_full_white.svg) 2024 - We''re not just coders'
 
 
 ---
@@ -18,46 +18,9 @@ _class: lead invert
 _paginate: skip
 _header: ""
 -->
-<style scoped>span { font-size: 26px; }</style>
+
 # Le triathlon de la data sportif
 Capture / Analyse / ~~Quantify~~ Exploitation
-
-https://github.com/zRenard/RivieraDev2024
-
-*Enregistrement video*
-
-<!--
-* Enregistrement si ca marche ?
--->
----
-![bg left:30%](paysage2.jpg)
-<style scoped>ul { font-size: 27px; }</style>
-
-# Agenda
-
-* Capture
-    * Capteurs
-* Analyse
-    * Les informations fournies par ces capteurs
-* Quantifier (plutôt utiliser/expoiter)
-    * Les interpertations de ces informations
-* Code (Leger)
-    * https://github.com/zRenard
-<!-- 
-50 min de talk
-
-30 min de presentation
-3 Axes
-* le materiels, les capteurs utilise
-* les data que ces capteurs nous fournisse
-* Xomment et pourquoi les montres, platformes utilisent ces donnes. Et ce que nous pouvons en tirer, ou les exploiter
-    * Utilisation personnelle
-    * Exploitations marketing
-
-* Et en seconde partie, on regardera un peu de code dans ce sens.
-Cette partie durera 20 min de code/demos/questions
-
--->
 
 ---
 ![bg left:20%](t-shirts.png)
@@ -70,13 +33,15 @@ Cette partie durera 20 min de code/demos/questions
 <div>
 
 * Sportif depuis 40 ans
-* Triathlète depuis un peu plus de 10 ans ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
-* ~200 courses réelles et virtuelles, toutes disciplines confondues ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
+* Triathlète depuis un peu plus de 10 ans
+* ~200 courses réelles et virtuelles, toutes disciplines confondues.
 * Course à pied, cyclisme, natation, trail, triathlon, golf, tir et autres trucs chelou
 
 </div>
 <div>
 
+* ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
+* ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
 * ![slide-right w:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
 
 </div>
@@ -97,30 +62,80 @@ Cette partie durera 20 min de code/demos/questions
 * Alpha/beta/contributeur de zwift, garmin, form, runalizer, smashrun, wahoo, decathlon, etc..
 
 ---
+![bg left:30%](paysage2.jpg)
+<style scoped>ul { font-size: 27px; }</style>
+
+# Agenda
+
+* Capture -> Capteurs
+    * Precision
+    * Type
+* Analyse
+    * Contexte
+    * Paramètres
+* Quantify (plutôt utiliser/expoiter) <!-- Quantifier? -->
+    * Utilisation personnelle
+    * Exploitations marketing
+* Code mais fun
+    * On peut faire quoi avec tout ça ?
+<!-- 
+50 min de talk
+
+30 min de presentation
+3 Axes
+* le materiels, les capteurs utilise
+* les data que ces capteurs nous fournisse
+* comment et pourquoi les montres, platformes utilisent ces donnes. Et ce que nous pouvons en tirer, ou les exploiter
+
+* Et en seconde partie, on regardera un peu de code dans ce sens.
+Cette partie durera 20 min de code/demos/questions
+
+-->
+
+---
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
 <!--
 _class: lead invert
 -->
 # Capture
+### General
 ---
 
-![bg right:50%](runconnect.jpg)
+![bg left:50%](runconnect.jpg)
+<style scoped>ul { font-size: 27px; }</style>
+
+# Historique
+* Montre chronographe puis chronomètre
+* Compteur vélo (câble, électronique avec aimant)
+* Podomètre, GPS
+* Multiples matériels
+* Intégration
+* Explosion de l'utilisation depuis 5 ans
+* Etude de 2023 [Source](https://filieresport.com/fr/telechargements?k=24166577&u=%2Fsante-et-bien-etre%2F2023-06-12%2Fdocuments-en-telechargements-libres&from=articles&f=odr2023_701338359.pdf&d=20230616+19%3A51%3A32&i=4815&vx=433159755)
+<!--
+* Source : https://filieresport.com/fr/telechargements?k=24166577&u=%2Fsante-et-bien-etre%2F2023-06-12%2Fdocuments-en-telechargements-libres&from=articles&f=odr2023_701338359.pdf&d=20230616+19%3A51%3A32&i=4815&vx=433159755
+* Finalement, peu de type de capteurs comparer aux exploitations
+-->
+
+---
+![bg right:30%](https://picsum.photos/720?image=27)
+<style scoped>ul { font-size: 27px; }</style>
 
 # Les capteurs communs
 
 * Temps !
 * Fréquence cardiaque
+    * Ceinture (électrique), optique
 * Positionnement (GPS …)
 * Accéléromètre / Gyroscope
+    * Capteur de foulée
+    * Cadence/vitesse en vélo
+    * Autres (Golf, natation, etc..)
 * Baromètre
 * Oxymètre
 
 <!-- 
-* Ceinture (électrique), optique
-* GPS (US), Galileo (EU), Beidou (CH), Glonass (RU), QZSS (JP)
-* Source : https://filieresport.com/fr/telechargements?k=24166577&u=%2Fsante-et-bien-etre%2F2023-06-12%2Fdocuments-en-telechargements-libres&from=articles&f=odr2023_701338359.pdf&d=20230616+19%3A51%3A32&i=4815&vx=433159755
-* Finalement, peu de type de capteurs comparer aux exploitations
-
+GPS (US), Galileo (EU), Beidou (CH), Glonass (RU), QZSS (JP)
 -->
 
 ---
@@ -149,13 +164,95 @@ Contacteurs pour le vitesse vélo
 * UV
 * Lidar
 * Radar
-* Photos/Videos
-* Balance (Poids, masse hydrique, masse osseuse, etc...)
-* Débitmétre
+* Photos
+* Videos (Positionnement)
+* Débitmétre (t'as bu combien d'eau ce matin ? 😁)
 <!-- 
 * Lidar *(Light Detection and Ranging - Ondes dans le spectre visible - Courte distance, tres précis)*
 * Radar *(Radio Detection and Ranging - Ondes electromagnetiques - Grande distance, peu précis)*
 * Luminosite : pour les ecrans mais aussi pour les feux velo ou meme frontale
+-->
+
+---
+![bg left:30%](https://picsum.photos/720?image=12)
+# Cas particuliers
+
+* Balance (Poids, masse hydrique, masse osseuse, etc...)
+* Puce de chronométrage
+* Batteries (montre, capteurs, vélo électrique, etc..)
+* Aero
+
+---
+![bg blur:5px brightness:0.5](graphs/bg0.png)
+<!--
+_class: lead invert
+-->
+# Capture
+### Détails
+
+---
+![bg left:30% ](polar.jpg)
+
+# La fréquence cardiaque
+* Début pour le public : Polar ~1980
+    * Transferts via … Infrarouge Polar SxxX
+    * Mais aussi .. Flashlights (Polar FTx)
+
+<!-- 
+Focus sur les principaux capteurs, les plus ancien, et c'est valables pour la majorité
+-->
+
+---
+![bg left](garmin-strap.jpg)
+![bg right:30% ](garmin-hr-oxy.jpg)
+
+<style scoped>ul { font-size: 25px; }</style>
+# La fréquence cardiaque
+* Fréquence cardiaque
+    * Ceinture (électrique)
+        * Fiable, précis, temps de réponse réduit
+        * PB :  confort (proche du cœur), peu pratique, encore plus pour les femmes.
+    * Optique ~2017
+        * LEDs + photodiode pour enregistrer la taille des vaisseaux sanguins.
+        * PB : Temps de réponse, Température, Eau, peau
+    * ECG ~2023
+        * Signaux électriques du coeur
+    * ~ Variabilité cardiaque (VFC, intervalle entre R-R)
+<!-- 
+-->
+
+---
+
+![bg left:40% ](garmin305.jpg)
+<style scoped>ul { font-size: 26px; }</style>
+# Le positionnement
+* GPS, Galileo, Beidou/Compass, Glonass, QZSS,…
+* Au debut, module GPS separé + PDA (non je n'etais pas le seul !)
+* Ma première montre GPS - 2010
+    * GPS uniquement
+    * 8 satelites max
+    * Précision quelques mètres
+    * Fort impact de l'environnement
+    * Aucune correction
+
+<!-- 
+GPS (US), Galileo (EU), Beidou (CH), Glonass (RU), QZSS (JP)
+-->
+---
+
+![bg right:30% ](garmin965.png)
+<style scoped>ul { font-size: 26px; }</style>
+# Le positionnement
+* 2024
+    * Multiband
+    * Multiples satellites
+    * Précision < mètre
+    * Stabilité
+        * Corélation avec d'autres capteurs, comme l'altimètre, le podomètre.
+    * Fiabilité
+        * Dans les forêts, en mer, entre les immeubles, avec perturbations électroniques/magnétiques.
+
+<!-- 
 -->
 
 ---
@@ -171,21 +268,24 @@ Juste du nettoyage, raffinement
 -->
 ---
 ![bg right:30% ](garmin-strap.jpg)
-![bg left:30% ](statut.jpg)
+<style scoped>ul { font-size: 32px; }</style>
 
 # La fréquence cardiaque
 
 * Context de capture
     * Sommeil
     * Course à pied, vélo, natation
+        * Le "profil" utilisé impacte l'algorithme de lissage et de correction utilisé.
 * Frequence d'échantillonage
 * Type
     * Optique
     * Electrique
-* FCMax, FCRec, Variabilité cardiaque (VFC)
 
-<!--
-* Le "profil" utilisé impacte l'algorithme de lissage et de correction utilisé.
+---
+![bg left:30% ](statut.jpg)
+<style scoped>ul { font-size: 26px; }</style>
+
+# La fréquence cardiaque
 
 * FCMax
 * FCRecuperation
@@ -194,19 +294,22 @@ Juste du nettoyage, raffinement
     * Calcul VFC la nuit
 * Variabilité cardiaque (VFC)
     * https://www.researchgate.net/profile/Marco-Altini
--->
+
 ---
 ![bg right:30%](paysage1.jpg)
+<style scoped>ul { font-size: 29px; }</style>
 
 # Le positionnement
 
 * Context de capture
     * Course à pied, vélo, natation
+        * Le "profil" utilisé impacte l'algorithme de lissage et de correction utilisé.
 * Frequence d'échantillonage
 * L'ajout de capteurs correctif/amélioratif
     * altimètre
     * baromètre
     * podomètre
+* Navigation/Retour Maison/Itineraire
 
 <!-- 
 Par exemple dans le sport mecaniques, la frequence d'echantillonage est importante, on peut rater quelques metres de precisions uniquement due à la vitesse
@@ -220,6 +323,7 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 
 * Watts
 * Puissance specifique W/kg
+* W' (W prime), xPower
 * L'equivalent du cardio mais pour le velo
 
 </div>
@@ -275,6 +379,7 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 
 * Moxy
     * % SmO2 (skeletal muscle oxygen saturation)
+    * Optimisation de la performance
     * https://www.moxymonitor.com/
 
 * https://www.blog.nolio.io/post/tout-savoir-sur-le-moniteur-doxygene-musculaire-moxy
@@ -294,13 +399,28 @@ Par exemple dans le sport mecaniques, la frequence d'echantillonage est importan
 <style scoped>ul { font-size: 29px; }</style>
 # Capteur Sueur
 * Le but étant de minimiser la perte hydrique et minérale/electrolytes (majoritairement sodium, potassium, magnésium, zinc)
-* Limite d'absorption (à l'effort) ~ 400/500ml/h
-* Santé (Crampes,Nausées,Confusion)
+* Protocole de base
+    * Pesée
+    * 1h intensive en condition
+    * Pesée
+    * Différence = perte hydrique ~ 700ml -> 1L
+
+----
+<style scoped>ul { font-size: 28px; }</style>
+* Pourquoi ?
+    * Retenir l'eau
+    * Si la concentration de sodium chute -> besoin d'eau ++
+    * Limite d'absorption (à l'effort) ~ 400/500ml/h
+    * Santé
+        * Crampes
+        * Nausées
+        * Confusion
+        * Troubles de la conscience
 * https://hdroptech.com/
 * https://www.gatorade.com/equipment/gx-sweat-patch/gx-sweat-patch-00052000052596
 
 ---
-![bg left:30% ](core.jpg)
+![bg right:30% ](core.jpg)
 # Capteur température
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
 * ![slide-left  w:750px](temperature-perf.jpg)
@@ -312,25 +432,48 @@ https://corebodytemp.com/products/core
 -->
 
 ---
-![bg right:40% ](trackman2.jpg)
-![bg right:30% ](garmin-golf.jpg)
+![bg left:40% ](trackman2.jpg)
 # Radar/Lidar de Golf
 
 * 40 paramètres
 * Garmin
 * Trackman [![slide-right w:400px](trackman1.jpg) ](trackman1.jpg)
 * FlightScope [![slide-right w:400px](golf-data.jpg) ](golf-data.jpg)
-* TrueSwing [![slide-right w:280px](trueswing.jpg) ](trueswing.jpg)
 
 <!--
  -Pas d'interpretation
  * Trackman, FlightScope
  * https://www.trackman.com/fr
  * Garmin Approach
+-->
+
+---
+![bg right:30% ](laser.jpg)
+# Laser de Golf
+
+* Mesure de distance
+* Avant optique, mainteant laser
+* La nouveautees c'est le partage d'informations
+* https://www.garmin.com/fr-FR/p/1411809
+
+<!--
+ -Pas d'interpretation
+-->
+
+---
+![bg left:30% ](garmin-golf.jpg)
+# Capteur de club de golf
+
+* Angles
+* Vitesse
+* Impact
+* TrueSwing [![slide-right w:280px](trueswing.jpg) ](trueswing.jpg)
+
+<!--
 * https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
 -->
 ---
-![bg left:30%](bodyrocket.jpg)
+![bg right:30%](bodyrocket.jpg)
 
 # Capteur de pression
 
@@ -355,7 +498,7 @@ fournir un coefficient en temps reel.
 -->
 
 ---
-![bg right:30%](bal-on.jpg)
+![bg left:30%](bal-on.jpg)
 ![bg ](running-sole.jpg)
 # Capteur de pression
 
@@ -445,16 +588,16 @@ https://www.sciencetraining.io/
 <style scoped>ul { font-size: 32px; }</style>
 
 # Platformes
-* Certaines métriques sont subjectives et/ou manuelle
+* Certaines métriques utilisent, en partie, l’auto évaluation
     * Très facile -> très difficile
     * Sensation : Horrible -> très fort
-    * Age, Poids
 * C’est très subjectif et sujet à interprétation voire erreur.
 * Les algorithmes utilisés sont parfois publics, parfois sous licence, et souvent secrets.
 * Produits par la recherche mais aussi les plateformes et les constructeurs (d’où leur propre plateformes)
+* Démo : Runalyze (https://runalyze.com/)
 
 <!--
-* Démo : Runalyze (https://runalyze.com/)
+
 -->
 ---
 # Resultats
@@ -477,9 +620,10 @@ https://www.sciencetraining.io/
 </div>
 
 ---
-# Analyse Cardio - Prediction de course
+# Prediction de course
 
 ![ w:400px](predi.png)
+* Top ! Mais...
 * Multiples méthodes (Dave Cameron, Pete Riegel, Robert Bock (CPP), Herbert Steffny)
 * On peut hacker : https://pubmed.ncbi.nlm.nih.gov/2022559/
 
@@ -495,10 +639,11 @@ https://www.nature.com/articles/s41598-023-38181-y.pdf
 ---
 ![bg left:30%](vo2max.jpg)
 
-# Analyse Cardio - Vo2Max
+# Vo2Max
 
-* Vo2Max = La consommation maximale __d'oxygène__ que l'organisme peut absorber lors d'un effort physique intense
+* Vo2Max = La consommation maximale d'oxygène que l'organisme peut absorber lors d'un effort physique intense
 * En réalité -> Prédiction de Vo2Max
+* Excellent ! Mais...
 * L'algorithme de calcul -> Firstbeat, secret déso 😅
     * Age, poids, cardio, ...
 
@@ -528,30 +673,34 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 
 ---
 # Analyse avec les capteurs de mouvements
-
 <div class="grid grid-cols-2 gap-0">
 <div>
 
-* Qualite du sommeil ![slide-right w:600px drop-shadow:0,5px,5px,black](gc-sommeil.jpg)
-* Equilibre ![slide-right w:600px drop-shadow:0,5px,5px,black](gc-mvt1.jpg)
-* Longeur de foulée
-* Efficacite de la foulée ![slide-right w:580px drop-shadow:0,5px,5px,black](gc-mvt2.jpg)
-* Détection d’incident
-* Invitation à bouger/boire
+![ w:500px drop-shadow:0,5px,5px,black](gc-mvt1.jpg)
+![ w:380px drop-shadow:0,5px,5px,black](gc-mvt2.jpg)
 
 </div>
 <div>
 
+![ w:500px drop-shadow:0,5px,5px,black](gc-sommeil.jpg)
+
 </div>
 </div>
 
+---
+# Analyse avec les capteurs de mouvements
+* Equilibre
+* Longeur de foulée
+* Efficacite de la foulée
+* Détection d’incident
+    * Avant pour les voitures si elles étaient renversées (Au US)
+* Invitation à bouger (même 2h après un marathon 😅)
+
 <!--
-* Avant pour les voitures si elles étaient renversées (Au US)
 Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
 Pour le sport, le context est important.
 Bizarement, pour le VTT, la detection d'incident est desactiver.
 Inivation a bouger, on verra ca dans la partie code aussi.
-* Invitation à bouger (même 2h après un marathon 😅)
 -->
 ---
 # Lunette Engo
@@ -571,8 +720,6 @@ Inivation a bouger, on verra ca dans la partie code aussi.
 </div>
 </div>
 <!--
-Retour direct permet l'ajustement en temps reel
-
 Source : https://fr.engoeyewear.com/produits/engo-2
 -->
 
@@ -632,6 +779,34 @@ Source : https://www.formswim.com/
 -->
 
 ---
+# Balance connectée
+<div class="grid grid-cols-2 gap-2">
+<div>
+
+* ![slide-left w:400px](withings.png)
+* ![slide-left w:550px](gc-balance.jpg)
+* ![slide-left w:550px](withings-bodyscan.jpg)
+
+</div>
+<div>
+
+* Poids
+* IMC
+* Masse grasse
+* Masse musculaire
+* Masse osseuse
+* Masse hydrique
+* Tension
+* ECG
+
+</div>
+</div>
+
+---
+# Gourde intelligente
+![ w:500px](gourde.png)
+
+---
 ![bg right:30% ](bikefit.png)
 
 # Photos et videos
@@ -641,17 +816,7 @@ Source : https://www.formswim.com/
     * Natation
 * Confort
 * Optimisation de l'aero
-    * Synchronization avec les capteurs aero
-
----
-# HeatMap
-
-* Les routes/chemins les plus empruntés/validés et securisés
-    * Utilisation des donnees des radars/lidar
-* HeatMap Nuit, pour les routes sure/pratique la nuit 
-* Nouvelle HeatMap contextualisee
-
-* Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+    * En complément des capteurs
 
 ---
 # HeatMap
@@ -666,6 +831,25 @@ Zone d'exclusion:
 https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging-was-he-tracked-through-a-fitness-app/h0vd6ucxd
 
 -->
+
+---
+# HeatMap
+
+* Les routes/chemins les plus empruntés/validés et securisés
+    * Utilisation des donnees des radars/lidar
+* HeatMap Nuit, pour les routes sure/pratique la nuit 
+* Nouvelle HeatMap contextualisee
+
+* Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+
+---
+# Musique
+
+* Pas un capteur mais plutôt l'exploitation d'informations
+* Améliore les performances
+
+* Source : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281270/
+* Méta analyse : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8167645/
 
 ---
 # Utilisation pour le confort et la performance
@@ -711,15 +895,36 @@ https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-l
 Plus on est vieux, plus on est bon pour l'endurance : Nop
 https://www.triathlete.com/culture/news/data-dive-finishing-times-dnf-rates-and-more-stats-from-the-ironman-world-championship-st-george/
 -->
+---
+# Wind adjusted pace ?
+
+Il existe des formules mais tout est subjectif, il n'y a pas encore de capteurs (hors aero pour le velo)
+Strava ne va pas aider, car le vent est environemental, entre les batiments, ou en ras campagne c'est pas la meme limonade.
+
+https://www.youtube.com/watch?v=IoX-JUPvrwo
 
 ---
-# Des data pour le virtuel - Simulation de parcours de golf
+# Des data pour le virtuel
 
-![slide-left w:500px](golf-sim.jpg)
-![slide-right w:500px](toptracer.jpg)
+![slide-right w:500px](tacx1.jpg)
+* Simulation du terrain (Plaques vibrantes + angles)
+* Simulation de la pente (+20% -10%)
+* Simulation du vent (48km/h !)
+    ![w:600px](wahoo1.jpg)
 
 <!--
-Trackman, FlightScope, Garmin, TopTracer
+Manual Mode: Select from four speed settings to set you ideal airflow
+Speed Mode: Pair to KICKR or speed sensor to match fan speed to bike speed
+Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart rate goes up
+-->
+
+---
+# Des data pour le virtuel - Trackman, FlightScope, Garmin, TopTracer
+
+* ![slide-left w:500px](golf-sim.jpg)
+* ![slide-right w:500px](toptracer.jpg)
+
+<!--
 Video + donnee GPS nettoye
 -->
 
@@ -785,75 +990,71 @@ https://zwiftinsider.com/portal/isola-2000/
 https://zwiftinsider.com/portal/la-turbie-col-deze/
 
 ---
-# Des data pour le virtuel
 
-![slide-right w:500px](tacx1.jpg)
-* Simulation du terrain (Plaques vibrantes + angles)
-* Simulation de la pente (+20% -10%)
-* Simulation du vent (48km/h !)
-    ![w:600px](wahoo1.jpg)
+# Data poisonning
 
-<!--
-Manual Mode: Select from four speed settings to set you ideal airflow
-Speed Mode: Pair to KICKR or speed sensor to match fan speed to bike speed
-Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart rate goes up
--->
+<div class="grid grid-cols-3 gap-2">
+
+<div>
+
+* Involontaire
+    * Erreurs GPS
+    * Bug de traitement
+    * Bug d'upload
+    * Brosse à dents electrique (ajoute des pas)
+
+</div>
+<div>
+
+* ![slide-right w:700px](strava-error-3.png)
+* ![slide-right w:650px](strava-error-1.png)
+* ![slide-right w:750px](strava-error-2.png)
+
+</div>
+</div>
 
 ---
 
 # Data poisonning
+* **"** Involontaire **"**
+    * Vélo à la place de course à pied
+    * Vélo electrique à la place de vélo musculaire
+    * Moto/voiture à la place de vélo
 
-<div class="grid grid-cols-2 gap-2">
+* Bientot automatique ("AI-Enabled") pour nettoyer les activites incorrectes.
 
-<div>
-
-* Involontaire/Volontaire
-    * Erreurs GPS,  Bug de traitement, Bug d'upload
-    * Brosse à dents electrique (ajoute des pas)
-    * Vélo à la place de course à pied ...
-
-</div>
-<div>
-
-* ![slide-right w:600px](strava-error-3.png)
-* ![slide-right w:550px](strava-error-1.png)
-* ![slide-right w:650px](strava-error-2.png)
-
-</div>
-</div>
-
-* Nettoyage par AI sur Strava cet ete
-
-<!--
 * Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
--->
+
 ---
 # Utilisation pour tricher
 
-* Gagner des courses virtuelles
-    * Des prix mais aussi des contrats !
+* Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
+* https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
+* https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
+
+---
+* Gagner des courses virtuelles (et donc de cadeaux)
+    * Des prix (comme des dossards, ou tirages au sort)
+    * Des réductions (pour la revente)
+    * Des contrats !
+    * Des médailles ! (Demo)
 
 * Contre mesure
     * Double capteur de puissance (Différentes marques)
     * Double caméra (angles différents)
 
-* Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
-
-<!--
-* https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
-* https://www.dcrainmaker.com/2022/02/zwifts-bans-whistleblower-deeper.html
--->
 ---
 # Fun
 ![bg left](jo1.jpg)
-![bg](esport1.png)
+![bg](jo2.jpg)
 
 * Faire de joli dessins
-    * (Pour l'instant) Fait artisanalement
+* (Pour l'instant) Fait artisanalement
 
-* eSport
-    * Cardio, stress
-    * Garmin GameOn
+---
+# ESport
+![bg right](esport1.png)
+* Garmin GameOn
 
 ---
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
@@ -892,21 +1093,13 @@ Le prise d'EPO (érythropoïétine) permet de stimuler la fabrication des éryth
 Source : https://doctonat.com/renforcer-augmenter-mitochondrie/
 -->
 ---
-![bg left:20%](enfants.jpg)
+<style scoped>ul { font-size: 27px; }</style>
 
-# Vos bénéfices
+# Les principaux bénéfices... pour vous
 
-* Pour apprendre à se connaître
-    * Retour immediat, correction et validation
-* Pour la santé/securite
-    * Surveillance, informer, alertes
-* Les pro
-    * Pour trouver l'optimum de chacun
-    * Majoritairement, pour prévenir les blessures
-https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO
+<div class="grid grid-cols-2 gap-2">
 
-<!--
-Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
+<div>
 
 * Pour apprendre à se connaître
     * Les informations et leurs analyse permettant d’accélérer et affiner le processus
@@ -914,32 +1107,57 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
     * Retour immediat, correction et validation
     * On reduit les bias du a la subjectivité
 
-* Pour la santé/securite
-    * Surveillance, informer, alertes
 
-* Les pro
-    * Pour trouver l'optimum de chacun
-    * Majoritairement, pour prévenir les blessures
-    * https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO
+</div>
+<div>
 
-* https://www.garmin.com/fr-FR/blog/les-donnees-des-montres-connectees-garmin-mettent-en-evidence-les-bienfaits-de-la-course-a-pied-sur-la-sante/
-* https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
+![ w:500px](enfants.jpg)
+
+</div>
+</div>
+
+<!--
+Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
+
+retour immediat, correction et validation.
 -->
 
 ---
-<style scoped>ul { font-size: 32px; }</style>
+<style scoped>ul { font-size: 27px; }</style>
+
+# Les principaux bénéfices... pour vous
+
+* Pour sa santé/securite
+    * Surveillance, informer, alertes
+
+* Les pro
+    * Un peu pour trouver l'optimum de chacun
+    * Beaucoup pour prévenir les blessures
+
+* https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO
+* https://www.garmin.com/fr-FR/blog/les-donnees-des-montres-connectees-garmin-mettent-en-evidence-les-bienfaits-de-la-course-a-pied-sur-la-sante/
+* https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
+
+---
+<style scoped>ul { font-size: 27px; }</style>
 
 # Resumé
 
 * Capteurs
-    * Toujours plus mais attention au context
+    * Attention au context de capture !
 * Analyse
-    * Context et les combinaisons qui peuvent entrainer des biais
+    * Encore une fois le context
+    * Les combinaisons qui peuvent entrainer des biais
 * Exploitation
-    * Pour la performance et donc pour le marketing
+    * Pour la performance (ça c'est pour vendre)
+    * Pour le marketing (voir le point au dessus 😁)
     * La valeur réelle pour vous !
         * Pour se connaitre, la santé, la sécurité
         * La prévention des blessures (l'utilisation majeure des pro)
+<!-- 
+Speaker notes : None
+-->
+
 ---
 # Création du triathlon
 
