@@ -22,3 +22,7 @@ img[alt~="slide-left"] {
     margin-right: auto;
     width: 50%;
   }
+
+  section::after {
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+  }

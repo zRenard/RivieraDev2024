@@ -9,8 +9,7 @@ paginate: true
 size: 16:9
 header: 'Le triathlon de la data sportif ![image](bg.jpg)'
 footer: '![w:130  drop-shadow](logo_RD_full_white.svg) 2024 - We''re not just coders'
-
-
+transition: cover
 ---
 ![bg blur:5px brightness:0.5](bg.jpg)
 <!--
@@ -30,7 +29,7 @@ https://github.com/zRenard/RivieraDev2024
 * Enregistrement si ca marche ?
 -->
 ---
-![bg left:30%](paysage2.jpg)
+![bg left:30%](paysage3.jpg)
 <style scoped>ul { font-size: 27px; }</style>
 
 # Agenda
@@ -100,6 +99,7 @@ Cette partie durera 20 min de code/demos/questions
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
 <!--
 _class: lead invert
+_paginate: false
 -->
 # Capture
 ---
@@ -124,7 +124,7 @@ _class: lead invert
 -->
 
 ---
-![bg left:30%](https://picsum.photos/720?image=29)
+![bg left:30%](paysage4.jpg)
 
 # Les capteurs avancés
 
@@ -141,7 +141,7 @@ Pression pour l'aero
 Contacteurs pour le vitesse vélo
 -->
 ---
-![bg right:30%](https://picsum.photos/720?image=10)
+![bg right:30%](paysage1.jpg)
 
 # Les capteurs "exotiques"
 
@@ -162,6 +162,7 @@ Contacteurs pour le vitesse vélo
 ![bg blur:5px brightness:0.5](graphs/bg1.png)
 <!--
 _class: lead invert
+_paginate: false
 -->
 # Analyses
 
@@ -196,7 +197,7 @@ Juste du nettoyage, raffinement
     * https://www.researchgate.net/profile/Marco-Altini
 -->
 ---
-![bg right:30%](paysage1.jpg)
+![bg right:30%](paysage5.jpg)
 
 # Le positionnement
 
@@ -213,25 +214,27 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 -->
 
 ---
-![bg left:20%](puissance3.jpg)
+![bg left:20%](im-bike.jpg)
 # Capteur de puissance
-<div class="grid grid-cols-2 gap-0">
+<div class="grid grid-cols-2 gap-02
+">
 <div>
 
 * Watts
 * Puissance spécifique W/kg
-* l’équivalent du cardio mais pour le vélo
+* L’équivalent du cardio mais pour le vélo
+* https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011
 
 </div>
 <div>
 
+* ![slide-right w:400px](puissance3.jpg)
 * ![slide-right w:500px](puissance1.jpg)
 * ![slide-right w:500px](puissance2.jpg)
 
 </div>
 </div>
 
-* https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011
 
 ---
 ![bg right:30% ](gears.jpg)
@@ -375,6 +378,7 @@ Course à pied -> focus diminution risque de blessure, de moins en moins pour le
 ![bg blur:5px brightness:0.5](graphs/bg2.png)
 <!--
 _class: lead invert
+_paginate: false
 -->
 # Exploitation
 
@@ -835,7 +839,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 </div>
 </div>
 
-* Nettoyage par AI sur Strava cet ete
+* Nettoyage par AI sur Strava cet été
 
 <!--
 * Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
@@ -872,6 +876,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
 <!--
 _class: lead invert
+_paginate: false
 -->
 # Conclusions
 
@@ -897,6 +902,8 @@ _class: lead invert
     * Optimisation des apports des nutriments.
 
 <!--
+C'est bien de s'alimenter, au bon moment, mais si on transforme pas tout ca en energie, ce n'est pas efficace.
+
 Aerobie = >quelques minutes = respiration cellulaire
 Anaerobie < 1 minute
 Programme de SVT de Terminale : https://www.kartable.fr/ressources/svt/cours/la-production-datp/53709
@@ -966,7 +973,7 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 * Pas de capteurs ![slide-right w:600px](im2.jpg)
 * Pas de matériel dédié  ![slide-right w:700px](im3.jpg)
 * Et des temps excellents ! ![slide-right w:400px](im4.jpg)
-* Puis après ça a glissé ![slide-right w:400px](l.jpg)
+* Puis après ça a glissé 😂 ![slide-right w:400px](l.jpg)
 
 </div>
 <div>
@@ -978,7 +985,7 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 ![bg blur:5px brightness:0.5](bg2.jpg)
 <!--
 _class: lead invert
-_paginate: skip
+_paginate: false
 _header: ""
 _footer: ""
 -->
