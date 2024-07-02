@@ -3,5 +3,36 @@
         "./zrenard.css"
     ],
     "markdown.marp.enableHtml": true,
-    "cSpell.language": "fr"
+    "cSpell.language": "fr",
+    "cSpell.words": [
+        "aéro",
+        "author",
+        "Beidou",
+        "blur",
+        "brightness",
+        "cover",
+        "Decathlon",
+        "false",
+        "Glonass",
+        "grayscale",
+        "Heat",
+        "invert",
+        "lead",
+        "left",
+        "marp",
+        "paginate",
+        "QZSS",
+        "Ranging",
+        "right",
+        "Runalyze",
+        "scoped",
+        "skip",
+        "slide",
+        "Smashrun",
+        "Strava",
+        "theme",
+        "true",
+        "Wahoo",
+        "Zwift"
+    ]
 }

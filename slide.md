@@ -24,28 +24,28 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 https://github.com/zRenard/RivieraDev2024
 
 *Enregistrement video*
-
 <!--
 * Enregistrement si ca marche ?
 -->
 ---
 ![bg left:30%](paysage3.jpg)
-<style scoped>ul { font-size: 27px; }</style>
+<style scoped>ul { font-size: 27px; } small { font-size: 18px; }</style>
 
-# Agenda (⌚ 50 min)
+# Agenda - ⌚ 5️⃣0️⃣ min
 
-* Capture (⌚ 10 min)
+* __Capture__ <small>(3📄 / ⌚ 5️⃣ min)</small>
     * Capteurs
-* Analyse (⌚ 10 min)
+* __Analyse__ <small>(13📄 / ⌚ 1️⃣2️⃣ min)</small>
     * Les informations fournies par ces capteurs
-* Quantifier (plutôt utiliser/exploiter) (⌚ 15 min)
+* __Exploiter__ <small>(27📄 / ⌚ 2️⃣0️⃣ min)</small>
     * Les interprétations de ces informations
-* Code (Léger) (⌚ 15 min)
-    * https://github.com/zRenard
+* __Conclusions__ <small>(4📄 / ⌚ 3️⃣ min)</small>
+* __Démo et code__ (Si il reste du temps)
+    * Sinon -> https://github.com/zRenard
 <!-- 
 50 min de talk
 
-30 min de presentation
+40 min de presentation
 3 Axes
 * le matériel, les capteurs utilise
 * les data que ces capteurs nous fournisse
@@ -53,47 +53,39 @@ https://github.com/zRenard/RivieraDev2024
     * Utilisation personnelle
     * Exploitations marketing
 
-* Et en seconde partie, on regardera un peu de code dans ce sens.
-Cette partie durera 20 min de code/demos/questions
+* Et en dernière partie, on regardera un peu de code dans ce sens.
+Cette partie durera 20 min de code/démos/questions
 
 -->
 
 ---
-![bg left:20%](t-shirts.png)
+![bg brightness:0.4](tri-S.jpg)
+![bg brightness:0.4](t-shirts.png)
+![bg brightness:0.4](falcon.jpg)
+![bg brightness:0.4](zx81.jpg)
+
 <style scoped>ul { font-size: 28px; }</style>
 
-### Whoooo are you hooowouuuh
-#### Denis Méline - Sportif
-
+### Whoooo are you hoowouuh
 <div class="grid grid-cols-2 gap-4">
 <div>
 
 * Sportif depuis 40 ans
-* Triathlète depuis un peu plus de 10 ans ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-s.jpg)
-* ~200 courses réelles et virtuelles, toutes disciplines confondues ![slide-right w:300px drop-shadow:0,5px,5px,black](tri-l.jpg)
+* Triathlète depuis un peu plus de 10 ans
+* ~200 courses réelles et virtuelles, toutes disciplines confondues
 * Course à pied, cyclisme, natation, trail, triathlon, golf, tir et autres trucs chelou
 
 </div>
 <div>
 
-* ![slide-right w:400px drop-shadow:0,5px,5px,black](pls-real.jpg)
-
-</div>
-</div>
-
----
-![bg right](falcon.jpg)
-![bg right:40%](zx81.jpg)
-<style scoped>ul { font-size: 27px; }</style>
-
-### Whoooo are you hooowouuuh
-#### Denis Méline - Ingénieur informatique
-
 * Codeur depuis 45 ans
 * DEA informatique théorique
 * 25 ans dans l'industrie
 * 20 ans à ![w:140 grayscale:1 invert:100% drop-shadow](1a.png)
-* Alpha/beta/contributeur de zwift, garmin, form, runalizer, smashrun, wahoo, decathlon, etc..
+* Beta test et/ou contributeur de Zwift, Garmin, Form, Runalyze, Smashrun, Wahoo, Decathlon, etc..
+
+</div>
+</div>
 
 ---
 ![bg blur:5px brightness:0.5](graphs/bg0.png)
@@ -137,7 +129,7 @@ _paginate: false
 * Contacteurs
 
 <!-- 
-Pression pour l'aero
+Pression pour l'aéro
 Contacteurs pour le vitesse vélo
 -->
 ---
@@ -177,8 +169,8 @@ Juste du nettoyage, raffinement
 # La fréquence cardiaque
 
 * Context de capture
-    * Sommeil
     * Course à pied, vélo, natation
+    * Sommeil
 * Fréquence d’échantillonnage
 * Type
     * Optique
@@ -189,7 +181,7 @@ Juste du nettoyage, raffinement
 * Le "profil" utilisé impacte l'algorithme de lissage et de correction utilisé.
 
 * FCMax
-* FCRecuperation
+* FCRécupération
     * 2min après FCMax
 * VFCRepos
     * Calcul VFC la nuit
@@ -235,7 +227,6 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 </div>
 </div>
 
-
 ---
 ![bg right:30% ](gears.jpg)
 # Vitesse électrique
@@ -264,8 +255,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 
 * SuperSapiens
     * https://www.supersapiens.com/fr-FR/
-* Demo
-    [![w:430px](supersapiens2.jpg) ](supersapiens2.jpg)
+* [![w:430px](supersapiens2.jpg) ](supersapiens2.jpg)
 * Maintenant interdit en compétition
 <!-- 
 -->
@@ -502,7 +492,7 @@ https://www.sciencetraining.io/
 <!--
 C'est bien d'avoir la FCRec, ca donne une idée de la capacité en encaisser la séances
 si >50BPM entre FCMax et FCRec, la séance a bien était assimiler.
-Mais on peut faire mieux, par exemple, la FCRecuperation permet de calculer les predictions de course.
+Mais on peut faire mieux, par exemple, la FCRécupération permet de calculer les predictions de course.
 
 Idem pour le triathlon :
 https://www.nature.com/articles/s41598-023-38181-y.pdf
@@ -579,7 +569,6 @@ Invitation à bouger, on verra ca dans la partie code aussi.
 * Uniquement écran déporté
 * Aucun capteur
     * enfin si, capteur de luminosité pour ajuster l'écran, mais aucune data produite
-* Démo
 </div>
 <div>
 
@@ -612,7 +601,6 @@ Source : https://fr.engoeyewear.com/produits/engo-2
     * Depuis la montre
     * Depuis un capteur externe (cardio)
 * Autorisée en compétition !
-* Démo
 </div>
 </div>
 <!--
@@ -632,8 +620,6 @@ Source : https://www.formswim.com/
         * Gyromètres
         * Accéléromètres
     * Pressions (sur et sous la main)
-* https://www.eolab.com/swimbetter
-* https://link.springer.com/article/10.1007/s00283-024-10339-0
 
 </div>
 <div>
@@ -646,6 +632,8 @@ Source : https://www.formswim.com/
 </div>
 </div>
 <!--
+* https://www.eolab.com/swimbetter
+* https://link.springer.com/article/10.1007/s00283-024-10339-0
 * Source : https://www.youtube.com/watch?v=uK8ao6-hpcY&ab_channel=eo
 -->
 
@@ -658,16 +646,16 @@ Source : https://www.formswim.com/
     * Golf
     * Natation
 * Confort
-* Optimisation de l'aero
-    * Synchronisation avec les capteurs aero
+* Optimisation de l'aéro
+    * Synchronisation avec les capteurs aéro
 
 ---
 # HeatMap
 
-* Les routes/chemins les plus empruntés/validés et securisés
-    * Utilisation des donnees des radars/lidar
+* Les routes/chemins les plus empruntés/validés et sécurisés
+    * Utilisation des données des radars/lidar
 * HeatMap Nuit, pour les routes sure/pratique la nuit 
-* Nouvelle HeatMap contextualisee
+* Nouvelle HeatMap contextualisée
 
 * Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
 
@@ -738,7 +726,7 @@ https://www.triathlete.com/culture/news/data-dive-finishing-times-dnf-rates-and-
 
 <!--
 Trackman, FlightScope, Garmin, TopTracer
-Video + donnee GPS nettoye
+Video + donnée GPS nettoyé
 -->
 
 ---
@@ -749,7 +737,7 @@ Video + donnee GPS nettoye
 
 
 <!--
-Video + donnee GPS nettoye
+Video + donnée GPS nettoyé
 -->
 ---
 # Des data pour le virtuel - Zwift
@@ -778,7 +766,7 @@ Avec vitesse,distance, cadence et inclinaison
 -->
 
 ---
-# Des data pour le virtuel
+# Des data pour le virtuel - Zwift
 
 <div class="grid grid-cols-3 gap-2">
 
@@ -819,7 +807,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 
 ---
 
-# La empoisonnement des données
+# L’empoisonnement des données
 
 <div class="grid grid-cols-2 gap-2">
 
@@ -827,7 +815,6 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 
 * Involontaire/Volontaire
     * Erreurs GPS,  Bug de traitement, Bug d'upload
-    * Brosse à dents electrique (ajoute des pas)
     * Vélo à la place de course à pied ...
 
 </div>
@@ -844,6 +831,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 
 <!--
 * Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+* Brosse à dents électrique (ajoute des pas)
 -->
 ---
 # Utilisation pour tricher
@@ -882,17 +870,17 @@ _paginate: false
 # Conclusions
 
 ---
-# Evolutions des capteurs
+# Évolutions des capteurs
 
 ### Bientôt (quelques mois)
-* Temperature peau + corps (avec capteur dedidé)
+* Température peau + corps (avec capteur dédié)
     * https://corebodytemp.com/products/core
 * Glycémie (avec capteur cardio)
     * https://afontechnology.com/glucowear/
 * Tension (avec capteur cardio)
 
 ---
-# Evolutions des analyses/exploitations
+# Évolutions des analyses/exploitations
 
 ### Quelques années (pour le grand public)
 * Morphologique
@@ -903,10 +891,10 @@ _paginate: false
     * Optimisation des apports des nutriments.
 
 <!--
-C'est bien de s'alimenter, au bon moment, mais si on transforme pas tout ca en energie, ce n'est pas efficace.
+C'est bien de s'alimenter, au bon moment, mais si on transforme pas tout ca en énergie, ce n'est pas efficace.
 
-Aerobie = >quelques minutes = respiration cellulaire
-Anaerobie < 1 minute
+Aérobie = >quelques minutes = respiration cellulaire
+Anaérobie < 1 minute
 Programme de SVT de Terminale : https://www.kartable.fr/ressources/svt/cours/la-production-datp/53709
 Le prise d'EPO (érythropoïétine) permet de stimuler la fabrication des érythrocytes (= hématies) et donc d'augmenter l'oxygénation des muscles.
 
@@ -915,29 +903,39 @@ https://www.nakan.ch/wp/2024/03/27/podcast-s02-e02-des-donnees-cest-bien-une-str
 Source : https://doctonat.com/renforcer-augmenter-mitochondrie/
 -->
 ---
+<style scoped>ul { font-size: 32px; }</style>
+
+# Résumé
+
+* Capteurs
+    * Toujours plus mais attention au context
+* Analyse
+    * Le context et les combinaisons qui peuvent entraîner des biais
+* Exploitation
+    * Souvent marketing, pour la performance
+---
 ![bg left:20%](enfants.jpg)
 
-# Vos bénéfices
+# Pour vous
 
 * Pour apprendre à se connaître
-    * Retour immediat, correction et validation
-* Pour la santé/securite
+    * Retour immédiat, correction et validation
+* Pour la santé/sécurité
     * Surveillance, informer, alertes
 * Les pro
-    * Pour trouver l'optimum de chacun
-    * Majoritairement, pour prévenir les blessures
+    * Pour trouver l'optimum de chacun plus rapidement, sans blessures
 https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO
 
 <!--
-Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
+Course enfants : Départ a fond, milieu en PLS, et finish a fond, et vomit :)
 
 * Pour apprendre à se connaître
     * Les informations et leurs analyse permettant d’accélérer et affiner le processus
-    * On affine les entrainements et les sensations grace a des informations instantanées
-    * Retour immediat, correction et validation
-    * On reduit les bias du a la subjectivité
+    * On affine les entraînements et les sensations grâce a des informations instantanées
+    * Retour immédiat, correction et validation
+    * On réduit les bias du a la subjectivité
 
-* Pour la santé/securite
+* Pour la santé/sécurité
     * Surveillance, informer, alertes
 
 * Les pro
@@ -948,21 +946,6 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 * https://www.garmin.com/fr-FR/blog/les-donnees-des-montres-connectees-garmin-mettent-en-evidence-les-bienfaits-de-la-course-a-pied-sur-la-sante/
 * https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
 -->
-
----
-<style scoped>ul { font-size: 32px; }</style>
-
-# Resumé
-
-* Capteurs
-    * Toujours plus mais attention au context
-* Analyse
-    * Context et les combinaisons qui peuvent entrainer des biais
-* Exploitation
-    * Pour la performance et donc pour le marketing
-    * La valeur réelle pour vous !
-        * Pour se connaitre, la santé, la sécurité
-        * La prévention des blessures (l'utilisation majeure des pro)
 ---
 # Création du triathlon
 
@@ -986,10 +969,10 @@ Course enfants : Depart a fond, milieu en PLS, et finish a fond, et vomit :)
 ![bg blur:5px brightness:0.5](bg2.jpg)
 <!--
 _class: lead invert
-_paginate: false
+_paginate: skip
 _header: ""
 _footer: ""
 -->
 # Merci !
 ![](qrcode_openfeedback.io.png)
-https://openfeedback.io/rivieradev24/0/256
+https://openfeedback.io/rivieradev24/0/256mo
