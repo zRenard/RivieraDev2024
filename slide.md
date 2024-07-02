@@ -32,15 +32,15 @@ https://github.com/zRenard/RivieraDev2024
 ![bg left:30%](paysage3.jpg)
 <style scoped>ul { font-size: 27px; }</style>
 
-# Agenda
+# Agenda (⌚ 50 min)
 
-* Capture
+* Capture (⌚ 10 min)
     * Capteurs
-* Analyse
+* Analyse (⌚ 10 min)
     * Les informations fournies par ces capteurs
-* Quantifier (plutôt utiliser/exploiter)
+* Quantifier (plutôt utiliser/exploiter) (⌚ 15 min)
     * Les interprétations de ces informations
-* Code (Léger)
+* Code (Léger) (⌚ 15 min)
     * https://github.com/zRenard
 <!-- 
 50 min de talk
@@ -151,11 +151,11 @@ Contacteurs pour le vitesse vélo
 * Radar
 * Photos/Vidéos
 * Balance (Poids, masse hydrique, masse osseuse, etc...)
-* Débitmètre
 <!-- 
 * Lidar *(Light Detection and Ranging - Ondes dans le spectre visible - Courte distance, très précis)*
 * Radar *(Radio Detection and Ranging - Ondes électromagnétiques - Grande distance, peu précis)*
 * Luminosité : pour les écrans mais aussi pour les feux vélo ou même frontale
+* Débitmètre
 -->
 
 ---
@@ -242,7 +242,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 * Shimano (filaire)
 * SRAM (sans fils)
 * Position du plateau, des pignons
-* Radio
+* Ratio
 * ![w:250px](gears2.jpg)
 
 
@@ -425,6 +425,7 @@ https://flow.polar.com/
 Application mobile Suunto
 </div>
 <div>
+
 
 ##### Applications sponsors équipementiers (voir plus loin)
 https://www.runtastic.com/ (Adidas)
