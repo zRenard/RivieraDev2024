@@ -41,7 +41,8 @@ https://github.com/zRenard/RivieraDev2024
     * Les interprétations de ces informations
 * __Conclusions__ <small>(4📄 / ⌚ 3️⃣ min)</small>
 * __Démo et code__ (Si il reste du temps)
-    * Sinon -> https://github.com/zRenard
+    * Garmin WatchFace, Widget, Application
+    * https://github.com/zRenard
 <!-- 
 50 min de talk
 
@@ -54,8 +55,9 @@ https://github.com/zRenard/RivieraDev2024
     * Exploitations marketing
 
 * Et en dernière partie, on regardera un peu de code dans ce sens.
-Cette partie durera 20 min de code/démos/questions
-
+* https://github.com/zRenard/zRenardWatch
+* https://github.com/zRenard/ObjectivesWidget
+* eSport App
 -->
 
 ---
@@ -168,7 +170,7 @@ Juste du nettoyage, raffinement
 
 # La fréquence cardiaque
 
-* Context de capture
+* Contexte de capture
     * Course à pied, vélo, natation
     * Sommeil
 * Fréquence d’échantillonnage
@@ -193,7 +195,7 @@ Juste du nettoyage, raffinement
 
 # Le positionnement
 
-* Context de capture
+* Contexte de capture
     * Course à pied, vélo, natation
 * Fréquence d’échantillonnage
 * L'ajout de capteurs correctif/amélioratif
@@ -220,9 +222,9 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 </div>
 <div>
 
-* ![slide-right w:400px](puissance3.jpg)
-* ![slide-right w:500px](puissance1.jpg)
-* ![slide-right w:500px](puissance2.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:400px](puissance3.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:500px](puissance1.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:500px](puissance2.jpg)
 
 </div>
 </div>
@@ -234,7 +236,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 * SRAM (sans fils)
 * Position du plateau, des pignons
 * Ratio
-* ![w:250px](gears2.jpg)
+* ![drop-shadow:0,5px,5px,black w:275px](gears2.jpg)
 
 
 ---
@@ -255,7 +257,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 
 * SuperSapiens
     * https://www.supersapiens.com/fr-FR/
-* [![w:430px](supersapiens2.jpg) ](supersapiens2.jpg)
+* [![drop-shadow:0,5px,5px,black w:430px](supersapiens2.jpg) ](supersapiens2.jpg)
 * Maintenant interdit en compétition
 <!-- 
 -->
@@ -280,7 +282,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 ![bg right:30% ](GatoradeSweat.png)
 # Capteur .....
 
-![slide-center w:400px](questions.jpg)
+![slide-center drop-shadow:0,5px,5px,black w:400px](questions.jpg)
 
 ---
 ![bg right:30% ](GatoradeSweat-2.png)
@@ -296,32 +298,14 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 ![bg left:30% ](core.jpg)
 # Capteur température
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
-* ![slide-left  w:750px](temperature-perf.jpg)
-* ![slide-left  w:600px](temperature-abandon.jpg)
+* ![slide-left drop-shadow:0,5px,5px,black w:750px](temperature-perf.jpg)
+* ![slide-left drop-shadow:0,5px,5px,black w:600px](temperature-abandon.jpg)
 
 <!-- 
 * Impact important !
 https://corebodytemp.com/products/core
 -->
 
----
-![bg right:40% ](trackman2.jpg)
-![bg right:30% ](garmin-golf.jpg)
-# Radar/Lidar de Golf
-
-* 40 paramètres
-* Garmin
-* Trackman [![slide-right w:400px](trackman1.jpg) ](trackman1.jpg)
-* FlightScope [![slide-right w:400px](golf-data.jpg) ](golf-data.jpg)
-* TrueSwing [![slide-right w:280px](trueswing.jpg) ](trueswing.jpg)
-
-<!--
- -Pas d’interprétation
- * Trackman, FlightScope
- * https://www.trackman.com/fr
- * Garmin Approach
-* https://www.garmin.com/fr-FR/p/605172/pn/010-01994-00
--->
 ---
 ![bg left:30%](bodyrocket.jpg)
 
@@ -345,23 +329,6 @@ https://corebodytemp.com/products/core
 Body Rocket utilise une combinaison de plusieurs capteurs
 Puissance, Pression de l'air, vitesse du vent, vitesse, accélération, inclinaison, poids pour 
 fournir un coefficient en temps réel.
--->
-
----
-![bg right:30%](bal-on.jpg)
-![bg ](running-sole.jpg)
-# Capteur de pression
-
-* Semelles pour le golf
-    * 18 capteurs pour fournir angles, impact, symétrie, etc...
-    * Optimisation pour les pros
-    * https://www.bal-on.golf/
-* Semelles pour la course à pied
-    * https://www.digitsole.com/running-analysis
-
-<!--
-Golf -> focus performance
-Course à pied -> focus diminution risque de blessure, de moins en moins pour le grand public
 -->
 
 ---
@@ -483,8 +450,8 @@ https://www.sciencetraining.io/
 </div>
 <div>
 
-![w:400px](predi.png)
-![w:300px](predi2.jpg)
+![drop-shadow:0,5px,5px,black w:400px](predi.png)
+![drop-shadow:0,5px,5px,black w:300px](predi2.jpg)
 
 </div>
 </div>
@@ -556,7 +523,7 @@ https://www.im2s.mc/evaluation-de-la-forme-physique-les-tests-deffort/
 <!--
 * Avant pour les voitures si elles étaient renversées (Au US)
 Pour une voiture, c'est assez facile, si elle est sur le toit, c'est mauvais signe.
-Pour le sport, le context est important.
+Pour le sport, le contexte est important.
 Bizarrement, pour le VTT, la detection d'incident est désactiver.
 Invitation à bouger, on verra ca dans la partie code aussi.
 * Invitation à bouger (même 2h après un marathon 😅)
@@ -643,8 +610,8 @@ Source : https://www.formswim.com/
 # Photos et vidéos
 * Positionnement
     * Sur le vélo
-    * Golf
     * Natation
+    * Golf
 * Confort
 * Optimisation de l'aéro
     * Synchronisation avec les capteurs aéro
@@ -662,8 +629,8 @@ Source : https://www.formswim.com/
 ---
 # HeatMap
 
-![slide-left w:400px](strava-heatmap.png)
-![slide-right w:650px](strava-heatmap-swim.png)
+![slide-left drop-shadow:0,5px,5px,black w:400px](strava-heatmap.png)
+![slide-right drop-shadow:0,5px,5px,black w:650px](strava-heatmap-swim.png)
 
 <!--
 Bias de selection : nombre de nageurs + nombre qui ont une montre
@@ -682,58 +649,48 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 * Source : https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspendu-29-e-feel-900-s/_/R-p-330262
 
 ---
-# Grade ajusted peace
-https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-la-pente-VAP
-
-* Confirmation par des études scientifiques.
-    * Energy cost of walking and running at extreme uphill and downhill slopes https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001 
-
----
 <style scoped>ul { font-size: 26px; }</style>
 
-# Age ajusted peace
+# Des data pour la recherche
+###### Pente, Age, Température
 
-<div class="grid grid-cols-2 gap-60">
+<div class="grid grid-cols-2 gap-2">
 
 <div>
 
-* https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/
-* Confirmation par des études scientifiques
-    * https://pubmed.ncbi.nlm.nih.gov/2504587/
-    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/
+### Grade ajusted pace
+https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-la-pente-VAP
+* https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001 
 
 </div>
 <div>
+
+### Age ajusted pace
+
+https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/
+* https://pubmed.ncbi.nlm.nih.gov/2504587/
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/
+
+</div>
+</div>
+
+<!--
+* Energy cost of walking and running at extreme uphill and downhill slopes https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001 
 
 * ![slide-right w:120px](age.png)
 * ![slide-right w:700px](age-run.png)
 * ![slide-right w:700px](age-70-3.png)
 * ![slide-right w:700px](age-im.png)
 
-</div>
-</div>
-
-<!--
 Plus on est vieux, plus on est bon pour l'endurance : Nop
 https://www.triathlete.com/culture/news/data-dive-finishing-times-dnf-rates-and-more-stats-from-the-ironman-world-championship-st-george/
 -->
 
 ---
-# Des data pour le virtuel - Simulation de parcours de golf
-
-![slide-left w:500px](golf-sim.jpg)
-![slide-right w:500px](toptracer.jpg)
-
-<!--
-Trackman, FlightScope, Garmin, TopTracer
-Video + donnée GPS nettoyé
--->
-
----
 # Des data pour le virtuel - FulGaz, Tacx
 
-![slide-left w:500px](fulgaz1.jpg)
-![slide-right w:500px](fulgaz2.jpg)
+![slide-left drop-shadow:0,5px,5px,black w:450px](fulgaz1.jpg)
+![slide-right drop-shadow:0,5px,5px,black w:450px](fulgaz2.jpg)
 
 
 <!--
@@ -745,17 +702,17 @@ Video + donnée GPS nettoyé
 
 <div>
 
-![ w:500px](zwift1.jpg)
+![drop-shadow:0,5px,5px,black w:500px](zwift1.jpg)
 
 </div>
 <div>
 
-![ w:500px](zwift-run.jpg)
+![drop-shadow:0,5px,5px,black w:500px](zwift-run.jpg)
 
 </div>
 <div>
 
-![ w:500px](zwift2.jpg)
+![drop-shadow:0,5px,5px,black w:500px](zwift2.jpg)
 
 </div>
 </div>
@@ -772,17 +729,17 @@ Avec vitesse,distance, cadence et inclinaison
 
 <div>
 
-![ w:380px](zwift3.jpg)
+![drop-shadow:0,5px,5px,black w:380px](zwift3.jpg)
 
 </div>
 <div>
 
-![ w:400px](zwift5.jpg)
+![drop-shadow:0,5px,5px,black w:400px](zwift5.jpg)
 
 </div>
 <div>
 
-![ w:400px](zwift4.jpg)
+![drop-shadow:0,5px,5px,black w:400px](zwift4.jpg)
 
 </div>
 </div>
@@ -793,11 +750,11 @@ https://zwiftinsider.com/portal/la-turbie-col-deze/
 ---
 # Des data pour le virtuel
 
-![slide-right w:500px](tacx1.jpg)
+![slide-right drop-shadow:0,5px,5px,black w:500px](tacx1.jpg)
 * Simulation du terrain (Plaques vibrantes + angles)
 * Simulation de la pente (+20% -10%)
 * Simulation du vent (48km/h !)
-    ![w:600px](wahoo1.jpg)
+    ![drop-shadow:0,5px,5px,black w:600px](wahoo1.jpg)
 
 <!--
 Manual Mode: Select from four speed settings to set you ideal airflow
@@ -820,21 +777,21 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 </div>
 <div>
 
-* ![slide-right w:600px](strava-error-3.png)
-* ![slide-right w:550px](strava-error-1.png)
-* ![slide-right w:650px](strava-error-2.png)
+* ![slide-right drop-shadow:0,5px,5px,black w:600px](strava-error-3.png)
+* ![slide-right drop-shadow:0,5px,5px,black w:500px](strava-error-1.png)
+* ![slide-right drop-shadow:0,5px,5px,black w:650px](strava-error-2.png)
 
 </div>
 </div>
 
-* Nettoyage par AI sur Strava cet été
+* Nettoyage par "IA" sur Strava cet été
 
 <!--
 * Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
 * Brosse à dents électrique (ajoute des pas)
 -->
 ---
-# Utilisation pour tricher
+# L'empoisonnement pour tricher
 
 * Gagner des courses virtuelles
     * Des prix mais aussi des contrats !
@@ -908,11 +865,12 @@ Source : https://doctonat.com/renforcer-augmenter-mitochondrie/
 # Résumé
 
 * Capteurs
-    * Toujours plus mais attention au context
+    * Toujours plus mais attention au contexte
 * Analyse
-    * Le context et les combinaisons qui peuvent entraîner des biais
+    * Le contexte et les combinaisons qui peuvent entraîner des biais
 * Exploitation
     * Souvent marketing, pour la performance
+    * Parfois pour la recherche
 ---
 ![bg left:20%](enfants.jpg)
 
@@ -946,33 +904,26 @@ Course enfants : Départ a fond, milieu en PLS, et finish a fond, et vomit :)
 * https://www.garmin.com/fr-FR/blog/les-donnees-des-montres-connectees-garmin-mettent-en-evidence-les-bienfaits-de-la-course-a-pied-sur-la-sante/
 * https://www.garmin.com/en-US/blog/health/xps-network-uses-garmin-smartwatch-tech-to-help-boost-athletic-performance/
 -->
----
-# Création du triathlon
-
-<div class="grid grid-cols-2 gap-2">
-
-<div>
-
-* 18 Février 1978 ![slide-right w:600px](im1.jpg)
-* Pas de capteurs ![slide-right w:600px](im2.jpg)
-* Pas de matériel dédié  ![slide-right w:700px](im3.jpg)
-* Et des temps excellents ! ![slide-right w:400px](im4.jpg)
-* Puis après ça a glissé 😂 ![slide-right w:400px](l.jpg)
-
-</div>
-<div>
-
-</div>
-</div>
 
 ---
 ![bg blur:5px brightness:0.5](bg2.jpg)
 <!--
-_class: lead invert
 _paginate: skip
 _header: ""
 _footer: ""
 -->
 # Merci !
-![](qrcode_openfeedback.io.png)
 https://openfeedback.io/rivieradev24/0/256mo
+![slide-left w:400px](qrcode_openfeedback.io.png)
+* ![slide-right drop-shadow:0,5px,5px,black w:600px](im1.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:600px](im2.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:700px](im3.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:400px](im4.jpg)
+
+<!--
+* 18 Février 1978 ![slide-right w:600px](im1.jpg)
+* Pas de capteurs ![slide-right w:600px](im2.jpg)
+* Pas de matériel dédié  ![slide-right w:700px](im3.jpg)
+* Et des temps excellents ! ![slide-right w:400px](im4.jpg)
+* Puis après ça a glissé 😂 ![slide-right w:400px](l.jpg)
+-->
