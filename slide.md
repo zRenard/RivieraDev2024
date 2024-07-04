@@ -612,7 +612,8 @@ Source : https://www.formswim.com/
     * Synchronisation avec les capteurs aéro
 
 ---
-# Carte Thermique (HeatMap)
+![bg left:30%](strava-heatmap.png)
+# Cartes thermique (HeatMap)
 
 * Les routes/chemins les plus empruntés/validés et sécurisés
     * Utilisation des données des radars/lidar
@@ -624,7 +625,7 @@ Source : https://www.formswim.com/
 ---
 # HeatMap
 
-![slide-left drop-shadow:0,5px,5px,black w:400px](strava-heatmap.png)
+[ ![slide-left drop-shadow:0,5px,5px,black w:300px](runalyze-heatmap.png) ](runalyze-heatmap.png)
 ![slide-right drop-shadow:0,5px,5px,black w:650px](strava-heatmap-swim.png)
 
 <!--
@@ -645,20 +646,20 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 
 ---
 # Des data pour la recherche
-###### Pente, Age, Température
+###### Vitesse ajusté à la pente, age, température
 
 <div class="grid grid-cols-2 gap-2">
 
 <div>
 
-### Vitesse ajustée a la pente
+### Vitesse ajustée à la pente
 [VAP - Strava Blog](https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-la-pente-VAP)
 * [japplphysiol.01177.2001](https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001) 
 
 </div>
 <div>
 
-### Vitesse ajustée a l'age
+### Vitesse ajustée à l'age
 
 [Triathlete Blog - Age impact on triathlon](https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/)
 * [pubmed.2504587](https://pubmed.ncbi.nlm.nih.gov/2504587/)
