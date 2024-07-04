@@ -198,7 +198,7 @@ Juste du nettoyage, raffinement
 * Contexte de capture
     * Course à pied, vélo, natation
 * Fréquence d’échantillonnage
-* L'ajout de capteurs correctif/amélioratif
+* L'ajout de capteurs correctifs/amélioratifs
     * altimètre
     * baromètre
     * podomètre
@@ -231,7 +231,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 
 ---
 ![bg right:30% ](gears.jpg)
-# Vitesse électrique
+# Vitesses électriques
 * Shimano (filaire)
 * SRAM (sans fils)
 * Position du plateau, des pignons
@@ -247,8 +247,8 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 * Garmin, iGP, Wahoo, Sigma
 * Pour la sécurité
     * Changement de l’éclairage
-    * Detection des véhicules et leur type
-    * Detection des vitesses des véhicules
+    * Détection des véhicules et leur type
+    * Détection des vitesses des véhicules
 
 ---
 
@@ -288,7 +288,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 # Capteur Sueur
 * Le but étant de minimiser la perte hydrique et minérale/électrolytes (majoritairement sodium, potassium, magnésium, zinc)
 * Limite d'absorption (à l'effort) ~ 400/500ml/h
-* Santé (Crampes,Nausées,Confusion)
+* Santé (Crampes, Nausées, Confusion)
 * [hdroptech](https://hdroptech.com/)
 * [Gatorade GX Sweat Patch](https://www.gatorade.com/equipment/gx-sweat-patch/gx-sweat-patch-00052000052596)
 
@@ -402,13 +402,13 @@ Suunto App
 <style scoped>ul { font-size: 32px; }</style>
 
 # Plateformes
-* Certaines métriques sont subjectives et/ou manuelle
+* Certaines métriques sont subjectives et/ou manuelles
     * Très facile -> très difficile
     * Sensation : Horrible -> très fort
     * Age, Poids
 * C’est très subjectif et sujet à interprétation voire erreur.
 * Les algorithmes utilisés sont parfois publics, parfois sous licence, et souvent secrets.
-* Produits par la recherche mais aussi les plateformes et les constructeurs (d’où leur propre plateformes)
+* Produits par la recherche mais aussi les plateformes et les constructeurs (d’où leurs propres plateformes)
 
 <!--
 * Démo : Runalyze (https://runalyze.com/)
@@ -434,7 +434,7 @@ Suunto App
 </div>
 
 ---
-# Analyse Cardio - Prediction de course
+# Analyse Cardio - Prédiction de course
 
 <div class="grid grid-cols-2 gap-1">
 <div>
@@ -616,8 +616,8 @@ Source : https://www.formswim.com/
 # Cartes thermique (HeatMap)
 
 * Les routes/chemins les plus empruntés/validés et sécurisés
-    * Utilisation des données des radars/lidar
-* HeatMap Nuit, pour les routes sure/pratique la nuit 
+    * Utilisation des données des radars/lidars
+* HeatMap Nuit, pour les routes sûres/pratiques la nuit 
 * Nouvelle HeatMap contextualisée
 
 * [Source](https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html)
@@ -640,7 +640,7 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 # Utilisation pour le confort et la performance
 
 * Passage de vitesses automatiques sur le vélo 
-    * Capteur de puissance, capteur de cadence, vitesse et dérailleurs pilotés électroniquement (avec ou sans fils)
+    * Capteur de puissance, capteur de cadence, de vitesse et dérailleurs pilotés électroniquement (avec ou sans fils)
 
 * [Decathlon e-Feel 900 s](https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspendu-29-e-feel-900-s/_/R-p-330262)
 
@@ -765,7 +765,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 <div>
 
 * Involontaire/Volontaire
-    * Erreurs GPS,  Bug de traitement, Bug d'upload
+    * Erreurs GPS, Bug de traitement, Bug d'upload
     * Vélo à la place de course à pied ...
 
 </div>
@@ -805,7 +805,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
 ![bg left](jo1.jpg)
 ![bg](esport1.png)
 
-* Faire de joli dessins
+* Faire de jolis dessins
     * (Pour l'instant) Fait artisanalement
 
 * eSport
@@ -821,7 +821,7 @@ _paginate: false
 # Conclusions
 
 ---
-# Évolutions des capteurs
+# Évolution des capteurs
 
 ### Bientôt (quelques mois)
 * Température peau + corps (avec capteur dédié)
