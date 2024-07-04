@@ -21,7 +21,7 @@ _header: ""
 # Le triathlon de la data sportif
 Capture / Analyse / ~~Quantify~~ Exploitation
 
-https://github.com/zRenard/RivieraDev2024
+[github.com/zRenard/RivieraDev2024](https://github.com/zRenard/RivieraDev2024)
 
 *Enregistrement video*
 <!--
@@ -42,7 +42,7 @@ https://github.com/zRenard/RivieraDev2024
 * __Conclusions__ <small>(4📄 / ⌚ 3️⃣ min)</small>
 * __Démo et code__ (Si il reste du temps)
     * Garmin WatchFace, Widget, Application
-    * https://github.com/zRenard
+    * [github.com/zRenard](https://github.com/zRenard)
 <!-- 
 50 min de talk
 
@@ -84,7 +84,7 @@ https://github.com/zRenard/RivieraDev2024
 * DEA informatique théorique
 * 25 ans dans l'industrie
 * 20 ans à ![w:140 grayscale:1 invert:100% drop-shadow](1a.png)
-* Beta test et/ou contributeur de Zwift, Garmin, Form, Runalyze, Smashrun, Wahoo, Decathlon, etc..
+* Beta test et/ou contributeur de Zwift, Garmin, Engo, Form, Runalyze, Smashrun, Wahoo, Decathlon, etc..
 
 </div>
 </div>
@@ -217,7 +217,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 * Watts
 * Puissance spécifique W/kg
 * L’équivalent du cardio mais pour le vélo
-* https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011
+* [advan.00078.2011](https://journals.physiology.org/doi/pdf/10.1152/advan.00078.2011)
 
 </div>
 <div>
@@ -255,8 +255,7 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 ![bg right:30% ](supersapiens.png)
 # Capteur Glycémie
 
-* SuperSapiens
-    * https://www.supersapiens.com/fr-FR/
+* [SuperSapiens](https://www.supersapiens.com/fr-FR/)
 * [![drop-shadow:0,5px,5px,black w:430px](supersapiens2.jpg) ](supersapiens2.jpg)
 * Maintenant interdit en compétition
 <!-- 
@@ -268,12 +267,11 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 ![bg left:30% ](moxy.jpg)
 # Oxymètre
 
-* Moxy
+* [Moxy](https://www.moxymonitor.com/)
     * % SmO2 (skeletal muscle oxygen saturation)
-    * https://www.moxymonitor.com/
 
-* https://www.blog.nolio.io/post/tout-savoir-sur-le-moniteur-doxygene-musculaire-moxy
-* https://pubmed.ncbi.nlm.nih.gov/37261552/
+* [Test Moxy](https://www.blog.nolio.io/post/tout-savoir-sur-le-moniteur-doxygene-musculaire-moxy)
+* [pubmed.37261552](https://pubmed.ncbi.nlm.nih.gov/37261552/)
 
 <!-- 
 -->
@@ -291,13 +289,13 @@ Par exemple dans le sport mécanique, la fréquence d’échantillonnage est imp
 * Le but étant de minimiser la perte hydrique et minérale/électrolytes (majoritairement sodium, potassium, magnésium, zinc)
 * Limite d'absorption (à l'effort) ~ 400/500ml/h
 * Santé (Crampes,Nausées,Confusion)
-* https://hdroptech.com/
-* https://www.gatorade.com/equipment/gx-sweat-patch/gx-sweat-patch-00052000052596
+* [hdroptech](https://hdroptech.com/)
+* [Gatorade GX Sweat Patch](https://www.gatorade.com/equipment/gx-sweat-patch/gx-sweat-patch-00052000052596)
 
 ---
 ![bg left:30% ](core.jpg)
 # Capteur température
-* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/
+* [ncbi PMC3359364](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3359364/)
 * ![slide-left drop-shadow:0,5px,5px,black w:750px](temperature-perf.jpg)
 * ![slide-left drop-shadow:0,5px,5px,black w:600px](temperature-abandon.jpg)
 
@@ -354,55 +352,52 @@ Y a 40 ans, FC avant, 1500m, FC, puis 2min après FC
 
 ---
 ![bg left:30%](runalyze.png)
-<style scoped>p { font-size: 40px; }</style>
+<style scoped>div { font-size: 30px; }</style>
 
 # Plateformes
+
+<div class="grid grid-cols-2">
+
+<div>
 
 ##### Applications dédiées
-https://www.strava.com/
-https://runalyze.com/
-https://smashrun.com/
-https://www.nolio.io/
-https://web.gutai.training/login
-https://intervals.icu/
-https://app.campus.coach/
+[Strava](https://www.strava.com/)
+[Runalyze](https://runalyze.com/)
+[Smashrun](https://smashrun.com/)
+[Nolio](https://www.nolio.io/)
+[Gutai](https://web.gutai.training/login)
+[intervals.icu](https://intervals.icu/)
+[Campus](https://app.campus.coach/)
 
----
-<style scoped>div { font-size: 31px; }</style>
-
-# Plateformes
-
-<div class="grid grid-cols-2 gap-0">
-
-<div>
-
-##### Constructeurs (voir plus loin)
-https://connect.garmin.com/
-https://flow.polar.com/
-Application mobile Suunto
+[AI Endurance](https://aiendurance.com/)
+[ScienceTraining](https://www.sciencetraining.io/)
 </div>
 <div>
 
+##### Constructeurs/équipementiers
+[Garmin](https://connect.garmin.com/)
+[Polar](https://flow.polar.com/)
+Suunto App
 
-##### Applications sponsors équipementiers (voir plus loin)
-https://www.runtastic.com/ (Adidas)
-https://beta.trainasone.com/ (Hoka)
-https://www.nike.com/nrc-app (Nike)
-https://runkeeper.com/ (Asics)
-https://www.mapmyrun.com/ (UnderArmor)
+[Runtastic](https://www.runtastic.com/) (Adidas)
+[TrainAsOne](https://beta.trainasone.com/) (Hoka)
+[Nike Running Club](https://www.nike.com/nrc-app) (Nike)
+[RunKeeper](https://runkeeper.com/) (Asics)
+[MapMyRun](https://www.mapmyrun.com/) (UnderArmor)
 
 </div>
 </div>
 
+<!--
 ---
 # Plateformes
 
 ##### AI (Bien sûr !)
-https://en.run-motion.com/
-https://humango.ai/
-https://aiendurance.com/
-https://www.sciencetraining.io/
-
+[RunMotion](https://en.run-motion.com/)
+[humango](https://humango.ai/)
+[AI Endurance](https://aiendurance.com/)
+[ScienceTraining](https://www.sciencetraining.io/)
+-->
 ---
 <style scoped>ul { font-size: 32px; }</style>
 
@@ -529,7 +524,7 @@ Invitation à bouger, on verra ca dans la partie code aussi.
 * Invitation à bouger (même 2h après un marathon 😅)
 -->
 ---
-# Lunette Engo
+# [Lunette Engo](https://fr.engoeyewear.com/produits/engo-2)
 <div class="grid grid-cols-2 gap-2">
 <div>
 
@@ -553,7 +548,7 @@ Source : https://fr.engoeyewear.com/produits/engo-2
 ---
 <style scoped>ul { font-size: 31px; }</style>
 
-# Lunette Form
+# [Lunette Form](https://www.formswim.com/)
 <div class="grid grid-cols-2 gap-2">
 <div>
 
@@ -577,7 +572,7 @@ Source : https://www.formswim.com/
 ---
 <style scoped>ul { font-size: 31px; }</style>
 
-# Eolab
+# [Eolab](https://www.eolab.com/swimbetter)
 <div class="grid grid-cols-2 gap-2">
 <div>
 
@@ -617,14 +612,14 @@ Source : https://www.formswim.com/
     * Synchronisation avec les capteurs aéro
 
 ---
-# HeatMap
+# Carte Thermique (HeatMap)
 
 * Les routes/chemins les plus empruntés/validés et sécurisés
     * Utilisation des données des radars/lidar
 * HeatMap Nuit, pour les routes sure/pratique la nuit 
 * Nouvelle HeatMap contextualisée
 
-* Source : https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html
+* [Source](https://www.dcrainmaker.com/2024/05/strava-announces-new-summer-2024-features.html)
 
 ---
 # HeatMap
@@ -646,11 +641,9 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 * Passage de vitesses automatiques sur le vélo 
     * Capteur de puissance, capteur de cadence, vitesse et dérailleurs pilotés électroniquement (avec ou sans fils)
 
-* Source : https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspendu-29-e-feel-900-s/_/R-p-330262
+* [Decathlon e-Feel 900 s](https://www.decathlon.fr/p/velo-vtt-electrique-all-mountain-tout-suspendu-29-e-feel-900-s/_/R-p-330262)
 
 ---
-<style scoped>ul { font-size: 26px; }</style>
-
 # Des data pour la recherche
 ###### Pente, Age, Température
 
@@ -658,18 +651,18 @@ https://www.sbs.com.au/news/article/a-russian-commander-was-killed-while-jogging
 
 <div>
 
-### Grade ajusted pace
-https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-la-pente-VAP
-* https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001 
+### Vitesse ajustée a la pente
+[VAP - Strava Blog](https://support.strava.com/hc/fr/articles/216917067-Vitesse-ajust%C3%A9e-selon-la-pente-VAP)
+* [japplphysiol.01177.2001](https://journals.physiology.org/doi/full/10.1152/japplphysiol.01177.2001) 
 
 </div>
 <div>
 
-### Age ajusted pace
+### Vitesse ajustée a l'age
 
-https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/
-* https://pubmed.ncbi.nlm.nih.gov/2504587/
-* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/
+[Triathlete Blog - Age impact on triathlon](https://www.triathlete.com/culture/news/how-much-slower-will-you-get-as-you-age-up-in-triathlon/)
+* [pubmed.2504587](https://pubmed.ncbi.nlm.nih.gov/2504587/)
+* [ncbi.PMC2375571](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2375571/)
 
 </div>
 </div>
@@ -744,8 +737,8 @@ Avec vitesse,distance, cadence et inclinaison
 </div>
 </div>
 
-https://zwiftinsider.com/portal/isola-2000/
-https://zwiftinsider.com/portal/la-turbie-col-deze/
+[Zwift Insider Isola 2000](https://zwiftinsider.com/portal/isola-2000/)
+[Zwift Insider La Turbie Col d'Eze](https://zwiftinsider.com/portal/la-turbie-col-deze/)
 
 ---
 # Des data pour le virtuel
@@ -800,7 +793,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
     * Double capteur de puissance (Différentes marques)
     * Double caméra (angles différents)
 
-* Zwift Essoreuse à Salade : https://www.youtube.com/watch?v=K08AlzT6Qu8
+* [Zwift Essoreuse à Salade](https://www.youtube.com/watch?v=K08AlzT6Qu8)
 
 <!--
 * https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
@@ -831,9 +824,9 @@ _paginate: false
 
 ### Bientôt (quelques mois)
 * Température peau + corps (avec capteur dédié)
-    * https://corebodytemp.com/products/core
+    * [Core Sensor](https://corebodytemp.com/products/core)
 * Glycémie (avec capteur cardio)
-    * https://afontechnology.com/glucowear/
+    * [Glucowear](https://afontechnology.com/glucowear/)
 * Tension (avec capteur cardio)
 
 ---
@@ -882,7 +875,8 @@ Source : https://doctonat.com/renforcer-augmenter-mitochondrie/
     * Surveillance, informer, alertes
 * Les pro
     * Pour trouver l'optimum de chacun plus rapidement, sans blessures
-https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO
+    * [INRIA - Sport et numérique](https://www.inria.fr/fr/sport-numerique-prevenir-blessures-athletes-JO)
+
 
 <!--
 Course enfants : Départ a fond, milieu en PLS, et finish a fond, et vomit :)
@@ -913,12 +907,13 @@ _header: ""
 _footer: ""
 -->
 # Merci !
-https://openfeedback.io/rivieradev24/0/256mo
+[openfeedback.io/rivieradev24/0/256mo](https://openfeedback.io/rivieradev24/0/256mo)
 ![slide-left w:400px](qrcode_openfeedback.io.png)
 * ![slide-right drop-shadow:0,5px,5px,black w:600px](im1.jpg)
 * ![slide-right drop-shadow:0,5px,5px,black w:600px](im2.jpg)
 * ![slide-right drop-shadow:0,5px,5px,black w:700px](im3.jpg)
 * ![slide-right drop-shadow:0,5px,5px,black w:400px](im4.jpg)
+* ![slide-right w:400px](l.jpg)
 
 <!--
 * 18 Février 1978 ![slide-right w:600px](im1.jpg)
