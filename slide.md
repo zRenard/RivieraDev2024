@@ -907,7 +907,7 @@ _header: ""
 _footer: ""
 -->
 # Merci !
-[openfeedback.io/rivieradev24/0/256mo](https://openfeedback.io/rivieradev24/0/256mo)
+[openfeedback.io/rivieradev24/0/256](https://openfeedback.io/rivieradev24/0/256)
 ![slide-left w:400px](qrcode_openfeedback.io.png)
 * ![slide-right drop-shadow:0,5px,5px,black w:600px](im1.jpg)
 * ![slide-right drop-shadow:0,5px,5px,black w:600px](im2.jpg)
