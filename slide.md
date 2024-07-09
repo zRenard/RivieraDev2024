@@ -22,8 +22,6 @@ _header: ""
 Capture / Analyse / ~~Quantify~~ Exploitation
 
 [github.com/zRenard/RivieraDev2024](https://github.com/zRenard/RivieraDev2024)
-
-*Enregistrement video*
 <!--
 * Enregistrement si ca marche ?
 -->
@@ -907,14 +905,38 @@ _paginate: skip
 _header: ""
 _footer: ""
 -->
+# La naissance du triathlon
+* ![slide-left drop-shadow:0,5px,5px,black w:600px](im1.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:600px](im2.jpg)
+* ![slide-left drop-shadow:0,5px,5px,black w:700px](im3.jpg)
+* ![slide-right drop-shadow:0,5px,5px,black w:400px](im4.jpg)
+* ![slide-left w:400px](l.jpg)
+
+---
+![bg blur:5px brightness:0.5](bg2.jpg)
+<style scoped>div { font-size: 30px; }</style>
+<!--
+_paginate: skip
+_header: ""
+_footer: ""
+-->
 # Merci !
+<div class="grid grid-cols-2 gap-0">
+
+<div>
+
 [openfeedback.io/rivieradev24/0/256](https://openfeedback.io/rivieradev24/0/256)
 ![slide-left w:400px](qrcode_openfeedback.io.png)
-* ![slide-right drop-shadow:0,5px,5px,black w:600px](im1.jpg)
-* ![slide-right drop-shadow:0,5px,5px,black w:600px](im2.jpg)
-* ![slide-right drop-shadow:0,5px,5px,black w:700px](im3.jpg)
-* ![slide-right drop-shadow:0,5px,5px,black w:400px](im4.jpg)
-* ![slide-right w:400px](l.jpg)
+
+</div>
+<div>
+
+[github.com/zRenard/RivieraDev2024](https://github.com/zRenard/RivieraDev2024)
+![slide-right w:400px](qrcode_github.com.png)
+
+</div>
+</div>
+
 
 <!--
 * 18 Février 1978 ![slide-right w:600px](im1.jpg)
