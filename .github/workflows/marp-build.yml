@@ -42,7 +42,7 @@ jobs:
       - name: Copy svg images to build
         run: cp *.svg build/
       - name: Copy gif images to build
-       run: cp *.gif build/
+        run: cp *.gif build/
       - name: Copy png images to build
         run: cp *.png build/
 
