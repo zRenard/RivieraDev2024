@@ -37,10 +37,12 @@ jobs:
 
       - name: Ensure build dir exists
         run: mkdir -p build
-
       - name: Copy jpg images to build
         run: cp *.jpg build/
-
+      - name: Copy svg images to build
+        run: cp *.svg build/
+      - name: Copy gif images to build
+       run: cp *.gif build/
       - name: Copy png images to build
         run: cp *.png build/
 

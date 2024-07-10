@@ -59,7 +59,7 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 -->
 
 ---
-![bg brightness:0.4](tri-S.jpg)
+![bg brightness:0.4](tri-s.jpg)
 ![bg brightness:0.4](t-shirts.png)
 ![bg brightness:0.4](falcon.jpg)
 ![bg brightness:0.4](zx81.jpg)
@@ -88,7 +88,7 @@ Capture / Analyse / ~~Quantify~~ Exploitation
 </div>
 
 ---
-![bg blur:5px brightness:0.5](graphs/bg0.png)
+![bg blur:5px brightness:0.5](bg0.png)
 <!--
 _class: lead invert
 _paginate: false
@@ -151,7 +151,7 @@ Contacteurs pour le vitesse vélo
 -->
 
 ---
-![bg blur:5px brightness:0.5](graphs/bg1.png)
+![bg blur:5px brightness:0.5](bg1.png)
 <!--
 _class: lead invert
 _paginate: false
@@ -328,7 +328,7 @@ fournir un coefficient en temps réel.
 -->
 
 ---
-![bg blur:5px brightness:0.5](graphs/bg2.png)
+![bg blur:5px brightness:0.5](bg2.png)
 <!--
 _class: lead invert
 _paginate: false
@@ -811,7 +811,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
     * Garmin GameOn
 
 ---
-![bg blur:5px brightness:0.5](graphs/bg0.png)
+![bg blur:5px brightness:0.5](bg0.png)
 <!--
 _class: lead invert
 _paginate: false
