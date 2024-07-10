@@ -7,7 +7,7 @@ theme: zrenard
 class: invert
 paginate: true
 size: 16:9
-header: 'Le triathlon de la data sportif ![image](bg.jpg)'
+header: 'Le triathlon de la data sportive ![image](bg.jpg)'
 footer: '![w:130  drop-shadow](logo_RD_full_white.svg) 2024 - We''re not just coders'
 transition: cover
 ---
@@ -18,7 +18,7 @@ _paginate: skip
 _header: ""
 -->
 <style scoped>span { font-size: 26px; }</style>
-# Le triathlon de la data sportif
+# Le triathlon de la data sportive
 Capture / Analyse / ~~Quantify~~ Exploitation
 
 [github.com/zRenard/RivieraDev2024](https://github.com/zRenard/RivieraDev2024)
