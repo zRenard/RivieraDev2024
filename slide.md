@@ -1,7 +1,7 @@
 ---
 marp: true
 author: Denis Méline
-title: Le triathlon de la data sportif
+title: Le triathlon de la data sportive
 lang: fr
 theme: zrenard
 class: invert
