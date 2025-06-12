@@ -5,6 +5,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  #  tags:
+  #    - v*.**
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,17 +37,19 @@ jobs:
 
       - name: Ensure build dir exists
         run: mkdir -p build
-
       - name: Copy jpg images to build
         run: cp *.jpg build/
-
+      - name: Copy svg images to build
+        run: cp *.svg build/
+      - name: Copy gif images to build
+        run: cp *.gif build/
       - name: Copy png images to build
         run: cp *.png build/
 
       - name: Marp Build (slides)
-        uses: docker://marpteam/marp-cli:v3.4.0
+        uses: docker://marpteam/marp-cli:v4.2.0
         with:
-          args: slide.md -o build/index.html
+          args: --theme zrenard.css --html slide.md -o build/index.html
         env:
           MARP_USER: root:root
       - name: Zip
@@ -55,3 +59,21 @@ jobs:
           path: build/
           compression-level: 9
           retention-days: 5
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: 'build'              
+  deploy:
+    name: Deploy Marp slide HTML
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

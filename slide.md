@@ -795,6 +795,7 @@ Heart Rate Mode: Pair to ANT+ heart rate monitor to increase airflow as heart ra
     * Double caméra (angles différents)
 
 * [Zwift Essoreuse à Salade](https://www.youtube.com/watch?v=K08AlzT6Qu8)
+* [Shimano Gear Hack](https://www.cyclingweekly.com/news/your-shimano-gears-can-be-hacked-but-theres-a-fix-coming)
 
 <!--
 * https://www.dcrainmaker.com/2022/12/zwift-uci-cheating-astounding-championship-qualifier.html
