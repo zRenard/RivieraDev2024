@@ -52,12 +52,6 @@ jobs:
           args: --theme zrenard.css --html slide.md -o build/index.html
         env:
           MARP_USER: root:root
-      - name: Marp Build (PPTX)
-        uses: docker://marpteam/marp-cli:v4.2.3
-        with:
-          args: --theme zrenard.css --pptx slide.md -o build/slide.pptx
-        env:
-          MARP_USER: root:root
       - name: Zip
         uses: actions/upload-artifact@v5
         with:
@@ -65,6 +59,12 @@ jobs:
           path: build/
           compression-level: 9
           retention-days: 5
+      - name: Marp Build (PPTX)
+        uses: docker://marpteam/marp-cli:v4.2.3
+        with:
+          args: --theme zrenard.css --pptx slide.md -o build/slide.pptx --allow-local-files
+        env:
+          MARP_USER: root:root
       - name: Upload PPTX artifact
         uses: actions/upload-artifact@v5
         with:
