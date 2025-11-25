@@ -59,6 +59,19 @@ jobs:
           path: build/
           compression-level: 9
           retention-days: 5
+      - name: Marp Build (PPTX)
+        uses: docker://marpteam/marp-cli:v4.2.3
+        with:
+          args: --theme zrenard.css --pptx slide.md -o build/slide.pptx
+        env:
+          MARP_USER: root:root
+      - name: Upload PPTX artifact
+        uses: actions/upload-artifact@v5
+        with:
+          name: slides-pptx
+          path: build/slide.pptx
+          compression-level: 9
+          retention-days: 5         
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
