@@ -47,7 +47,7 @@ jobs:
         run: cp *.png build/
 
       - name: Marp Build (slides)
-        uses: docker://marpteam/marp-cli:v4.2.3
+        uses: docker://marpteam/marp-cli:v4.3.0
         with:
           args: --theme zrenard.css --html slide.md -o build/index.html
         env:
@@ -60,7 +60,7 @@ jobs:
           compression-level: 9
           retention-days: 5
       - name: Marp Build (PPTX)
-        uses: docker://marpteam/marp-cli:v4.2.3
+        uses: docker://marpteam/marp-cli:v4.3.0
         with:
           args: --theme zrenard.css --pptx slide.md -o build/slide.pptx --allow-local-files
         env:
